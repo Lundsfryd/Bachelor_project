@@ -1,0 +1,850 @@
+[
+  {
+    "tweet": "@pelledragsted: Hvorfor accepterer vi indgreb i vores frihed og privatliv fra arbejdsgivere i arbejdstiden, som vi aldrig ville acceptere fra en statsmagt i fritiden? Overv\u00e5gning af mail og telefonsamtaler,begr\u00e6nsing af ytringsfrihed, detail-reguleret dresscode etc. #QuestioningCapitalism ",
+    "resolved": "@pelledragsted: Hvorfor accepterer vi indgreb i vores frihed og privatliv fra arbejdsgivere i arbejdstiden, som vi aldrig ville acceptere fra en statsmagt i fritiden? Overv\u00e5gning af mail og telefonsamtaler,begr\u00e6nsing af ytringsfrihed, detail-reguleret dresscode etc. #QuestioningCapitalism ",
+    "triplets": [
+      [
+        "vi",
+        "accepterer",
+        "indreb i vores frihed"
+      ],
+      [
+        "vi",
+        "aldrig ville",
+        "fra en statsmagt"
+      ]
+    ],
+    "string": "@pelledragsted: Hvorfor accepterer vi indgreb i vores frihed og privatliv fra arbejdsgivere i arbejdstiden, som vi aldrig ville acceptere fra en statsmagt i fritiden? Overv\u00e5gning af mail og telefonsamtaler,begr\u00e6nsing af ytringsfrihed, detail-reguleret dresscode etc. #QuestioningCapitalism \n\n@pelledragsted: Hvorfor accepterer vi indgreb i vores frihed og privatliv fra arbejdsgivere i arbejdstiden, som vi aldrig ville acceptere fra en statsmagt i fritiden? Overv\u00e5gning af mail og telefonsamtaler,begr\u00e6nsing af ytringsfrihed, detail-reguleret dresscode etc. #QuestioningCapitalism \n\nTriplets: (vi) (accepterer) (indreb i vores frihed)\n          (vi) (aldrig ville) (fra en statsmagt)\n\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@QvortrupHenrik: Positivpct er 0,32, og Mette F. udtaler dette. Sv\u00e6rt at frig\u00f8re sig fra indtrykket af en statsminister, der er blevet sneblind af det ekstreme forsigtighedsprincip p\u00e5 dette ene omr\u00e5de. T\u00e6nk, hvis samme logik herskede i andre sammenh\u00e6nge. Cigaretrygning giver 13.000 d\u00f8dsfald/\u00e5r. https://t.co/Zq8jFnztvQ",
+    "resolved": "@QvortrupHenrik: Positivpct er 0,32, og Mette F. udtaler dette. Sv\u00e6rt at frig\u00f8re sig fra indtrykket af en statsminister, statsminister er blevet sneblind af det ekstreme forsigtighedsprincip p\u00e5 dette ene omr\u00e5de. T\u00e6nk, hvis samme logik herskede i andre sammenh\u00e6nge. Cigaretrygning giver 13.000 d\u00f8dsfald/\u00e5r. https://t.co/Zq8jFnztvQ ",
+    "triplets": [
+      [
+        "Positivpct",
+        "er",
+        "0,32"
+      ],
+      [
+        "Mette F.",
+        "udtaler",
+        "dette"
+      ],
+      [
+        "sig",
+        "frig\u00f8re sig fra",
+        "indrykket af en statsminister"
+      ],
+      [
+        "statsminister",
+        "er",
+        "blevet sneblind"
+      ],
+      [
+        "samme logik",
+        "herskede",
+        "i andre sammenh\u00e6nge"
+      ],
+      [
+        "cigaretrygning",
+        "giver",
+        "13.000 d\u00f8dsfald/\u00e5r"
+      ]
+    ],
+    "string": "\n\n@QvortrupHenrik: Positivpct er 0,32, og Mette F. udtaler dette. Sv\u00e6rt at frig\u00f8re sig fra indtrykket af en statsminister, der er blevet sneblind af det ekstreme forsigtighedsprincip p\u00e5 dette ene omr\u00e5de. T\u00e6nk, hvis samme logik herskede i andre sammenh\u00e6nge. Cigaretrygning giver 13.000 d\u00f8dsfald/\u00e5r. https://t.co/Zq8jFnztvQ\n\n@QvortrupHenrik: Positivpct er 0,32, og Mette F. udtaler dette. Sv\u00e6rt at frig\u00f8re sig fra indtrykket af en statsminister, statsminister er blevet sneblind af det ekstreme forsigtighedsprincip p\u00e5 dette ene omr\u00e5de. T\u00e6nk, hvis samme logik herskede i andre sammenh\u00e6nge. Cigaretrygning giver 13.000 d\u00f8dsfald/\u00e5r. https://t.co/Zq8jFnztvQ \n\nTriplets: (Positivpct) (er) (0,32)\n          (Mette F.) (udtaler) (dette)\n          (sig) (frig\u00f8re sig fra) (indrykket af en statsminister)\n          (statsminister) (er) (blevet sneblind)\n          (samme logik) (herskede) (i andre sammenh\u00e6nge)\n          (cigaretrygning) (giver) (13.000 d\u00f8dsfald/\u00e5r)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@PSkipperEL: Anti-corona-restriktion-demonstration her til aften b\u00f8d \u00e5benbart bl.a p\u00e5 en life size dukke, der forestillede Mette Frederiksen. Som blev h\u00e6ngt og br\u00e6ndt med en tekst, jeg ikke vil gengive. Det er nok det mest gr\u00e6nseoverskridende, jeg har set herhjemme. Forf\u00e6rdeligt og skr\u00e6mmende",
+    "resolved": "@PSkipperEL: Anti-corona-restriktion-demonstration her til aften b\u00f8d \u00e5benbart bl.a p\u00e5 en life size dukke, en life size dukke forestillede Mette Frederiksen. en life size dukke blev h\u00e6ngt og br\u00e6ndt med en tekst, jeg ikke vil gengive. Det er nok det mest gr\u00e6nseoverskridende, jeg har set herhjemme. Forf\u00e6rdeligt og skr\u00e6mmende",
+    "triplets": [
+      [
+        "Anti-corona-restriktion-demonstration",
+        "b\u00f8d",
+        "p\u00e5 en life size dukke"
+      ],
+      [
+        "en life size dukke",
+        "forestillede",
+        "Mette Frederiksen"
+      ],
+      [
+        "en life size dukke",
+        "blev h\u00e6ngt",
+        "med en tekst"
+      ],
+      [
+        "jeg",
+        "har set",
+        "Det"
+      ]
+    ],
+    "string": "\n\n@PSkipperEL: Anti-corona-restriktion-demonstration her til aften b\u00f8d \u00e5benbart bl.a p\u00e5 en life size dukke, der forestillede Mette Frederiksen. Som blev h\u00e6ngt og br\u00e6ndt med en tekst, jeg ikke vil gengive. Det er nok det mest gr\u00e6nseoverskridende, jeg har set herhjemme. Forf\u00e6rdeligt og skr\u00e6mmende\n\n@PSkipperEL: Anti-corona-restriktion-demonstration her til aften b\u00f8d \u00e5benbart bl.a p\u00e5 en life size dukke, en life size dukke forestillede Mette Frederiksen. en life size dukke blev h\u00e6ngt og br\u00e6ndt med en tekst, jeg ikke vil gengive. Det er nok det mest gr\u00e6nseoverskridende, jeg har set herhjemme. Forf\u00e6rdeligt og skr\u00e6mmende\n\nTriplets: (Anti-corona-restriktion-demonstration) (b\u00f8d) (p\u00e5 en life size dukke)\n          (en life size dukke) (forestillede) (Mette Frederiksen)\n          (en life size dukke) (blev h\u00e6ngt) (med en tekst)\n          (jeg) (har set) (Det)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "CopenhagenDroid: @PSkipperEL Ja, for at kaste maling p\u00e5 Statsminister Anders Fogh Rasmussen er ikke mere skr\u00e6mmende, vel? Det tog Pernille Rosenkrantz-Theil heller ikke afstand fra. Enhedslisten bekender kul\u00f8r igen",
+    "resolved": "@CopenhagenDroid: @PSkipperEL Ja, for at kaste maling p\u00e5 Statsminister Anders Fogh Rasmussen er ikke mere skr\u00e6mmende, vel? Det tog Pernille Rosenkrantz-Theil heller ikke afstand fra. Enhedslisten bekender kul\u00f8r igen",
+    "triplets": [
+      [
+        "at kaste maling",
+        "er ikke",
+        "mere skr\u00e6mmende"
+      ],
+      [
+        "Pernille Rosenkrantz-Theil",
+        "tog ikke",
+        "Det"
+      ],
+      [
+        "Enhedslisten",
+        "bekender",
+        "kul\u00f8r"
+      ]
+    ],
+    "string": "\n\nCopenhagenDroid: @PSkipperEL Ja, for at kaste maling p\u00e5 Statsminister Anders Fogh Rasmussen er ikke mere skr\u00e6mmende, vel? Det tog Pernille Rosenkrantz-Theil heller ikke afstand fra. Enhedslisten bekender kul\u00f8r igen\n\n@CopenhagenDroid: @PSkipperEL Ja, for at kaste maling p\u00e5 Statsminister Anders Fogh Rasmussen er ikke mere skr\u00e6mmende, vel? Det tog Pernille Rosenkrantz-Theil heller ikke afstand fra. Enhedslisten bekender kul\u00f8r igen\n\nTriplets: (at kaste maling) (er ikke) (mere skr\u00e6mmende)\n          (Pernille Rosenkrantz-Theil) (tog ikke) (Det)\n          (Enhedslisten) (bekender) (kul\u00f8r)\n\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@Kristian7892: @BenBuford11 @JesperSimo Step up hvordan? Synes Simo er fantastisk, men s\u00e5 ham helst blive hos Discovery. Synes de er Danmarks bedste til at d\u00e6kke fodbold, og s\u00e5 er det ikke s\u00e5 sensationspr\u00e6get som Viasat.",
+    "resolved": "@Kristian7892: @BenBuford11 @JesperSimo Step up hvordan? Synes Simo er fantastisk, men s\u00e5 Simo helst blive hos Discovery. Synes Discovery er Danmarks bedste til at d\u00e6kke fodbold, og s\u00e5 er Discovery ikke s\u00e5 sensationspr\u00e6get som Viasat.",
+    "triplets": [
+      [
+        "@Kristian7892",
+        "synes",
+        "Simo er fantastisk"
+      ],
+      [
+        "Simo",
+        "blive hos",
+        "Discovery"
+      ],
+      [
+        "@Kristian7892",
+        "Synes",
+        "Discovery er Danmarks bedste til at d\u00e6kke fodbold"
+      ],
+      [
+        "Discovery",
+        "er",
+        "Danmarks bedste til at d\u00e6kke fodbold"
+      ],
+      [
+        "Discovery",
+        "er ikke",
+        "s\u00e5 sensationspr\u00e6get som Viasat"
+      ]
+    ],
+    "string": "\n\n@Kristian7892: @BenBuford11 @JesperSimo Step up hvordan? Synes Simo er fantastisk, men s\u00e5 ham helst blive hos Discovery. Synes de er Danmarks bedste til at d\u00e6kke fodbold, og s\u00e5 er det ikke s\u00e5 sensationspr\u00e6get som Viasat.\n\n@Kristian7892: @BenBuford11 @JesperSimo Step up hvordan? Synes Simo er fantastisk, men s\u00e5 Simo helst blive hos Discovery. Synes Discovery er Danmarks bedste til at d\u00e6kke fodbold, og s\u00e5 er Discovery ikke s\u00e5 sensationspr\u00e6get som Viasat.\n\nTriplets: (@Kristian7892) (synes) (Simo er fantastisk)\n          (Simo) (blive hos) (Discovery)\n          (@Kristian7892) (Synes) (Discovery er Danmarks bedste til at d\u00e6kke fodbold)\n          (Discovery) (er) (Danmarks bedste til at d\u00e6kke fodbold)\n          (Discovery) (er ikke) (s\u00e5 sensationspr\u00e6get som Viasat)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@JakobEllemann: N\u00e5r man indkalder alle partiledere med mindre end \u00e9t d\u00f8gns varsel, er det fordi, det haster og har v\u00e6ret umuligt at forudse. Eller ogs\u00e5 er det fordi, man er aldeles ligeglad med andre menneskers aftaler. Jeg rydder naturligvis kalenderen og tager til klimaforhandlinger i aften.",
+    "resolved": "@JakobEllemann: N\u00e5r man indkalder alle partiledere med mindre end \u00e9t d\u00f8gns varsel, er det fordi, det haster og har v\u00e6ret umuligt at forudse. Eller ogs\u00e5 er det fordi, man er aldeles ligeglad med andre menneskers aftaler. @JakobEllemann rydder naturligvis kalenderen og tager til klimaforhandlinger i aften.",
+    "triplets": [
+      [
+        "man",
+        "indkalder",
+        "alle partiledere"
+      ],
+      [
+        "det",
+        "har",
+        "v\u00e6ret umuligt at forudse"
+      ],
+      [
+        "man",
+        "er",
+        "aldeles ligeglad med andre menneskers aftaler"
+      ],
+      [
+        "@JakobEllemann",
+        "rydder",
+        "kalenderen"
+      ],
+      [
+        "@JakobEllemann",
+        "tager",
+        "til klimaforhandlinger"
+      ]
+    ],
+    "string": "\n\n@JakobEllemann: N\u00e5r man indkalder alle partiledere med mindre end \u00e9t d\u00f8gns varsel, er det fordi, det haster og har v\u00e6ret umuligt at forudse. Eller ogs\u00e5 er det fordi, man er aldeles ligeglad med andre menneskers aftaler. Jeg rydder naturligvis kalenderen og tager til klimaforhandlinger i aften.\n\n@JakobEllemann: N\u00e5r man indkalder alle partiledere med mindre end \u00e9t d\u00f8gns varsel, er det fordi, det haster og har v\u00e6ret umuligt at forudse. Eller ogs\u00e5 er det fordi, man er aldeles ligeglad med andre menneskers aftaler. @JakobEllemann rydder naturligvis kalenderen og tager til klimaforhandlinger i aften.\n\n\nTriplets: (man) (indkalder) (alle partiledere)\n          (det) (har) (v\u00e6ret umuligt at forudse)\n          (man) (er) (aldeles ligeglad med andre menneskers aftaler)\n          (@JakobEllemann) (rydder) (kalenderen)\n          (@JakobEllemann) (tager) (til klimaforhandlinger)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@BibsenSkyt: @JakobEllemann N\u00e5 det har I da koordineret godt i dag, gl\u00e6d dig over I overhovedet bliver h\u00f8rt. I fik jo ikke rigtig gjort det store i jeres tid \ud83d\ude48",
+    "resolved": "@BibsenSkyt: @JakobEllemann N\u00e5 det har I da koordineret godt i dag, gl\u00e6d @JakobEllemann over I overhovedet bliver h\u00f8rt. I fik jo ikke rigtig gjort det store i jeres tid \ud83d\ude48",
+    "triplets": [
+      [
+        "I",
+        "har",
+        "koordineret godt"
+      ],
+      [
+        "I",
+        "bliver",
+        "h\u00f8rt"
+      ],
+      [
+        "I",
+        "ikke gjort",
+        "det store"
+      ]
+    ],
+    "string": "\n\n@BibsenSkyt: @JakobEllemann N\u00e5 det har I da koordineret godt i dag, gl\u00e6d dig over I overhovedet bliver h\u00f8rt. I fik jo ikke rigtig gjort det store i jeres tid \ud83d\ude48\n \n@BibsenSkyt: @JakobEllemann N\u00e5 det har I da koordineret godt i dag, gl\u00e6d @JakobEllemann over I overhovedet bliver h\u00f8rt. I fik jo ikke rigtig gjort det store i jeres tid \ud83d\ude48\n\nTriplets: (I) (har) (koordineret godt)\n          (I) (bliver) (h\u00f8rt)\n          (I) (ikke gjort) (det store)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@Berry1952K: @BibsenSkyt @JakobEllemann Synes det er total mangel p\u00e5 respekt for alle andre partiledere. ",
+    "resolved": "@Berry1952K: @BibsenSkyt @JakobEllemann Synes det er total mangel p\u00e5 respekt for alle andre partiledere.",
+    "triplets": [
+      [
+        "@Berry1952K",
+        "Synes",
+        "det er total mangel p\u00e5 respekt"
+      ]
+    ],
+    "string": "\n\n@Berry1952K: @BibsenSkyt @JakobEllemann Synes det er total mangel p\u00e5 respekt for alle andre partiledere. \n\n@Berry1952K: @BibsenSkyt @JakobEllemann Synes det er total mangel p\u00e5 respekt for alle andre partiledere.\n\nTriplets: (@Berry1952K) (Synes) (det er total mangel p\u00e5 respekt)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@BibsenSkyt: @Berry1952K @JakobEllemann Ved du  hvor lang tid de almindeligvis har ? De har r\u00e5bt om det m\u00f8de under hele Pandamien de opslag er til hvad ?!",
+    "resolved": "@BibsenSkyt: @Berry1952K @JakobEllemann Ved @JakobEllemann  hvor lang tid de almindeligvis har ? De har r\u00e5bt om det m\u00f8de under hele Pandamien de opslag er til hvad ?!",
+    "triplets": [
+      [
+        "De",
+        "har r\u00e5bt",
+        "om det her m\u00f8de under hele pandamien"
+      ]
+    ],
+    "string": "\n\n\n@BibsenSkyt: @Berry1952K @JakobEllemann Ved du  hvor lang tid de almindeligvis har ? De har r\u00e5bt om det m\u00f8de under hele Pandamien de opslag er til hvad ?!\n\n@BibsenSkyt: @Berry1952K @JakobEllemann Ved @JakobEllemann  hvor lang tid de almindeligvis har ? De har r\u00e5bt om det m\u00f8de under hele Pandamien de opslag er til hvad ?!\n\nTriplets: (De) (har r\u00e5bt) (om det her m\u00f8de under hele pandamien)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": false,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@Berry1952K: @BibsenSkyt @JakobEllemann Det er underordnet, det er almindelig anst\u00e6ndighed  at give mere end en dag. Hvor sv\u00e6rt kan det lige v\u00e6re uanset om de har r\u00e5bt op i m\u00e5neder.",
+    "resolved": "@Berry1952K: @BibsenSkyt @JakobEllemann Det er underordnet, det er almindelig anst\u00e6ndighed  at give mere end en dag. Hvor sv\u00e6rt kan det lige v\u00e6re uanset om de har r\u00e5bt op i m\u00e5neder.",
+    "triplets": [
+      [
+        "Det",
+        "er",
+        "underordnet"
+      ],
+      [
+        "det",
+        "er",
+        "almindelig anst\u00e6ndighed  at give mere end en dag"
+      ],
+      [
+        "de",
+        "har r\u00e5bt",
+        "om det m\u00f8de under hele Pandamien"
+      ]
+    ],
+    "string": "\n\n@Berry1952K: @BibsenSkyt @JakobEllemann Det er underordnet, det er almindelig anst\u00e6ndighed  at give mere end en dag. Hvor sv\u00e6rt kan det lige v\u00e6re uanset om de har r\u00e5bt op i m\u00e5neder.\n\n@Berry1952K: @BibsenSkyt @JakobEllemann Det er underordnet, det er almindelig anst\u00e6ndighed  at give mere end en dag. Hvor sv\u00e6rt kan det lige v\u00e6re uanset om de har r\u00e5bt op i m\u00e5neder.\n\nTriplets: (Det) (er) (underordnet)\n          (det) (er) (almindelig anst\u00e6ndighed  at give mere end en dag)\n          (de) (har r\u00e5bt) (om det m\u00f8de under hele Pandamien)\n\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@SSTbrostrom: Jeg forst\u00e5r godt mange synes nye krav om mundbind er vidtg\u00e5ende. Skal ogs\u00e5 selv v\u00e6nne mig til det skal p\u00e5 i butik osv. men det er alts\u00e5 ikke slemt. Dokumentationen har vi, og med aktuelle smittetryk i Danmark er det rettidig omhu #sundpol #SundhedForAlle  https://t.co/SlmGZtN5dh",
+    "resolved": "@SSTbrostrom: Jeg forst\u00e5r godt mange synes nye krav om mundbind er vidtg\u00e5ende. Skal ogs\u00e5 selv v\u00e6nne mig til nye krav skal p\u00e5 i butik osv. men det er alts\u00e5 ikke slemt. Dokumentationen har vi, og med aktuelle smittetryk i Danmark er det rettidig omhu #sundpol #SundhedForAlle  https://t.co/SlmGZtN5dh ",
+    "triplets": [
+      [
+        "@SSTbrostrom",
+        "forst\u00e5r",
+        "mange synes nye krav om mundbind er vidtg\u00e5ende"
+      ],
+      [
+        "nye krav om mundbind",
+        "er",
+        "vidtg\u00e5ende"
+      ],
+      [
+        "nye krav om mundbind",
+        "er",
+        "ikke slemt"
+      ],
+      [
+        "vi",
+        "har",
+        "Dokumentationen"
+      ],
+      [
+        "nye krav om mundbind",
+        "er",
+        "rettidig umhu"
+      ]
+    ],
+    "string": "\n\n@SSTbrostrom: Jeg forst\u00e5r godt mange synes nye krav om mundbind er vidtg\u00e5ende. Skal ogs\u00e5 selv v\u00e6nne mig til det skal p\u00e5 i butik osv. men det er alts\u00e5 ikke slemt. Dokumentationen har vi, og med aktuelle smittetryk i Danmark er det rettidig omhu #sundpol #SundhedForAlle  https://t.co/SlmGZtN5dh\n\n@SSTbrostrom: Jeg forst\u00e5r godt mange synes nye krav om mundbind er vidtg\u00e5ende. Skal ogs\u00e5 selv v\u00e6nne mig til nye krav skal p\u00e5 i butik osv. men det er alts\u00e5 ikke slemt. Dokumentationen har vi, og med aktuelle smittetryk i Danmark er det rettidig omhu #sundpol #SundhedForAlle  https://t.co/SlmGZtN5dh \n\nTriplets: (@SSTbrostrom) (forst\u00e5r) (mange synes nye krav om mundbind er vidtg\u00e5ende)\n          (nye krav om mundbind) (er) (vidtg\u00e5ende)\n          (nye krav om mundbind) (er) (ikke slemt)\n          (vi) (har) (Dokumentationen)\n          (nye krav om mundbind) (er) (rettidig umhu)\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@Ihavequestione: @SSTbrostrom Men vi bragte da smitten ned i for\u00e5ret uden mundbind,  s\u00e5 det er underligt det nu skal indf\u00f8res \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+    "resolved": "@Ihavequestione: @SSTbrostrom Men vi bragte da smitten ned i for\u00e5ret uden mundbind,  s\u00e5 det er underligt det nu skal indf\u00f8res \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+    "triplets": [
+      [
+        "vi",
+        "bragte",
+        "smitten ned i for\u00e5ret"
+      ],
+      [
+        "det",
+        "er",
+        "underligt det nu skal indf\u00f8res"
+      ]
+    ],
+    "string": "\n\n@Ihavequestione: @SSTbrostrom Men vi bragte da smitten ned i for\u00e5ret uden mundbind,  s\u00e5 det er underligt det nu skal indf\u00f8res \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f\n\n@Ihavequestione: @SSTbrostrom Men vi bragte da smitten ned i for\u00e5ret uden mundbind,  s\u00e5 det er underligt det nu skal indf\u00f8res \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f\n\nTriplets: (vi) (bragte) (smitten ned i for\u00e5ret)\n          (det) (er) (underligt det nu skal indf\u00f8res)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@GianniRivera69: @Ihavequestione @SSTbrostrom Ja ved at lukke samfundet ned. Men det foretr\u00e6kker du m\u00e5ske? ",
+    "resolved": "@GianniRivera69: @Ihavequestione @SSTbrostrom Ja ved at lukke samfundet ned. Men det foretr\u00e6kker @Ihavequestione m\u00e5ske?",
+    "triplets": [
+      [
+        "at lukke samfundet ned",
+        "foretr\u00e6kker",
+        "@Ihavequestione"
+      ]
+    ],
+    "string": "\n\n@GianniRivera69: @Ihavequestione @SSTbrostrom Ja ved at lukke samfundet ned. Men det foretr\u00e6kker du m\u00e5ske? \n\n@GianniRivera69: @Ihavequestione @SSTbrostrom Ja ved at lukke samfundet ned. Men det foretr\u00e6kker @Ihavequestione m\u00e5ske?\n\n\nTriplets: (at lukke samfundet ned) (foretr\u00e6kker) (@Ihavequestione)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": false
+  },
+  {
+    "tweet": "@Ihavequestione: @GianniRivera69 @SSTbrostrom S\u00e5 det er mundbind eller total nedlukning https://t.co/grZuDALQsS ",
+    "resolved": "@Ihavequestione: @GianniRivera69 @SSTbrostrom S\u00e5 det er mundbind eller total nedlukning https://t.co/grZuDALQsS",
+    "triplets": [
+      [
+        "det",
+        "er",
+        "mundbing eller total nedlukning"
+      ]
+    ],
+    "string": "\n\n@Ihavequestione: @GianniRivera69 @SSTbrostrom S\u00e5 det er mundbind eller total nedlukning https://t.co/grZuDALQsS \n\n@Ihavequestione: @GianniRivera69 @SSTbrostrom S\u00e5 det er mundbind eller total nedlukning https://t.co/grZuDALQsS\n\nTriplets: (det) (er) (mundbing eller total nedlukning)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@GianniRivera69: @Ihavequestione @SSTbrostrom Men hvorfor ikke bare tage det p\u00e5 n\u00e5r du er ude og handle 1) Folk er klovne til at holde afstand 2) Det er fuldst\u00e6ndig omkostningsfrit og det er kun din egen forf\u00e6ngelighed der er begr\u00e6nsningen.",
+    "resolved": "@GianniRivera69: @Ihavequestione @SSTbrostrom Men hvorfor ikke bare tage mundbind p\u00e5 n\u00e5r @Ihavequestione er ude og handle 1) Folk er klovne til at holde afstand 2) det er fuldst\u00e6ndig omkostningsfrit og det er kun din egen forf\u00e6ngelighed din egen forf\u00e6ngelighed er begr\u00e6nsningen. ",
+    "triplets": [
+      [
+        "@Ihavequestione",
+        "er",
+        "ude og handle"
+      ],
+      [
+        "Folk",
+        "er",
+        "klovne til at holde afstand"
+      ],
+      [
+        "tage mundbind p\u00e5",
+        "er",
+        "fuldst\u00e6ndig omkostningsfrit"
+      ],
+      [
+        "det",
+        "er",
+        "kun din egen forf\u00e6ngelighed"
+      ]
+    ],
+    "string": "\n\n@GianniRivera69: @Ihavequestione @SSTbrostrom Men hvorfor ikke bare tage det p\u00e5 n\u00e5r du er ude og handle 1) Folk er klovne til at holde afstand 2) Det er fuldst\u00e6ndig omkostningsfrit og det er kun din egen forf\u00e6ngelighed der er begr\u00e6nsningen.\n\n@GianniRivera69: @Ihavequestione @SSTbrostrom Men hvorfor ikke bare tage mundbind p\u00e5 n\u00e5r @Ihavequestione er ude og handle 1) Folk er klovne til at holde afstand 2) det er fuldst\u00e6ndig omkostningsfrit og det er kun din egen forf\u00e6ngelighed din egen forf\u00e6ngelighed er begr\u00e6nsningen. \n\nTriplets: (@Ihavequestione) (er) (ude og handle)\n          (Folk) (er) (klovne til at holde afstand)\n          (tage mundbind p\u00e5) (er) (fuldst\u00e6ndig omkostningsfrit)\n          (det) (er) (kun din egen forf\u00e6ngelighed)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@Ihavequestione: @GianniRivera69 @SSTbrostrom Hvorfor hvis det nu ikke hj\u00e6lper noget. Det har vi jo ikke set noget til  endnu ",
+    "resolved": "@Ihavequestione: @GianniRivera69 @SSTbrostrom Hvorfor hvis Det nu ikke hj\u00e6lper noget. Det har vi jo ikke set noget til  endnu ",
+    "triplets": [
+      [
+        "det",
+        "ikke hj\u00e6lper",
+        "noget"
+      ],
+      [
+        "Det",
+        "ikke set",
+        "noget til endnu"
+      ]
+    ],
+    "string": "\n\n@Ihavequestione: @GianniRivera69 @SSTbrostrom Hvorfor hvis det nu ikke hj\u00e6lper noget. Det har vi jo ikke set noget til  endnu \n\n@Ihavequestione: @GianniRivera69 @SSTbrostrom Hvorfor hvis Det nu ikke hj\u00e6lper noget. Det har vi jo ikke set noget til  endnu \n\nTriplets: (det) (ikke hj\u00e6lper) (noget)\n          (Det) (ikke set) (noget til endnu)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": false,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@svogdrup: @Ihavequestione @GianniRivera69 @SSTbrostrom L\u00e6s dokumentationen som S\u00f8ren henviser til. ",
+    "resolved": "@svogdrup: @Ihavequestione @GianniRivera69 @SSTbrostrom L\u00e6s dokumentationen som S\u00f8ren henviser til. ",
+    "triplets": [
+      [
+        "@Ihavequestione",
+        "L\u00e6s",
+        "dokumentationen"
+      ]
+    ],
+    "string": "\n\n@svogdrup: @Ihavequestione @GianniRivera69 @SSTbrostrom L\u00e6s dokumentationen som S\u00f8ren henviser til. \n\n@svogdrup: @Ihavequestione @GianniRivera69 @SSTbrostrom L\u00e6s dokumentationen som S\u00f8ren henviser til. \n\nTriplets: (@Ihavequestione) (L\u00e6s) (dokumentationen)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": false
+  },
+  {
+    "tweet": "@Ihavequestione: @svogdrup @GianniRivera69 @SSTbrostrom N\u00e5 der hvor der er flere ulemper end fordele ?  Ig\u00e5r sagde han jo direkte de ikke har dokumentationen for at det hj\u00e6lper .. og s\u00e5 er det jo kun symbolsk https://t.co/5NnOJyUuoy",
+    "resolved": "@Ihavequestione: @svogdrup @GianniRivera69 @SSTbrostrom N\u00e5 der hvor der er flere ulemper end fordele ?  Ig\u00e5r sagde @SSTbrostrom jo direkte de ikke har dokumentationen for at det hj\u00e6lper .. og s\u00e5 er det jo kun symbolsk https://t.co/5NnOJyUuoy ",
+    "triplets": [
+      [
+        "@SSTbrostrom",
+        "sagde",
+        "de ikke har dokumentationen for at det hj\u00e6lper"
+      ],
+      [
+        "de",
+        "har ikke",
+        "dokumentationen for at det hj\u00e6lper"
+      ]
+    ],
+    "string": "\n\n@Ihavequestione: @svogdrup @GianniRivera69 @SSTbrostrom N\u00e5 der hvor der er flere ulemper end fordele ?  Ig\u00e5r sagde han jo direkte de ikke har dokumentationen for at det hj\u00e6lper .. og s\u00e5 er det jo kun symbolsk https://t.co/5NnOJyUuoy\n\n@Ihavequestione: @svogdrup @GianniRivera69 @SSTbrostrom N\u00e5 der hvor der er flere ulemper end fordele ?  Ig\u00e5r sagde @SSTbrostrom jo direkte de ikke har dokumentationen for at det hj\u00e6lper .. og s\u00e5 er det jo kun symbolsk https://t.co/5NnOJyUuoy \n\nTriplets: (@SSTbrostrom) (sagde) (de ikke har dokumentationen for at det hj\u00e6lper)\n          (de) (har ikke) (dokumentationen for at det hj\u00e6lper)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": true,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@siggithilde: @Ihavequestione @svogdrup @GianniRivera69 @SSTbrostrom Det f\u00f8rste punkt under potentielle fordele er alt rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum. ",
+    "resolved": "@siggithilde: @Ihavequestione @svogdrup @GianniRivera69 @SSTbrostrom Det f\u00f8rste punkt under potentielle fordele er alt rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum. ",
+    "triplets": [
+      [
+        "Det f\u00f8rste punkt under potentielle fordele",
+        "er",
+        "rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum"
+      ]
+    ],
+    "string": "\n\n@siggithilde: @Ihavequestione @svogdrup @GianniRivera69 @SSTbrostrom Det f\u00f8rste punkt under potentielle fordele er alt rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum. \n\n@siggithilde: @Ihavequestione @svogdrup @GianniRivera69 @SSTbrostrom Det f\u00f8rste punkt under potentielle fordele er alt rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum. \n\nTriplets: (Det f\u00f8rste punkt under potentielle fordele) (er) (rigeligt til at indf\u00f8re mundbindstvang overalt i det offentlige rum)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@PiaOlsen: Vi er n\u00f8dt til at lukke samfundet mere ned pga den britiske mutation af COVID-19. Udviklingen er dybt bekymrende. SF foresl\u00e5r derfor regeringen n\u00f8dpasning i daginstitutionerne og at f\u00e6rre m\u00f8des. Vi er n\u00f8dt til at stoppe smitten ellers ender vi med britiske tilstande #dkpol",
+    "resolved": "@PiaOlsen: Vi er n\u00f8dt til at lukke samfundet mere ned pga den britiske mutation af COVID-19. Udviklingen er dybt bekymrende. SF foresl\u00e5r derfor regeringen n\u00f8dpasning i daginstitutionerne og at f\u00e6rre m\u00f8des. Vi er n\u00f8dt til at stoppe smitten ellers ender vi med britiske tilstande #dkpol",
+    "triplets": [
+      [
+        "Vi",
+        "er",
+        "n\u00f8dt til at lukke samfundet mere ned"
+      ],
+      [
+        "Udviklingen",
+        "er",
+        "dybt bekymrende"
+      ],
+      [
+        "SF",
+        "foresl\u00e5r",
+        "regeringen n\u00f8dpasning i daginstitutionerne"
+      ],
+      [
+        "SF",
+        "foresl\u00e5r",
+        "at f\u00e6rre m\u00f8des"
+      ],
+      [
+        "Vi",
+        "er",
+        "n\u00f8dt til at stoppe smitten"
+      ],
+      [
+        "vi",
+        "ender med",
+        "britiske tilstande"
+      ]
+    ],
+    "string": "\n\n@PiaOlsen: Vi er n\u00f8dt til at lukke samfundet mere ned pga den britiske mutation af COVID-19. Udviklingen er dybt bekymrende. SF foresl\u00e5r derfor regeringen n\u00f8dpasning i daginstitutionerne og at f\u00e6rre m\u00f8des. Vi er n\u00f8dt til at stoppe smitten ellers ender vi med britiske tilstande #dkpol\n\n@PiaOlsen: Vi er n\u00f8dt til at lukke samfundet mere ned pga den britiske mutation af COVID-19. Udviklingen er dybt bekymrende. SF foresl\u00e5r derfor regeringen n\u00f8dpasning i daginstitutionerne og at f\u00e6rre m\u00f8des. Vi er n\u00f8dt til at stoppe smitten ellers ender vi med britiske tilstande #dkpol\n\nTriplets: (Vi) (er) (n\u00f8dt til at lukke samfundet mere ned)\n          (Udviklingen) (er) (dybt bekymrende)\n          (SF) (foresl\u00e5r) (regeringen n\u00f8dpasning i daginstitutionerne)\n          (SF) (foresl\u00e5r) (at f\u00e6rre m\u00f8des)\n          (Vi) (er) (n\u00f8dt til at stoppe smitten)\n          (vi) (ender med) (britiske tilstande)\n          \n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik S\u00e5 er det for sent",
+    "resolved": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik S\u00e5 er det for sent",
+    "triplets": [
+      [
+        "det",
+        "er",
+        "for sent"
+      ]
+    ],
+    "string": "\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik S\u00e5 er det for sent\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik S\u00e5 er det for sent\n\nTriplets: (det) (er) (for sent)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik I den rapport SSI har udsendt i dag, st\u00e5r der tydeligt at restriktionerne fungerer - dog med et forbehold for de specielle juledage.   Nu er vi tilbage til hverdagen og har endda \u00f8get restriktionerne, bl.a. hjemsendelse af skoleb\u00f8rn, som vi endnu mangler at se effekten af. https://t.co/Js4COepiHz",
+    "resolved": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik I den rapport SSI har udsendt i dag, st\u00e5r der tydeligt at restriktionerne fungerer - dog med et forbehold for de specielle juledage.   Nu er vi tilbage til hverdagen og har endda \u00f8get restriktionerne, bl.a. hjemsendelse af skoleb\u00f8rn, restriktionerne vi endnu mangler at se effekten af. https://t.co/Js4COepiHz",
+    "triplets": [
+      [
+        "SSI",
+        "har udsendt",
+        "rapport"
+      ],
+      [
+        "i den rapport",
+        "st\u00e5r der",
+        "at restriktionerne fungerer"
+      ],
+      [
+        "vi",
+        "er",
+        "tilbage til hverdagen"
+      ],
+      [
+        "vi",
+        "har",
+        "\u00f8get restriktionerne"
+      ],
+      [
+        "vi",
+        "mangler at se",
+        "effekten"
+      ]
+    ],
+    "string": "\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik I den rapport SSI har udsendt i dag, st\u00e5r der tydeligt at restriktionerne fungerer - dog med et forbehold for de specielle juledage.   Nu er vi tilbage til hverdagen og har endda \u00f8get restriktionerne, bl.a. hjemsendelse af skoleb\u00f8rn, som vi endnu mangler at se effekten af. https://t.co/Js4COepiHz\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik I den rapport SSI har udsendt i dag, st\u00e5r der tydeligt at restriktionerne fungerer - dog med et forbehold for de specielle juledage.   Nu er vi tilbage til hverdagen og har endda \u00f8get restriktionerne, bl.a. hjemsendelse af skoleb\u00f8rn, restriktionerne vi endnu mangler at se effekten af. https://t.co/Js4COepiHz\n \n\nTriplets: (SSI) (har udsendt) (rapport)\n          (i den rapport) (st\u00e5r der) (at restriktionerne fungerer)\n          (vi) (er) (tilbage til hverdagen)\n          (vi) (har) (\u00f8get restriktionerne)\n          (vi) (mangler at se) (effekten)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Du skal se p\u00e5 forventet smittetryk ca 1,65 i mods\u00e6tning til nuv\u00e6rende 1,1 ",
+    "resolved": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Du skal se p\u00e5 forventet smittetryk ca 1,65 i mods\u00e6tning til nuv\u00e6rende 1,1",
+    "triplets": [
+      [
+        "Du",
+        "skal se",
+        "p\u00e5 forventet smittetryk"
+      ]
+    ],
+    "string": "\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Du skal se p\u00e5 forventet smittetryk ca 1,65 i mods\u00e6tning til nuv\u00e6rende 1,1 \n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Du skal se p\u00e5 forventet smittetryk ca 1,65 i mods\u00e6tning til nuv\u00e6rende 1,1\n\nTriplets: (Du) (skal se) (p\u00e5 forventet smittetryk)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": false,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Ja, man forventer at smittetrykket vil stige med faktor 1,5, n\u00e5r/hvis den nye variant bliver dominerende (estimeret medio februar), men hvor kan man se, at det forventede smittetryk af de eksisterende restriktioner er 1,1?",
+    "resolved": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Ja, man forventer at smittetrykket vil stige med faktor 1,5, n\u00e5r/hvis den nye variant bliver dominerende (estimeret medio februar), men hvor kan man se, at det forventede smittetryk af de eksisterende restriktioner er 1,1? ",
+    "triplets": [
+      [
+        "man",
+        "forventer",
+        "smittetrykket vil stige"
+      ]
+    ],
+    "string": "\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Ja, man forventer at smittetrykket vil stige med faktor 1,5, n\u00e5r/hvis den nye variant bliver dominerende (estimeret medio februar), men hvor kan man se, at det forventede smittetryk af de eksisterende restriktioner er 1,1?\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Ja, man forventer at smittetrykket vil stige med faktor 1,5, n\u00e5r/hvis den nye variant bliver dominerende (estimeret medio februar), men hvor kan man se, at det forventede smittetryk af de eksisterende restriktioner er 1,1? \n\nTriplets: (man) (forventer) (smittetrykket vil stige)\n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/X89hRHRZ6a ",
+    "resolved": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/X89hRHRZ6a ",
+    "triplets": [],
+    "string": "\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/X89hRHRZ6a \n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/X89hRHRZ6a \n\nTriplets: \n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": true,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": false,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": false
+  },
+  {
+    "tweet": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg kan ikke umiddelbart finde nogen prognoser derinde. Kun en note om at de har droppet at lave fremskrivninger.  Men det er vel ogs\u00e5 omsonst nu hvor de har sk\u00e6rpet restriktionerne. S\u00e5 finder vi alligevel ikke ud af om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige :-) https://t.co/O3Wgzn7sUc",
+    "resolved": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg kan ikke umiddelbart finde nogen prognoser derinde. Kun en note om at SSI har droppet at lave fremskrivninger.  Men det er vel ogs\u00e5 omsonst nu hvor de har sk\u00e6rpet restriktionerne. S\u00e5 finder vi alligevel ikke ud af om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige :-) https://t.co/O3Wgzn7sUc",
+    "triplets": [
+      [
+        "Jeg",
+        "kan ikke",
+        "finde nogen prognoser derinde"
+      ],
+      [
+        "SSI",
+        "har",
+        "droppet at lave fremskrivninger"
+      ],
+      [
+        "at lave fremskrivninger",
+        "er",
+        "vel ogs\u00e5 omsonst"
+      ],
+      [
+        "vi",
+        "finder ikke ud af",
+        "om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige"
+      ]
+    ],
+    "string": "\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg kan ikke umiddelbart finde nogen prognoser derinde. Kun en note om at de har droppet at lave fremskrivninger.  Men det er vel ogs\u00e5 omsonst nu hvor de har sk\u00e6rpet restriktionerne. S\u00e5 finder vi alligevel ikke ud af om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige :-) https://t.co/O3Wgzn7sUc\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg kan ikke umiddelbart finde nogen prognoser derinde. Kun en note om at SSI har droppet at lave fremskrivninger.  Men det er vel ogs\u00e5 omsonst nu hvor de har sk\u00e6rpet restriktionerne. S\u00e5 finder vi alligevel ikke ud af om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige :-) https://t.co/O3Wgzn7sUc\n\nTriplets: (Jeg) (kan ikke) (finde nogen prognoser derinde)\n          (SSI) (har) (droppet at lave fremskrivninger)\n          (at lave fremskrivninger) (er) (vel ogs\u00e5 omsonst)\n          (vi) (finder ikke ud af) (om de eksisterende restriktioner havde v\u00e6ret tilstr\u00e6kkelige)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/mQbvaM4b57",
+    "resolved": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/mQbvaM4b57 ",
+    "triplets": [],
+    "string": "\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/mQbvaM4b57\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik https://t.co/mQbvaM4b57 \n\nTriplets: \n\n",
+    "has_multiple_triplets": false,
+    "has_no_triplets": true,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": false,
+    "has_multi_word_subj1": false,
+    "has_multi_word_subj2": false
+  },
+  {
+    "tweet": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg forst\u00e5r ikke helt din argumentation. Vi er jo ikke uenige i, at der skal g\u00f8res noget. Min pointe er blot, at det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt.  De seneste restriktioner er de facto f\u00f8rst startet efter nyt\u00e5r. ",
+    "resolved": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg forst\u00e5r ikke helt din argumentation. Vi er jo ikke uenige i, at der skal g\u00f8res noget. Min pointe er blot, at det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt.  De seneste restriktioner er de facto f\u00f8rst startet efter nyt\u00e5r.",
+    "triplets": [
+      [
+        "Jeg",
+        "forst\u00e5r ikke",
+        "din argumentation"
+      ],
+      [
+        "Vi",
+        "er ikke",
+        "uenige i at der skal g\u00f8res noget"
+      ],
+      [
+        "Min pointe",
+        "er",
+        "det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt"
+      ],
+      [
+        "at g\u00f8re mere",
+        "virker",
+        "fjollet"
+      ],
+      [
+        "De seneste restriktioner",
+        "er",
+        "f\u00f8rst startet efter nyt\u00e5r"
+      ]
+    ],
+    "string": "\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg forst\u00e5r ikke helt din argumentation. Vi er jo ikke uenige i, at der skal g\u00f8res noget. Min pointe er blot, at det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt.  De seneste restriktioner er de facto f\u00f8rst startet efter nyt\u00e5r. \n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg forst\u00e5r ikke helt din argumentation. Vi er jo ikke uenige i, at der skal g\u00f8res noget. Min pointe er blot, at det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt.  De seneste restriktioner er de facto f\u00f8rst startet efter nyt\u00e5r.\n\nTriplets: (Jeg) (forst\u00e5r ikke) (din argumentation)\n          (Vi) (er ikke) (uenige i at der skal g\u00f8res noget)\n          (Min pointe) (er) (det virker fjollet at g\u00f8re mere, f\u00f8r man ved om det meget, man allerede g\u00f8r, er tilstr\u00e6kkeligt)\n          (at g\u00f8re mere) (virker) (fjollet)\n          (De seneste restriktioner) (er) (f\u00f8rst startet efter nyt\u00e5r)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Den holdning er ok men set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret er det bedst at v\u00e6re proaktiv. Hvis man venter en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10: alts\u00e5 15000 nye om dagen i stedet for nu 1500 https://t.co/f0kzYhkjDh",
+    "resolved": "@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Den holdning er ok men set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret er det bedst at v\u00e6re proaktiv. Hvis man venter en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10: alts\u00e5 15000 nye om dagen i stedet for nu 1500 https://t.co/f0kzYhkjDh",
+    "triplets": [
+      [
+        "Den holdning",
+        "er",
+        "ok"
+      ],
+      [
+        "set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret",
+        "er",
+        "det bedst at v\u00e6re proaktiv"
+      ],
+      [
+        "hvis man",
+        "venter",
+        "en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10"
+      ],
+      [
+        "man",
+        "risikerer",
+        "smittetal ganget med faktor 10"
+      ]
+    ],
+    "string": "\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Den holdning er ok men set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret er det bedst at v\u00e6re proaktiv. Hvis man venter en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10: alts\u00e5 15000 nye om dagen i stedet for nu 1500 https://t.co/f0kzYhkjDh\n\n@MZaccarin: @troelsjohnsen @PiaOlsen @SFpolitik Den holdning er ok men set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret er det bedst at v\u00e6re proaktiv. Hvis man venter en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10: alts\u00e5 15000 nye om dagen i stedet for nu 1500 https://t.co/f0kzYhkjDh\n\nTriplets: (Den holdning) (er) (ok)\n          (set i lyset af Kina og Italien for et \u00e5r siden samt US og UK hele \u00e5ret) (er) (det bedst at v\u00e6re proaktiv)\n          (hvis man) (venter) (en m\u00e5ned uden tiltag risikerer man smittetal ganget med faktor 10)\n          (man) (risikerer) (smittetal ganget med faktor 10)\n\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": false,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  },
+  {
+    "tweet": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg tror vi er ret enige - og som jeg l\u00e6ser den her artikel, s\u00e5 er ham eksperten ogs\u00e5 enig.   De nye restriktioner vil have en begr\u00e6nset effekt, da de eksisterende restriktioner allerede effektivt har begr\u00e6nset social aktivitet, og det er nu op til os alle at begr\u00e6nse smitten.",
+    "resolved": "@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg tror vi er ret enige - og som jeg l\u00e6ser den her artikel, s\u00e5 er ham eksperten ogs\u00e5 enig.   De nye restriktioner vil have en begr\u00e6nset effekt, da de eksisterende restriktioner allerede effektivt har begr\u00e6nset social aktivitet, og det er nu op til os alle at begr\u00e6nse smitten.",
+    "triplets": [
+      [
+        "Jeg",
+        "tror",
+        "vi er ret enige"
+      ],
+      [
+        "vi",
+        "er",
+        "ret enige"
+      ],
+      [
+        "som jeg",
+        "l\u00e6ser",
+        "den her artikel"
+      ],
+      [
+        "eksperten",
+        "er",
+        "ogs\u00e5 enig"
+      ],
+      [
+        "De nye restriktioner",
+        "vil have",
+        "en begr\u00e6nset effekt"
+      ],
+      [
+        "de eksisterende restriktioner",
+        "har",
+        "begr\u00e6nset social aktivitet"
+      ],
+      [
+        "det",
+        "er",
+        "op til os alle at begr\u00e6nse smitten"
+      ]
+    ],
+    "string": "\n\n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg tror vi er ret enige - og som jeg l\u00e6ser den her artikel, s\u00e5 er ham eksperten ogs\u00e5 enig.   De nye restriktioner vil have en begr\u00e6nset effekt, da de eksisterende restriktioner allerede effektivt har begr\u00e6nset social aktivitet, og det er nu op til os alle at begr\u00e6nse smitten.\n \n@troelsjohnsen: @MZaccarin @PiaOlsen @SFpolitik Jeg tror vi er ret enige - og som jeg l\u00e6ser den her artikel, s\u00e5 er ham eksperten ogs\u00e5 enig.   De nye restriktioner vil have en begr\u00e6nset effekt, da de eksisterende restriktioner allerede effektivt har begr\u00e6nset social aktivitet, og det er nu op til os alle at begr\u00e6nse smitten.\n\nTriplets: (Jeg) (tror) (vi er ret enige)\n          (vi) (er) (ret enige)\n          (som jeg) (l\u00e6ser) (den her artikel)\n          (eksperten) (er) (ogs\u00e5 enig)\n          (De nye restriktioner) (vil have) (en begr\u00e6nset effekt)\n          (de eksisterende restriktioner) (har) (begr\u00e6nset social aktivitet)\n          (det) (er) (op til os alle at begr\u00e6nse smitten)\n",
+    "has_multiple_triplets": true,
+    "has_no_triplets": false,
+    "has_one_mention": false,
+    "has_multi_word_verb": true,
+    "has_single_word_verb": true,
+    "has_multi_word_subj1": true,
+    "has_multi_word_subj2": true
+  }
+]
