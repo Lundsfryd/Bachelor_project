@@ -1,7 +1,0 @@
-name: coreferencing
-dependencies:
-  - python
-  - numpy
-  - pandas
-  - spacy
-  - ipykernel
