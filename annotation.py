@@ -7,7 +7,6 @@ import pandas as pd
 class BlameAnnotater(object):
 
     def __init__(self, path):
-        print('i am in init')
 
         self.data = self.read_data(path)
         self.nlp = spacy.load("da_core_news_sm")
