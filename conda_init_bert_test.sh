@@ -5,7 +5,7 @@ export MY_ENV=blame_bert
 echo "conda activate $MY_ENV" >> ~/.bashrc
 
 
-BASE_DIR="/work/MarkusLundsfrydJensen#1865/"
+BASE_DIR="/work/MarkusLundsfrydJensen#1865"
  
 # --- GitHub setup ---
 
@@ -29,5 +29,5 @@ git-credential-manager-core configure
 
 sudo apt-get update && sudo apt-get install -y git-lfs
 git lfs install
-cd "/work/MarkusLundsfrydJensen#1865/Bachelor_project"
+cd /work/MarkusLundsfrydJensen#1865/Bachelor_project
 git lfs pull
