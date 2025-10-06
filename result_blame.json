@@ -4,30 +4,30 @@
   "blamee": "",
   "arguments": ""
 }{
+  "text": "I henhold til grundloven er Folketinget i dag tr\u00e5dt sammen til sit f\u00f8rste m\u00f8de i det nye folketings\u00e5r.",
+  "blame": false,
+  "blamee": "",
+  "arguments": ""
+}{
   "text": "...",
   "blame": true,
   "blamee": "...",
   "arguments": "..."
 }{
-  "text": "sentence",
+  "text": "...",
   "blame": true,
-  "blamee": "blamee",
-  "arguments": "arguments"
+  "blamee": "...",
+  "arguments": "..."
 }{
-  "text": "Da der s\u00e5ledes ikke foreligger andre indstillinger, vil jeg betragte indstillingen som vedtaget.",
+  "text": "Ophold",
   "blame": true,
-  "blamee": "jeg",
-  "arguments": "ikke foreligger andre indstillinger"
+  "blamee": "Hvem/ hvad",
+  "arguments": "Hvad/ hvorfor"
 }{
-  "text": "sentence",
+  "text": "...",
   "blame": true,
-  "blamee": "X",
-  "arguments": "Y"
-}{
-  "text": "Den er vedtaget.",
-  "blame": false,
-  "blamee": "",
-  "arguments": ""
+  "blamee": "...",
+  "arguments": "..."
 }{
   "text": "Til n\u00e6stform\u00e6nd har Tingets fire st\u00f8rste partier - ud  over det parti, som formanden tilh\u00f8rer - udpeget f\u00f8lgende  medlemmer:  \u00a0\u00a0\u00a0\u00a0\u00a0Til f\u00f8rste n\u00e6stformand hr. Ivar Hansen, Venstre, til  anden n\u00e6stformand hr. Henning Grove, Det Konservative  Folkeparti, til tredje n\u00e6stformand fru Margrete Auken,  Socialistisk Folkeparti, og til fjerde n\u00e6stformand fru  Elisabeth Arnold, Det Radikale Venstre.",
   "blame": false,
@@ -35,21 +35,6 @@
   "arguments": ""
 }{
   "text": "De p\u00e5g\u00e6ldende er herefter valgt.",
-  "blame": true,
-  "blamee": "",
-  "arguments": ""
-}{
-  "text": "...",
-  "blame": true,
-  "blamee": "...",
-  "arguments": "..."
-}{
-  "text": "Tinget er hermed sat, og jeg beder den af Tinget valgte formand indtage formandspladsen.",
-  "blame": false,
-  "blamee": "",
-  "arguments": ""
-}{
-  "text": "Jeg \u00f8nsker Pr\u00e6sidiet held og lykke med arbejdet.",
   "blame": false,
   "blamee": "",
   "arguments": ""
