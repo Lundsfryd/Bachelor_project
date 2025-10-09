@@ -3840,4 +3840,838 @@
   "following": "sentence_nr 102",
   "blamee": "sentence_nr 100",
   "arguments": "sentence_nr 101"
+}{
+  "text": "the negative outcome",
+  "previous": "the negative outcome is caused by",
+  "following": "the negative outcome is caused by",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text of the sentence",
+  "previous": "sentence_nr [x]",
+  "following": "sentence_nr [x+1]",
+  "blamee": "Blamee",
+  "arguments": "arguments"
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The patient receiving the blame",
+  "previous": "S\u00e5dan som debatten var foreg\u00e5et, sagde hr. Torben Lund, var det lavt og nedrigt og pinligt.",
+  "following": "Det synes jeg er direkte pinligt.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The first Somali refugee sent back in good health to Somalia",
+  "previous": "The first Somali refugee sent back in good health to Somalia",
+  "following": "The first Somali refugee sent back in good health to Somalia",
+  "blamee": "The first Somali refugee sent back in good health to Somalia",
+  "arguments": null
+}{
+  "text": "text of the argument",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": "blamee",
+  "arguments": null
+}{
+  "text": "the negative outcome",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence.",
+  "previous": "M\u00e5 jeg sp\u00f8rge, hvor store muligheder der er for personlig udvikling d\u00e9r.",
+  "following": "Jeg troede oprigtigt talt, at regeringen havde \u00e6ndret kurs og indrettet sig p\u00e5, at nu skal ungernes tid ikke spildes i folkeskolen.",
+  "blamee": "The patient receiving the blame (who or what is being blamed)",
+  "arguments": "What is the blamee being blamed for (the negative outcome)?"
+}{
+  "text": "The negative outcome is that the patient receives the blame for...",
+  "previous": "Til hr. Langkilde",
+  "following": "Det har  vi diskuteret hundredvis af gange.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "sentence_nr 1",
+  "previous": "sentence_nr 0",
+  "following": "sentence_nr 2",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det er da pinligt.",
+  "previous": "Og  jeg synes, det er helt urimeligt, at vi skal g\u00f8re en gruppe  som kosovoalbanerne til et afg\u00f8rende punkt i en \u00e5bningsdebat  her i Folketinget, at det ligefrem skal v\u00e6re et  dagsordenspunkt her i Folketinget.",
+  "following": "S\u00e5 vil jeg sige til hr. Poul N\u00f8dgaard, at vi har ingen  planer om at \u00e6ndre p\u00e5 de nuv\u00e6rende regler vedr\u00f8rende dansk  statsborgerskab.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "sentence",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Hvis det er det sidste, er der jo i virkeligheden kun tale om det s\u00e6dvanlige dobbeltspil, hvor socialdemokraterne siger \u00e9n ting ud ad vinduet for at t\u00e6kkes v\u00e6lgerne f\u00f8r valget og derefter intet foretager sig, n\u00e5r valglokalerne er lukkede.",
+  "previous": "Nu m\u00e5 vi i dag vide helt pr\u00e6cist: Er indenrigsministeren udspil et udtryk for regeringens politik, eller er det kun private tanker uden d\u00e6kning i regeringen?",
+  "following": "Men hvis regeringen mener det alvorligt, s\u00e5 er vi parate til at forhandle om en stramning af udl\u00e6ndingepolitikken; men s\u00e5 m\u00e5 vi ogs\u00e5 have klar besked i dag: Er det indenrigsministeren, eller er det fru Elisabeth Arnold, som tegner regeringen i denne sag?",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det s\u00f8rger nemlig Det  Radikale Venstre for.",
+  "previous": "Men kernen i det hele er, at det  forslag bliver aldrig til noget.",
+  "following": "Men meningen er heller ikke, at det skal blive til  noget.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Not available (first sentence in paragraph)",
+  "previous": "sentence_nr 1",
+  "following": "sentence_nr 2",
+  "blamee": "not available",
+  "arguments": null
+}{
+  "text": "Det har Venstre ogs\u00e5.",
+  "previous": "Man kan ikke andet end konstatere, at partierne har kridtet  banen op.",
+  "following": "Der bliver jo nok et valg om  ikke f\u00f8r, s\u00e5 siden, og jeg vil godt sige til Venstre, at  Dansk Folkeparti vil tage h\u00e5nd om, at Venstre lever op til  l\u00f8fterne om en strammere udl\u00e6ndingelov og en strammere  retspolitik.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Der bliver jo nok et valg om ikke f\u00f8r, s\u00e5 siden, og jeg vil godt sige til Venstre, at Dansk Folkeparti vil tage h\u00e5nd om, at Venstre lever op til l\u00f8fterne om en strammere udl\u00e6ndingelov og en strammere retspolitik.",
+  "previous": "Det har Venstre ogs\u00e5.",
+  "following": "Dertil er jo slet ikke nogen tvivl om, at Venstre beh\u00f8ver Dansk Folkeparti, for de omr\u00e5der kan man ikke lave om p\u00e5 med Socialdemokratiet eller hr. Bj\u00f8rn Elmquist eller fru Elisabeth Arnold.",
+  "blamee": "Venstre",
+  "arguments": "Der bliver jo nok et valg om ikke f\u00f8r, s\u00e5 siden, og jeg vil godt sige til Venstre, at Dansk Folkeparti vil tage h\u00e5nd om, at Venstre lever op til l\u00f8fterne om en strammere udl\u00e6ndingelov og en strammere retspolitik."
+}{
+  "text": "sentence_nr [x]",
+  "previous": "sentence_nr [x-1]",
+  "following": "sentence_nr [x+1]",
+  "blamee": null,
+  "arguments": "text"
+}{
+  "text": "Mellem Folketingets afslutningsdebat og Folketingets \u00e5bningsdebat i dag har der v\u00e6ret en dejlig sommer i Danmark.",
+  "previous": "Det var de bestemt ikke ved afslutningsdebatten.",
+  "following": "Det var de bestemt ikke ved \u00e5bningsdebatten.",
+  "blamee": "Mellem Folketingets afslutningsdebat og Folketingets \u00e5bningsdebat i dag har der v\u00e6ret en dejlig sommer i Danmark.",
+  "arguments": "Det var de bestemt ikke ved afslutningsdebatten."
+}{
+  "text": "Venstre er n\u00f8dt til at komme ud af busken.",
+  "previous": "Med hensyn til bebudelsen af, hvad Venstre vil, nemlig \u00f8ge den reelle opsparing i samfundet gennem pr\u00e6miering, s\u00e5 siger hr. Anders Fogh Rasmussen, at det er h\u00e5nligt, n\u00e5r man sp\u00f8rger, hvad Venstre vil, hvor Venstre kun har antydet en l\u00f8sning, der i allerallerbedste fald m\u00e5ske kunne l\u00f8se 10 pct. af det problem, vi st\u00e5r med.",
+  "following": "Man kan ikke blive ved med at gemme sig bag en masse floskler.",
+  "blamee": "Venstre",
+  "arguments": "Venstre er n\u00f8dt til at komme ud af busken."
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det er \u00e9n v\u00e6sentlig forskel.",
+  "previous": "Det er \u00e9n v\u00e6sentlig forskel.",
+  "following": "Det er \u00e9n v\u00e6sentlig forskel.",
+  "blamee": "Det er \u00e9n v\u00e6sentlig forskel.",
+  "arguments": "Det er \u00e9n v\u00e6sentlig forskel."
+}{
+  "text": "The negative outcome is that the patient receives the blame.",
+  "previous": "Det synes jeg er alt for venligt over for Venstre, for katten er s\u00e5dan set et ganske snedigt dyr.",
+  "following": "Det har vi jo fuldt ud f\u00e5et bekr\u00e6ftet gennem hr. Anders Fogh Rasmussens tale her i dag.",
+  "blamee": "Det synes jeg er alt for venligt over for Venstre, for katten er s\u00e5dan set et ganske snedigt dyr.",
+  "arguments": "Det har vi jo fuldt ud f\u00e5et bekr\u00e6ftet gennem hr. Anders Fogh Rasmussens tale her i dag."
+}{
+  "text": "sentence_nr [x]",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Statsministeren havde ikke mange svar  p\u00e5 disse problemer, om nogen overhovedet, og hans redeg\u00f8relse  tyder desv\u00e6rre p\u00e5, at regeringen er br\u00e6ndt ud.",
+  "previous": "Ja, sp\u00f8rgsm\u00e5lene er mange ved starten  til dette folketings\u00e5r.",
+  "following": "Hvad den har  lagt frem for os i forg\u00e5rs, er for lidt, for sent og for  ringe.",
+  "blamee": "Statsministeren",
+  "arguments": null
+}{
+  "text": "The sentence above says that...",
+  "previous": "Previous sentence:...",
+  "following": "Following sentence:...",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Hr. Torben Lund fulgte ganske vist ikke sin egen opfordring, men nu skal der alts\u00e5 skabes en ny myte, som Det Konservative Folkeparti p\u00e5tager sig ansvaret for, nemlig at n\u00e6rhedsprincippet skulle styrkes i Amsterdamtraktaten.",
+  "previous": "Hr. Torben Lund var fremme med en opfordring om, at man ikke skulle bygge diskussionen p\u00e5 myter.",
+  "following": "Nej, man har gjort det, at man har taget Edinburgh-Afg\u00f8relsen, hvor der st\u00e5r ordet 'n\u00e6rhed', og s\u00e5 har man skrevet det ind i traktaten og understreget, at dermed opretholdes den g\u00e6ldende F\u00e6llesskabsret fuldt ud, alts\u00e5 alle disse direktiver om krumme agurker og firkantede skilte osv. opretholdes fuldt ud, og Domstolens praksis fastholdes ogs\u00e5 fuldt ud.",
+  "blamee": "Hr. Torben Lund",
+  "arguments": null
+}{
+  "text": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence.",
+  "previous": "Man vil tillade folk at k\u00f8re halvberusede rundt, uden at det f\u00f8rer til sanktioner fra samfundets side, og man har selvf\u00f8lgelig stemt imod en stramning af revselsesretten, fordi man insisterer p\u00e5, at folk skal have tilladelse til at sl\u00e5 deres b\u00f8rn.",
+  "following": "Fuldeb\u00f8tteri, fartb\u00f8lleri og korporlig afstraffelse af b\u00f8rn.",
+  "blamee": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence.",
+  "arguments": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Helt \u00e6rligt: Det Konservative Folkeparti - opstramning af retspolitikken!",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": "Det Konservative Folkeparti - opstramning af retspolitikken!",
+  "arguments": "Not available (last sentence in paragraph)"
+}{
+  "text": "Man kan komme til at beg\u00e5 en fejl.",
+  "previous": "Hr. Per Stig M\u00f8ller siger nu, at man f\u00e5r indf\u00f8rt som noget nyt, at EU-regler kan afskaffes, hvis man vurderer det, og at nye EU-regler skal vurderes, f\u00f8r de bliver iv\u00e6rksat.",
+  "following": "Hr. Per Stig M\u00f8ller siger nu, at man f\u00e5r indf\u00f8rt som noget nyt, at EU-regler kan afskaffes, hvis man vurderer det, og at nye EU-regler skal vurderes, f\u00f8r de bliver iv\u00e6rksat.",
+  "blamee": "EU-regler",
+  "arguments": "EU-regler kan afskaffes, hvis man vurderer det, og at nye EU-regler skal vurderes, f\u00f8r de bliver iv\u00e6rksat."
+}{
+  "text": "Det er jo primitivt.",
+  "previous": "Vi kunne da st\u00e5 her og vifte og sige: N\u00e5, nu vil regeringen spare p\u00e5 b\u00f8rn og p\u00e5 \u00e6ldre, osv.",
+  "following": "Det er jo primitivt, hr. Stavad, for vi ved jo, at den omsorg \u00f8nsker vi alle sammen.",
+  "blamee": "Det er jo primitivt.",
+  "arguments": "Det er jo primitivt, hr. Stavad, for vi ved jo, at den omsorg \u00f8nsker vi alle sammen."
+}{
+  "text": "The negative outcome is that the patient is not behaving properly.",
+  "previous": "I think that the patient is not behaving properly.",
+  "following": "I think that the patient is behaving properly.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "sentence_nr [x]",
+  "previous": "sentence_nr [y]",
+  "following": "sentence_nr [z]",
+  "blamee": "sentence_nr [x]",
+  "arguments": "sentence_nr [y]"
+}{
+  "text": "the negative outcome",
+  "previous": "dialogen med landbruget er n\u00f8dvendig",
+  "following": "Alt for stor langmodighed og velvilje er jo i sidste ende p\u00e5 milj\u00f8ets og kommende generationers bekostning.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Det nytter ikke at stikke hovedet i busken og  regne med, at problemerne driver over af sig selv.",
+  "previous": "Det Radikale Venstre \u00f8nsker at bygge bro mellem  erhvervsinteresser og milj\u00f8interesser, men det kr\u00e6ver st\u00f8rre  \u00e5benhed og selverkendelse, end vi hidtil har oplevet.",
+  "following": "Det Radikale Venstre \u00f8nsker at bygge bro mellem  erhvervsinteresser og milj\u00f8interesser, men det kr\u00e6ver st\u00f8rre  \u00e5benhed og selverkendelse, end vi hidtil har oplevet.",
+  "blamee": "Det Radikale Venstre",
+  "arguments": "Det nytter ikke at stikke hovedet i busken og  regne med, at problemerne driver over af sig selv."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed) is being blamed for (the negative outcome)",
+  "previous": "Humanismen har trange k\u00e5r!",
+  "following": "Det er faktisk ganske fr\u00e6kt og efter min mening en klar undervurdering af v\u00e6lgernes d\u00f8mmekraft.",
+  "blamee": "Humanismen",
+  "arguments": "The patient receiving the blame (who or what is being blamed) is being blamed for (the negative outcome)  "
+}{
+  "text": "I'm sorry, but it's not that I want to block something that people want, but it's just that I want to block something that the government wants, which is to take a small step forward to push for something that the Fremskridtsparti wants to be here against the wishes of the Radikale.",
+  "previous": "I have to say that it's right what is said from the Left that they think differently from Fremskridtspolitikken.",
+  "following": "I have to say that it's really true what is said from the Radikale that they think differently from Fremskridtspolitikken.",
+  "blamee": "The Radikale",
+  "arguments": "I'm sorry, but it's not that I want to block something that people want, but it's just that I want to block something that the government wants, which is to take a small step forward to push for something that the Fremskridtsparti wants to be here against the wishes of the Radikale."
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Det er hr. Henrik Svane citeret for.",
+  "following": "Og nu  vil jeg gerne have et klart svar fra hr. J\u00f8rgen Estrup: Er  Det Radikale Venstre for eller imod tankerne om en stramning  af udl\u00e6ndingepolitikken?",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det er den smule, man retter op i \u00f8jeblikket.",
+  "previous": "Og hr. J\u00f8rgen Estrup er alts\u00e5 galt afmarcheret, n\u00e5r han siger, at det g\u00e5r godt.",
+  "following": "Det er den smule, man retter op i \u00f8jeblikket.",
+  "blamee": "Det er den smule, man retter op i \u00f8jeblikket.",
+  "arguments": "Det er den smule, man retter op i \u00f8jeblikket."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Statsministeren har ikke desto mindre valgt at \u00e5bne denne folketingssamling med en tale, hvis indholdsm\u00e6ssige mangler er det mest p\u00e5faldende.",
+  "following": "Derfor siger Fremskridtspartiet rent ud: \u00c5bningstalen l\u00f8ser ikke det danske samfunds problemer, den giver ikke tryghed for borgerne.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The blamee is being accused of causing a negative outcome in the sentence.",
+  "previous": "The sentence is being blamed for causing a negative outcome in the sentence.",
+  "following": "The sentence is being blamed for causing a negative outcome in the sentence.",
+  "blamee": "The blamee is being blamed for causing a negative outcome in the sentence.",
+  "arguments": "The blamee is being blamed for causing a negative outcome in the sentence."
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Men det g\u00f8res bedst ved, at man pr\u00e6mierer dem, der sparer op, og ikke ved, at man  g\u00e5r ud og pisker hele befolkningen.",
+  "previous": "Fremskridtspartiet vil gerne v\u00e6re med til at styrke  opsparingen og trygheden i samfundet. ",
+  "following": "N\u00e5r regeringen ikke vil  anvende den l\u00f8sning, ja, s\u00e5 er det selvf\u00f8lgelig, fordi  regeringens plan er en hel anden.",
+  "blamee": "Men det g\u00f8res bedst ved, at man pr\u00e6mierer dem, der sparer op, og ikke ved, at man  g\u00e5r ud og pisker hele befolkningen.",
+  "arguments": "Fremskridtspartiet vil gerne v\u00e6re med til at styrke  opsparingen og trygheden i samfundet. N\u00e5r regeringen ikke vil  anvende den l\u00f8sning, ja, s\u00e5 er det selvf\u00f8lgelig, fordi  regeringens plan er en hel anden."
+}{
+  "text": "The Danish pensionist, who has worked all his life to build Denmark, feels neglected when home help is cut to a half hour per week.",
+  "previous": "Den Danish pensionist, who has knokedleleve for to live to build Denmark, feels neglected when home help is cut to a half hour per week.",
+  "following": "The Danish pensionist, who has knokedleleve for to live to build Denmark, feels neglected when home help is cut to a half hour per week.",
+  "blamee": "The Danish pensionist, who has knokedleleve for to live to build Denmark, feels neglected when home help is cut to a half hour per week.",
+  "arguments": "The Danish pensionist, who has knokedleleve for to live to build Denmark, feels neglected when home help is cut to a half hour per week."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence.",
+  "previous": "Hvorfor skal der nu tages personlige hensyn til de fremmede?, ",
+  "following": "Men det er ikke nok.",
+  "blamee": "Hidtil har vi skullet tage hensyn til, at deres kulturbaggrund betyder, at de mishandler deres pigeb\u00f8rn med omsk\u00e6ring, at de mishandler dyrene med halalslagtning, at de misbruger vores g\u00e6stfrihed ved at stj\u00e6le fra os, at de misbruger vores befolkning ved at s\u00e6lge narko, at de misbruger vores sociale systemer.",
+  "arguments": "The patient receiving the blame (who or what is being blamed) is being blamed for causing a negative outcome in the above sentence."
+}{
+  "text": "text",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Hvem tager personligt hensyn til landmanden og hans familie?",
+  "following": "Jeg synes faktisk, vi skal ta dem p\u00e5 ordet og s\u00f8rge for, at omr\u00e5det og s\u00e6rligt deres lommer bliver gjort fuldst\u00e6ndig fri for danske kroner.",
+  "blamee": null,
+  "arguments": "Hvem tager personligt hensyn til landmanden og hans familie?"
+}{
+  "text": "The sentence indicates that the blamee is being accused of causing the negative outcome.",
+  "previous": "Skal det udvikle sig til et socialt eksperiment p\u00e5 et lignende niveau som Christiania?",
+  "following": "Regeringen v\u00e6lger ogs\u00e5 at se igennem fingre med det faktum, at den sk\u00e6bnesvangre underskrift p\u00e5 Schengenaftalen den 19. december 1996 har betydet, at den danske-tyske gr\u00e6nse nu er rejsem\u00e5l for Europas illegale indvandrere.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The patient is being blamed for being ill.",
+  "previous": "I Fremskridtspartiet tager vi afstand og kr\u00e6ver, at kassen \u00f8jeblikkelig klappes i over for de bundfork\u00e6lede andengenerationsindvandrere.",
+  "following": "I stedet for at lukke det hul s\u00e5 har regeringen kvitteret ved at tilbyde alle de illegale gratis hotelophold, turistrundvisning i Danmark og endelig en flot modtagelse i Sandholmlejren, hvor de illegale s\u00e5 kan v\u00e6re p\u00e5 feriekoloni, indtil de har misbrugt",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "the text of the sentence",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": "the person or thing being blamed",
+  "arguments": "the arguments for or against the blamee being blamed"
+}{
+  "text": "Det er det, vi er  modstandere af.",
+  "previous": "Det handler ikke om, at vi hader nogle bestemte  fremmede.",
+  "following": "Det er det, vi er  modstandere af.",
+  "blamee": "Vi er modstandere af dette udl\u00e6ndingelov.",
+  "arguments": "Vi er modstandere af det, at danskerne  ikke er diskriminerede."
+}{
+  "text": "Det er det, vi er  modstandere af.",
+  "previous": "Det er det, vi er  modstandere af.",
+  "following": "Men s\u00e5  er det alts\u00e5 Folketingets opgave at lukke muligheden, s\u00e5  hverken somaliere, iranere eller tyrkere eller amerikanere  kan g\u00e5 hen og f\u00e5 jackpot ved det danske velf\u00e6rdsbord.",
+  "blamee": null,
+  "arguments": "Men s\u00e5  er det alts\u00e5 Folketingets opgave at lukke muligheden, s\u00e5  hverken somaliere, iranere eller tyrkere eller amerikanere  kan g\u00e5 hen og f\u00e5 jackpot ved det danske velf\u00e6rdsbord."
+}{
+  "text": "nu h\u00f8rte jeg noget, der hverken var morsomt eller smart",
+  "previous": "Hvis der er nogen, jeg hader, sagde han, s\u00e5 er det mine kollegaer her i Folketinget.",
+  "following": "Nu h\u00f8rte jeg noget, der hverken var morsomt eller smart fra hr. Kim Behnke.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "sentence_nr 1",
+  "previous": "sentence_nr 2",
+  "following": "sentence_nr 3",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Fordi de tillader, at nogle danskere f\u00f8ler sig d\u00e5rligt behandlet.",
+  "following": "Men at nogle mennesker f\u00f8ler sig d\u00e5rligt behandlet, uden at det bevisligt er tilf\u00e6ldet, kan vel ikke f\u00e5 hr. Kim Behnke til at hade sine kollegaer her i Tinget.",
+  "blamee": null,
+  "arguments": "The patient receiving the blame (who or what is being blamed)"
+}{
+  "text": "Det er, at det er jo, at DSB er ved at blive kvalt i succes, netop fordi de har f\u00e5et togtunnelen.",
+  "previous": "Sagen er jo, at alle har vidst, at Storeb\u00e6ltsforbindelsen vil betyde, at der vil komme flere tog.",
+  "following": "Det, der er ved at ske for \u00f8jeblikket, er jo, at DSB er ved at blive kvalt i succes, netop fordi de har f\u00e5et togtunnelen.",
+  "blamee": "DSB",
+  "arguments": "together, "
+}{
+  "text": "sentence",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "text",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "The blamee is accused of causing the negative outcome.",
+  "previous": "The blamee is accused of causing the negative outcome. This is the previous sentence in the context of the sentence above.",
+  "following": "The blamee is accused of causing the negative outcome. This is the following sentence in the context of the sentence above.",
+  "blamee": "The blamee is being blamed.",
+  "arguments": "The arguments against the blamee"
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Det g\u00f8r det yderste h\u00f8jre, som vi har set det i dag i indl\u00e6g efter indl\u00e6g.",
+  "previous": "Ja, den tror \u00e5benbart, at den kan h\u00f8ste stemmer p\u00e5 at f\u00f8re en h\u00e5rd flygtningepolitik, men hvem h\u00f8ster, hvor regeringen s\u00e5r?",
+  "following": "Jo mere Socialdemokratiet synger med p\u00e5 fremmedfrygtens falske melodi, jo mere \u00e5bner man d\u00f8ren for de kr\u00e6fter, der st\u00e5r klar med mere drastiske forslag, de kr\u00e6fter, som alts\u00e5 vil smide flygtninge ud med faldsk\u00e6rm eller m\u00e5ske endda uden faldsk\u00e6rm.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det Radikale Venstre var jo det parti, der for ti \u00e5r siden bar vandmilj\u00f8planen igennem under en borgerlig regering.",
+  "previous": "Man vidste det godt for ti \u00e5r siden.",
+  "following": "Det Radikale Venstre var jo det parti, der for ti \u00e5r siden bar vandmilj\u00f8planen igennem under en borgerlig regering.",
+  "blamee": null,
+  "arguments": "Det Radikale Venstre var jo det parti, der for ti \u00e5r siden bar vandmilj\u00f8planen igennem under en borgerlig regering."
+}{
+  "text": "Ogs\u00e5 p\u00e5 transportomr\u00e5det forspilder regeringen mange oplagte muligheder.",
+  "previous": "Hverken \u00e5bningstalen eller lovkataloget indeholder skyggen af tiltag, der vil bidrage til, at Danmark kan opfylde sin m\u00e5ls\u00e6tning om en reduktion af CO2-udslippet.",
+  "following": "Hverken \u00e5bningstalen eller lovkataloget indeholder skyggen af tiltag, der vil bidrage til, at Danmark kan opfylde sin m\u00e5ls\u00e6tning om en reduktion af CO2-udslippet.",
+  "blamee": "Transportomr\u00e5det forspilder regeringen mange oplagte muligheder.",
+  "arguments": "Hverken \u00e5bningstalen eller lovkataloget indeholder skyggen af tiltag, der vil bidrage til, at Danmark kan opfylde sin m\u00e5ls\u00e6tning om en reduktion af CO2-udslippet."
+}{
+  "text": "Desv\u00e6rre har netop den danske regering gjort sig  internationalt bem\u00e6rket ved at v\u00e6re den regering, der mest  aggressivt har arbejdet for s\u00e5 omfattende og s\u00e5 hurtig en  NATO-udvidelse som muligt og dermed ogs\u00e5 har forspildt alle  muligheder for at arbejde for atomv\u00e5benfri zoner og  nedrustning i vores del af verden.",
+  "previous": "Den umiddelbare virkning af Polens, Tjekkiets  og Ungarns optagelse i NATO vil v\u00e6re, at nedrustningen og  afsp\u00e6ndingen g\u00e5r i st\u00e5 i det baltiske omr\u00e5de.",
+  "following": "Det har ellers ikke  skortet p\u00e5 forslag herom.",
+  "blamee": "Den danske regering",
+  "arguments": "Den umiddelbare virkning af Polens, Tjekkiets  og Ungarns optagelse i NATO vil v\u00e6re, at nedrustningen og  afsp\u00e6ndingen g\u00e5r i st\u00e5 i det baltiske omr\u00e5de."
+}{
+  "text": "text",
+  "previous": "prev",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Det er faktisk  rystende, at regeringen svigter sine egne borgere for at  forgylde udenlandske borgere i Danmark, og det er utroligt,  at regeringen kan tillade sig ikke at g\u00f8re noget mere for en  god socialpolitik over for egne borgere.",
+  "previous": "Det er uacceptabelt, og det skal \u00e6ndres til helt  anderledes gode forhold for disse medborgere.",
+  "following": "Dansk Folkeparti  tager selvf\u00f8lgelig kraftig afstand fra den politik, som  regeringen f\u00f8rer p\u00e5 det omr\u00e5de.",
+  "blamee": "Dansk Folkeparti",
+  "arguments": "Det er faktisk  rystende, at regeringen svigter sine egne borgere for at  forgylde udenlandske borgere i Danmark, og det er utroligt,  at regeringen kan tillade sig ikke at g\u00f8re noget mere for en  god socialpolitik over for egne borgere."
+}{
+  "text": "sentence",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": "Blamee",
+  "arguments": "arguments"
+}{
+  "text": "Sentence above (exactly as provided)",
+  "previous": "Sentence immediately preceding (exactly as provided)",
+  "following": "Sentence immediately following (exactly as provided)",
+  "blamee": "The person being blamed",
+  "arguments": "Arguments provided in the sentence above"
+}{
+  "text": "text of the argument",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": "blamee name",
+  "arguments": "list of arguments"
+}{
+  "text": "Det ser ud til, at amerikanerne ikke har ryddet ordentligt op efter sig, da de forlod den dav\u00e6rende milit\u00e6rbase.",
+  "previous": "Den f\u00f8rste blev fundet i 1996 og den sidste her i denne sommer.",
+  "following": "Man ved ikke, om andre farlige genstande stadig befinder sig i omr\u00e5det, hvor mange mennesker f\u00e6rdes.",
+  "blamee": "amerikanerne",
+  "arguments": "Det ser ud til, at amerikanerne ikke har ryddet ordentligt op efter sig, da de forlod den dav\u00e6rende milit\u00e6rbase."
+}{
+  "text": "Sentence text here",
+  "previous": "Sentence text here",
+  "following": "Sentence text here",
+  "blamee": "Blamee name here",
+  "arguments": "Arguments here"
+}{
+  "text": "De folk, der er d\u00e5rligst uddannede, de folk, der har de d\u00e5rligste chancer p\u00e5 arbejdsmarkedet.",
+  "previous": "Taberne er de folk, der er  d\u00e5rligst uddannede, de folk, der har de d\u00e5rligste chancer p\u00e5 arbejdsmarkedet.",
+  "following": "Jeg siger det for god ordens skyld, for det er vigtigt at holde fast i, at Danmarks muligheder ogs\u00e5 h\u00e6nger n\u00f8je sammen med processen omkring den kommende folkeafstemning.",
+  "blamee": "Taberne",
+  "arguments": "Taberne er de folk, der er  d\u00e5rligst uddannede, de folk, der har de d\u00e5rligste chancer p\u00e5 arbejdsmarkedet."
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Jeg synes, det har v\u00e6ret et um\u00e5delig pinligt forl\u00f8b, m\u00e5  jeg sige.",
+  "previous": "Men det skal det s\u00e5m\u00e6nd nok v\u00e6re.",
+  "following": "Man kan godt fundere lidt over, hvad der er sket.",
+  "blamee": "Jeg",
+  "arguments": "Det har v\u00e6ret et um\u00e5delig pinligt forl\u00f8b, m\u00e5  jeg sige."
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "the negative outcome",
+  "previous": "sentence_nr 1",
+  "following": "sentence_nr 2",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det er jo den s\u00f8rgelige sandhed i alt det her.",
+  "previous": "Det er jo den s\u00f8rgelige sandhed i alt det her.",
+  "following": "Finansministeren ved udm\u00e6rket",
+  "blamee": "Og s\u00e5 synes jeg, det n\u00e6sten er endnu mere s\u00f8rgeligt, at finansministeren s\u00e5 k\u00f8rer det over p\u00e5 venstrefl\u00f8jens s\u00e5kaldte b\u00f8rnesygdomme.",
+  "arguments": "det er jo den s\u00f8rgelige sandhed i alt det her"
+}{
+  "text": "Det ved finansministeren godt.",
+  "previous": "Det ved  finansministeren godt.",
+  "following": "Godt nok er det sent, men man skal alligevel h\u00f8re meget, f\u00f8r \u00f8rerne falder af.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det kunne den side, der grundl\u00e6ggende sagde ja, men ville have det mere socialt retf\u00e6rdigt, ikke f\u00e5.",
+  "previous": "Det kunne den side, der grundl\u00e6ggende sagde ja, men ville have det mere socialt retf\u00e6rdigt, ikke f\u00e5.",
+  "following": "Men det er ikke SF's ansvar.",
+  "blamee": "Det kunne den side, der grundl\u00e6ggende sagde ja, men ville have det mere socialt retf\u00e6rdigt, ikke f\u00e5.",
+  "arguments": "Det kunne den side, der grundl\u00e6ggende sagde ja, men ville have det mere socialt retf\u00e6rdigt, ikke f\u00e5."
+}{
+  "text": "Det er fuldst\u00e6ndigt regeringens eget valg.",
+  "previous": "Det er fuldst\u00e6ndigt regeringens eget valg.",
+  "following": "Jeg synes, at det er mere  relevant at snakke om, at den her regering er i gang med at  f\u00e5 en venstresidig lammelse, og det kan risikere at blive  livstruende for den.",
+  "blamee": "Jeg synes, at det er mere  relevant at snakke om, at den her regering er i gang med at  f\u00e5 en venstresidig lammelse, og det kan risikere at blive  livstruende for den.",
+  "arguments": "Jeg synes, at det er mere  relevant at snakke om, at den her regering er i gang med at  f\u00e5 en venstresidig lammelse, og det kan risikere at blive  livstruende for den."
+}{
+  "text": "The new treaty has not been read by the Social Democrats nor is it true.",
+  "previous": "All four guarantees are still in place, just as Social Democrats promised in their campaign.",
+  "following": "We will focus on how far the new treaty is to the benefit of Denmark and Danes.",
+  "blamee": "Social Democrats",
+  "arguments": "The new treaty is not in the best interest of Denmark and Danes."
+}{
+  "text": "Eller mener Venstre, ligesom udenrigsministeren vistnok g\u00f8r, at vi som stort set  det eneste land skal opretholde en illusion om, at der kan  blive optaget mere end fem lande?",
+  "previous": "Men er det ogs\u00e5 Venstres holdning,  at vi skal se tingene i \u00f8jnene og erkende, at der kun vil  blive optaget fem eller seks lande og s\u00e5 indrette os efter  det, s\u00e5dan som hr. Ove Fich foreslog?",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": "Eller mener Venstre",
+  "arguments": "Men er det ogs\u00e5 Venstres holdning,  at vi skal se tingene i \u00f8jnene og erkende, at der kun vil  blive optaget fem eller seks lande og s\u00e5 indrette os efter  det, s\u00e5dan som hr. Ove Fich foreslog?"
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "sentence_nr [x] ",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "not available",
+  "previous": "Den mand  er jo utrov\u00e6rdig, vil de sige, han sn\u00f8d os sidste gang.",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": "Den mand  er jo utrov\u00e6rdig, vil de sige, han sn\u00f8d os sidste gang.",
+  "arguments": "S\u00e5 f\u00e5r vi bare en  ny afstemning et \u00e5r efter, s\u00e5 det er da ikke noget."
+}{
+  "text": "blamee",
+  "previous": "blamee",
+  "following": "blamee",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "The negative outcome was caused by the ",
+  "previous": "the negative outcome was caused by the ",
+  "following": "the negative outcome was caused by the ",
+  "blamee": null,
+  "arguments": "the negative outcome was caused by the "
+}{
+  "text": "Det er da det, hr. Kristian Thulesen Dahl har sagt her p\u00e5 talerstolen, og det er jeg da  fuldst\u00e6ndig sikker p\u00e5 at hr. Kristian Thulesen Dahl vil.",
+  "previous": "S\u00e5ledes laver hr. Kristian Thulesen Dahl s\u00e5dan en  ubehagelig politisk cocktail.",
+  "following": "Det er da det, hr. Kristian  Thulesen Dahl har sagt her p\u00e5 talerstolen, og det er jeg da  fuldst\u00e6ndig sikker p\u00e5 at hr. Kristian Thulesen Dahl vil.",
+  "blamee": "S\u00e5ledes laver hr. Kristian Thulesen Dahl s\u00e5dan en  ubehagelig politisk cocktail.",
+  "arguments": "Det er da det, hr. Kristian Thulesen Dahl har sagt her p\u00e5 talerstolen, og det er jeg da  fuldst\u00e6ndig sikker p\u00e5 at hr. Kristian Thulesen Dahl vil."
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Det har v\u00e6lgerne f\u00e5et at  vide - og s\u00e5 har dagsordenen reelt v\u00e6ret en helt anden.,",
+  "following": "Det  er noget helt andet.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": "the blamee",
+  "arguments": "the arguments for the blamee"
+}{
+  "text": "text",
+  "previous": "previoud",
+  "following": "following",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Jeg fatter bare  ikke, at Venstre er blevet til salg for tre baltiske lande.",
+  "previous": "Jeg holder meget af de baltiske lande.",
+  "following": "Undskyld jeg siger det s\u00e5 groft, men det er s\u00e5 groft, n\u00e5r fru  Charlotte Antonsen st\u00e5r og gentager, at EU-udvidelsen og  Amsterdamtraktaten pludselig skulle v\u00e6re vigtigere end hele  nationen Danmarks placering p\u00e5 Europakortet.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Undskyld jeg siger det s\u00e5 groft, men det er s\u00e5 groft, n\u00e5r fru  Charlotte Antonsen st\u00e5r og gentager, at EU-udvidelsen og  Amsterdamtraktaten pludselig skulle v\u00e6re vigtigere end hele  nationen Danmarks placering p\u00e5 Europakortet.",
+  "previous": "Jeg fatter bare  ikke, at Venstre er blevet til salg for tre baltiske lande.",
+  "following": "Jeg fatter ikke,  at en politiker fra Venstre overhovedet kan sige s\u00e5dan noget,  men det var faktisk heller ikke sp\u00f8rgsm\u00e5let, det er nemlig:  Vil Venstre v\u00e6re med til, at regeringen skal freml\u00e6gge et  svar p\u00e5, hvad der sker efter nejet?",
+  "blamee": "EU-udvidelsen",
+  "arguments": "EU-udvidelsen og  Amsterdamtraktaten pludselig skulle v\u00e6re vigtigere end hele  nationen Danmarks placering p\u00e5 Europakortet."
+}{
+  "text": "sentence_nr 3",
+  "previous": "sentence_nr 2",
+  "following": "sentence_nr 1",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "Det er den slags udtryk, Det Konservative Folkeparti bruger om folkets stemme.",
+  "previous": "Det er den slags udtryk, Det Konservative Folkeparti bruger om folkets stemme.",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "f\u00f8rst en bem\u00e6rkning til det med ansvarlighed.",
+  "previous": "F\u00f8rst en bem\u00e6rkning til det med ansvarlighed.",
+  "following": "F\u00f8r 2. juni da sagde vi nej, og da var vi s\u00e5 uansvarlige.",
+  "blamee": "Det Radikale Venstre",
+  "arguments": "F\u00f8rst en bem\u00e6rkning til det med ansvarlighed."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Og s\u00e5 vil jeg gerne sige til sidst: Not available (last sentence in paragraph)",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": null,
+  "arguments": ""
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": "the blamee",
+  "arguments": "the arguments"
+}{
+  "text": "I think that the young people should not be sent to prison, but that they should experience that when they do something wrong, there will be some consequences.",
+  "previous": "We do not give them enough love, but we react to them neither enough when they actually do something wrong.",
+  "following": "We have made some experiences with some of the municipalities, and we are together with the Ministry of Justice to write a guide for all municipalities about this.",
+  "blamee": null,
+  "arguments": "We are blaming the patients who are in the hospital for the negative outcome."
+}{
+  "text": "The sentence above is a sentence that describes a negative outcome.",
+  "previous": "The previous sentence is a sentence that describes a negative outcome.",
+  "following": "The following sentence is a sentence that describes a negative outcome.",
+  "blamee": "The patient receiving the blame.",
+  "arguments": "The negative outcome described in the sentence above is the following: Mange af disse b\u00f8rn var gadeb\u00f8rn og var i og for sig disponeret lige s\u00e5 slemt, som vores pal\u00e6stinenserb\u00f8rn ogs\u00e5 er, og det var forudsigeligt, hvis man skulle sammenligne dem med danske unge, at de simpelt hen ville blive station\u00e6re g\u00e6ster i kriminalregistret."
+}{
+  "text": "Den fortjener han.",
+  "previous": "S\u00e5 vidt vil jeg gerne give statsministeren den kredit.",
+  "following": "Men det hj\u00e6lper jo ikke i den aktuelle sag, for d\u00e9r er  der alts\u00e5 tale om en uacceptabel lukkethed.",
+  "blamee": "Den fortjener han.",
+  "arguments": "S\u00e5 vidt vil jeg gerne give statsministeren den kredit."
+}{
+  "text": "The patient receiving the blame",
+  "previous": "Meningen med forslaget er at begr\u00e6nse det private forbrug gennem en \u00f8get opsparing",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": "The patient receiving the blame",
+  "arguments": "The patient receiving the blame"
+}{
+  "text": "blamee",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "sentence_nr 1",
+  "previous": "sentence_nr 0",
+  "following": "sentence_nr 2",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Not available",
+  "following": "sentence_nr 1",
+  "blamee": "sentence_nr 2",
+  "arguments": null
+}{
+  "text": "Folk har v\u00e6ret ude og optage l\u00e5n i deres ejerboliger, og s\u00e5 har de formastet sig til at bruge pengene.",
+  "previous": "Regeringen har gjort meget ud af at efterlade det indtryk hos befolkningen, at den har noget at skamme sig over.",
+  "following": "Det vil man nu have sat en stopper for.",
+  "blamee": "Folk har v\u00e6ret ude og optage l\u00e5n i deres ejerboliger, og s\u00e5 har de formastet sig til at bruge pengene.",
+  "arguments": "Regeringen har gjort meget ud af at efterlade det indtryk hos befolkningen, at den har noget at skamme sig over."
+}{
+  "text": "Det radikale Venstre st\u00f8tter lovforslaget.",
+  "previous": "Vi er tilfredse med, at det nu vil g\u00e6lde alle kommuner.",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Det Radikale Venstre st\u00f8tter  dette lovforslag.",
+  "previous": "Not available (first sentence in paragraph)",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": null,
+  "arguments": "arguments"
+}{
+  "text": "er den  egentlige \u00e5rsag til, at mange unge og ikke mindst unge af  fremmed herkomst kommer ind p\u00e5 en kriminel l\u00f8bebane, som de  s\u00e5 ikke senere kan komme af igen.",
+  "previous": "Den slappe laden-st\u00e5-til-holdning, som Det  Radikale Venstre og Socialdemokratiet har udvist,",
+  "following": " ",
+  "blamee": "Den slappe laden-st\u00e5-til-holdning, som Det  Radikale Venstre og Socialdemokratiet har udvist",
+  "arguments": "Den slappe laden-st\u00e5-til-holdning, som Det  Radikale Venstre og Socialdemokratiet har udvist"
+}{
+  "text": "Meget kan g\u00f8res anderledes, siger hr. Thor Pedersen.",
+  "previous": "Det  er helt overbevist om at Venstre ogs\u00e5 kunne g\u00f8re",
+  "following": "Det  bliver bare ikke med nogen s\u00e6rlig gode resultater.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Men lad os s\u00e5 se p\u00e5, hvad  Venstre gjorde, da Venstre havde mulighed for det, fordi  Venstre sad i regering.",
+  "previous": "der var jo mange store ord her.",
+  "following": "Da beskar man personale, man lod  bygningerne forfalde, man lukkede arresthuse.",
+  "blamee": "Venstre",
+  "arguments": null
+}{
+  "text": "Sentence 2",
+  "previous": "Sentence 1",
+  "following": "Sentence 3",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text of the argument",
+  "previous": "previous sentence",
+  "following": "following sentence",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "Vi vil have udvidet antallet af lukkede institutionspladser til de s\u00e6rligt kriminelle unge.",
+  "previous": "Vi har i vores finanslovudspil sammen med Venstre foresl\u00e5et ekstra midler afsat b\u00e5de til politiet og til opf\u00f8relse at to s\u00e6rligt sikrede f\u00e6ngsler.",
+  "following": "Vi har fundet pengene.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "der r\u00f8res alts\u00e5 ved det, og s\u00e5 m\u00e5 vi h\u00e5be, at man med den aftale, vi har med andre om, hvad der eventuelt kan ske efter n\u00e6ste valg, vil forts\u00e6tte den linje.",
+  "previous": "Men i alt fald tak til regeringen, fordi man spiller ud p\u00e5 den m\u00e5de.",
+  "following": "Dansk \u00f8konomi er jo st\u00e6rk.",
+  "blamee": "Dansk \u00f8konomi",
+  "arguments": "der r\u00f8res alts\u00e5 ved det, og s\u00e5 m\u00e5 vi h\u00e5be, at man med den aftale, vi har med andre om, hvad der eventuelt kan ske efter n\u00e6ste valg, vil forts\u00e6tte den linje."
+}{
+  "text": "Der er kun \u00e9t sted i Danmark, hvor man har v\u00e6ret endnu  dygtigere til at spille p\u00e5 to heste, og det er hos Ekstra  Bladet.",
+  "previous": "Tingene h\u00e6nger ikke sammen.",
+  "following": "Ekstra Bladet, der taler for sort arbejde, samtidig  med at man brokker sig over, at de offentlige tilbud ikke er  gode nok.",
+  "blamee": "Ekstra Bladet",
+  "arguments": "Der er kun \u00e9t sted i Danmark, hvor man har v\u00e6ret endnu  dygtigere til at spille p\u00e5 to heste, og det er hos Ekstra  Bladet."
+}{
+  "text": "Der er opfundet en mekanisme, jeg ikke har h\u00f8rt om f\u00f8r, men den er uenlig opfundet p\u00e5 Venstres landsm\u00f8de.",
+  "previous": " Jeg har haft forn\u00f8jelsen at v\u00e6re i FN i 4 uger for Folketinget, og vi m\u00f8dte ogs\u00e5 FN's flygtningeh\u00f8jkommiss\u00e6r. Det er repatriering til nabolande.",
+  "following": "Det er opfundet en mekanisme, jeg ikke har h\u00f8rt om f\u00f8r, men den er uenlig opfundet p\u00e5 Venstres landsm\u00f8de.",
+  "blamee": "Der er opfundet en mekanisme, jeg ikke har h\u00f8rt om f\u00f8r, men den er uenlig opfundet p\u00e5 Venstres landsm\u00f8de.",
+  "arguments": "Der er opfundet en mekanisme, jeg ikke har h\u00f8rt om f\u00f8r, men den er uenlig opfundet p\u00e5 Venstres landsm\u00f8de."
+}{
+  "text": "Det g\u00e5r selvf\u00f8lgelig ikke, for hver eneste af de medarbejdere har jo en meget stor udgiftspukkel efter sig.",
+  "previous": "Selv om kontorerne m\u00e5ske slet ikke er \u00e5bne, bliver der ansat ca. 100 nye medarbejdere hver eneste dag.",
+  "following": "De skal have kontorer at sidde i, de skal have en computer at arbejde ved og minsandten m\u00e5ske ogs\u00e5 papir og kuglepen.",
+  "blamee": "Selv om kontorerne m\u00e5ske slet ikke er \u00e5bne, bliver der ansat ca. 100 nye medarbejdere hver eneste dag.",
+  "arguments": "Det g\u00e5r selvf\u00f8lgelig ikke, for hver eneste af de medarbejdere har jo en meget stor udgiftspukkel efter sig."
+}{
+  "text": "De politikere, som har ansvaret for det her, gemmer sig ofte bag ved det argument, at det er befolkningen, som selv har fundet p\u00e5 det.",
+  "previous": "Det er der nogen af dem der g\u00f8r, men der er ogs\u00e5 en lang r\u00e6kke af dem, som er det, der p\u00e5 popul\u00e6rt dansk hedder bureaukrater eller skrankepaver, som udelukkende bliver ansat for at sidde og plage befolkningen med yderligere skemaer og statistikker.",
+  "following": "Jeg har i dette efter\u00e5r fors\u00f8gt at t\u00e6lle sammen, hvor mange breve jeg har f\u00e5et fra forskellige interesseorganisationer, der gerne vil p\u00e5 finansloven.",
+  "blamee": "Politikerer, som har ansvaret for det her, gemmer sig ofte bag ved det argument, at det er befolkningen, som selv har fundet p\u00e5 det.",
+  "arguments": "De politikere, som har ansvaret for det her, gemmer sig ofte bag ved det argument, at det er befolkningen, som selv har fundet p\u00e5 det."
+}{
+  "text": "sentence",
+  "previous": "previous_sentence",
+  "following": "following_sentence",
+  "blamee": "blamee_name",
+  "arguments": "arguments"
+}{
+  "text": "Det, det handlede om, var, at n\u00e5r man  puttede Venstres tal ind, s\u00e5 fik man vr\u00f8vl ud.",
+  "previous": "Det, det handlede om, var, at n\u00e5r man  puttede Venstres tal ind, s\u00e5 fik man noget vr\u00f8vl ud.",
+  "following": "S\u00e5dan m\u00e5 det naturligvis v\u00e6re.",
+  "blamee": "Det, det handlede om, var, at n\u00e5r man  puttede Venstres tal ind, s\u00e5 fik man noget vr\u00f8vl ud.",
+  "arguments": "S\u00e5dan m\u00e5 det naturligvis v\u00e6re."
+}{
+  "text": "Det er i hvert fald ikke p\u00e5 nogen m\u00e5ske sagligt.",
+  "previous": "S\u00e5 vil jeg ogs\u00e5 give fru Pia Christmas-M\u00f8ller lejlighed til at svare p\u00e5 et sp\u00f8rgsm\u00e5l, der h\u00e6nger fra f\u00f8rste omgang.",
+  "following": "Det er i hvert fald ikke p\u00e5 nogen m\u00e5ske sagligt.",
+  "blamee": "Venstre",
+  "arguments": "floromvundne l\u00f8fter, hvad der reelt ligger bag de floromvundne l\u00f8fter, s\u00e5 er det ikke m\u00e6rkeligt, at man kan blive n\u00f8dt til at indtage nogle ret kontante holdninger til, hvordan man beregner det vr\u00f8vl, der kommer ud, n\u00e5r man putter Venstres vr\u00f8vl ind i maskinerne."
+}{
+  "text": "The patient receiving the blame (who or what is being blamed) is accused of causing a negative outcome in the above sentence.",
+  "previous": "The patient receiving the blame (who or what is being blamed) is accused of causing a negative outcome in the above sentence.",
+  "following": "Not available (last sentence in paragraph)",
+  "blamee": "The patient receiving the blame (who or what is being blamed)",
+  "arguments": "What is the blamee being blamed for (the negative outcome)"
+}{
+  "text": "The patient receiving the blame (who or what is being blamed)",
+  "previous": "Han kommer tv\u00e6rtimod af med flere \u00f8konomiske midler",
+  "following": "Men konklusionen er, at det er en k\u00e6mpe forskelsbehandling, vi her taler om, og der er vel ingen, der kan acceptere en s\u00e5 stor forskelsbehandling.",
+  "blamee": "Han kommer tv\u00e6rtimod af med flere \u00f8konomiske midler",
+  "arguments": "The patient receiving the blame (who or what is being blamed)"
+}{
+  "text": "Det er \u00e5benbart dem, der stadig v\u00e6k er  problemet, uanset hvad hr. Ole Vagn Christensen dybest set  mener.",
+  "previous": "Hvorfor kommer regeringen ikke med en seniorpolitik  og en r\u00e6kke ting, s\u00e5 man kunne sige: Hvorfor g\u00f8r man ikke  det, i stedet for at man stadig v\u00e6k k\u00f8rer videre med en  betragtning om, at det m\u00e5 v\u00e6re de arbejdsl\u00f8se, der ikke  bev\u00e6ger sig nok?",
+  "following": "For jeg tror, hr. Ole Vagn Christensen mener det, hr.  Ole Vagn Christensen sagde.",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "text",
+  "previous": "previous",
+  "following": "following",
+  "blamee": "blamee",
+  "arguments": "arguments"
+}{
+  "text": "sentence_nr 1",
+  "previous": "sentence_nr 1",
+  "following": "sentence_nr 2",
+  "blamee": null,
+  "arguments": "sentence_nr 3"
+}{
+  "text": "The sentence above provides a very clear description of the blamee. The sentence above states that ",
+  "previous": " ,",
+  "following": "  ",
+  "blamee": "  ",
+  "arguments": "  "
+}{
+  "text": "Jeg tror nu n\u00e6rmere, man kunne bebrejde en regering, hvis det  var s\u00e5dan, at den ikke \u00e6ndrede strategi, n\u00e5r det viste sig,  at det var klogt at g\u00f8re det, og det er faktisk det, vi g\u00f8r.",
+  "previous": "Not available (first sentence in paragraph)",
+  "following": "sentence_nr 1",
+  "blamee": null,
+  "arguments": null
+}{
+  "text": "the negative outcome",
+  "previous": "the previous sentence",
+  "following": "the following sentence",
+  "blamee": null,
+  "arguments": null
 }
