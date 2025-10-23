@@ -28,11 +28,11 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "dense",
-    "Wqkv",
     "Wi",
+    "classifier",
     "Wo",
-    "classifier"
+    "dense",
+    "Wqkv"
   ],
   "target_parameters": null,
   "task_type": null,
