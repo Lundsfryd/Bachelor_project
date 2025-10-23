@@ -1,0 +1,40 @@
+{
+  "os": "Linux-5.15.0-153-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-10-23T14:04:28.563551Z",
+  "program": "/work/RuneEgeskovTrust#9638/Bachelor/Bachelor_project/training_pipeline.ipynb",
+  "codePath": "training_pipeline.ipynb",
+  "codePathLocal": "training_pipeline.ipynb",
+  "git": {
+    "remote": "https://github.com/Lundsfryd/Bachelor_project.git",
+    "commit": "e2c79f19467496f126ae536b8f12172f8e32215f"
+  },
+  "email": "rune.trust@gmail.com",
+  "root": "/work/RuneEgeskovTrust#9638/Bachelor/Bachelor_project",
+  "host": "j-5321386-job-0",
+  "executable": "/work/RuneEgeskovTrust#9638/miniconda3/envs/blame/bin/python",
+  "cpu_count": 96,
+  "cpu_count_logical": 192,
+  "gpu": "NVIDIA L40",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "547630407680"
+    }
+  },
+  "memory": {
+    "total": "811277643776"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA L40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-fd80058e-bc19-358a-9484-6f6fdd79c9d3"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "ssubgzvgb9iwtz30bigkjfnymyv3i9xd"
+}

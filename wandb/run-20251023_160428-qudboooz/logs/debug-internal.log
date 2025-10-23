@@ -1,0 +1,6 @@
+{"time":"2025-10-23T16:04:28.790702466+02:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-23T16:04:29.148027047+02:00","level":"INFO","msg":"stream: created new stream","id":"qudboooz"}
+{"time":"2025-10-23T16:04:29.148141378+02:00","level":"INFO","msg":"handler: started","stream_id":"qudboooz"}
+{"time":"2025-10-23T16:04:29.148806251+02:00","level":"INFO","msg":"stream: started","id":"qudboooz"}
+{"time":"2025-10-23T16:04:29.148827122+02:00","level":"INFO","msg":"writer: started","stream_id":"qudboooz"}
+{"time":"2025-10-23T16:04:29.148861293+02:00","level":"INFO","msg":"sender: started","stream_id":"qudboooz"}
