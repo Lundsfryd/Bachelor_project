@@ -13,7 +13,8 @@
             "RV"
         ],
         "date": "1998-06-16 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "14682",
@@ -29,7 +30,8 @@
             "RV"
         ],
         "date": "1998-10-22 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "27558",
@@ -45,7 +47,8 @@
             "RV"
         ],
         "date": "1999-05-12 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "28378",
@@ -61,7 +64,8 @@
             "RV"
         ],
         "date": "1999-05-25 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "3439",
@@ -77,7 +81,8 @@
             "RV"
         ],
         "date": "1997-12-02 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "36058",
@@ -93,7 +98,8 @@
             "RV"
         ],
         "date": "1999-12-16 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "28703",
@@ -109,7 +115,8 @@
             "RV"
         ],
         "date": "1999-05-26 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "4567",
@@ -125,7 +132,25 @@
             "RV"
         ],
         "date": "1997-12-11 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "23090",
+        "sentence_nr": "23",
+        "text": "Der er ingen  opdagelsesfare, og annoncerne for prostitution er således  skyld i den store andel af indendørsprostitution på  massageklinikker.",
+        "speaker": "Tove Videbæk",
+        "party": "KRF",
+        "preceding_sentence": "Annoncerne gør det muligt for  kunden at sidde i ro og mag derhjemme med avis og tv og  udvælge den prostituerede, han ønsker.",
+        "succeeding_sent": "Det er også lettere at skjule handel med  mennesker, når den gemmes væk i massageklinikker.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-03-04 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5425",
@@ -141,7 +166,8 @@
             "RV"
         ],
         "date": "1997-12-18 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "13961",
@@ -157,7 +183,8 @@
             "RV"
         ],
         "date": "1998-09-08 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "2554",
@@ -173,7 +200,25 @@
             "RV"
         ],
         "date": "1997-11-20 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "11806",
+        "sentence_nr": "9",
+        "text": "Men der er altså desværre  politikere, der er døgnets politikere, som altså bare følger  fra den ene avisudgivelse til den anden.",
+        "speaker": "Frank Jensen",
+        "party": "S",
+        "preceding_sentence": "Jeg har valgt i den her sag fra første færd at  samarbejde med regeringen og gå efter det indholdsmæssige, en  ny regulering af PET, en ny lovgivning for PET, muligheder  for at undersøge, hvorvidt man kan lave oplysningsadgang til  folk selv, styrket kontrol.",
+        "succeeding_sent": "Det er selvfølgelig  ens eget frie valg, men når det kommer til at stå tilbage,  hvem der sætter sig flest spor i historiebøgerne, så tror jeg  stadig væk på, at det er dem, der går efter det  indholdsmæssige.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-06-03 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "13583",
@@ -189,7 +234,8 @@
             "RV"
         ],
         "date": "1998-06-25 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "27803",
@@ -205,7 +251,8 @@
             "RV"
         ],
         "date": "1999-05-20 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "15280",
@@ -221,7 +268,42 @@
             "RV"
         ],
         "date": "1998-11-03 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "12420",
+        "sentence_nr": "26",
+        "text": "Når jeg siger det sådan lidt bistert, er det, fordi  ministeren jo oversendte til os forleden dag en række svar på  spørgsmål, vi havde stillet i forbindelse med  Ørestadsselskabet, og dér refererer, uden at ryste på hånden  og i hvert fald ikke kommenterer det, Ørestadsselskabets egen  definition af, hvordan de vil leve op til offentlighedsloven.",
+        "speaker": "Margrete Auken",
+        "party": "SF",
+        "preceding_sentence": "Og  det skal ikke være selskabet, der afgør, hvornår det synes,  det er sjovt, men det skal altså følge reglerne i  offentlighedsloven.",
+        "succeeding_sent": "De præsenterer sig selv for et tag selvbord, og hvis det var  sådan, vores offentlighedslov så ud, var den altså ikke meget  værd.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-06-11 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "23567",
+        "sentence_nr": "12",
+        "text": "Det er hul i  hovedet, og derfor støtter vi stoppet.",
+        "speaker": "Frank Aaen",
+        "party": "EL",
+        "preceding_sentence": "Der er ikke noget transportmæssigt behov for  ruten, der er kun et skatteteknisk behov for, at ruten skal  sejle meget længere, end den ellers skulle.",
+        "succeeding_sent": "Jeg fornemmer også, at argumenterne imod toldfrit salg  er så stærke og argumenterne for så ringe, at stort set ingen  i dag tør stille sig op og sige, at de ønsker toldfrit salg  fortsat til evig tid, bortset fra nogle ganske få her i  Folketingssalen.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-03-18 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "12760",
@@ -237,7 +319,8 @@
             "RV"
         ],
         "date": "1998-06-17 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "30238",
@@ -253,7 +336,25 @@
             "RV"
         ],
         "date": "1999-10-14 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "13643",
+        "sentence_nr": "100",
+        "text": "Men det er jo et sygt samfund.",
+        "speaker": "Peter Duetoft",
+        "party": "CD",
+        "preceding_sentence": "Hvis man kan anbringe dem i  ældreghettoer og kun besøge dem juleaftensdag, er det jo  godt.",
+        "succeeding_sent": "Det er jo et samfund,  som vi ikke kan være bekendt.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-06-25 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "9805",
@@ -269,7 +370,8 @@
             "RV"
         ],
         "date": "1998-04-21 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "8121",
@@ -285,7 +387,8 @@
             "RV"
         ],
         "date": "1998-02-17 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "20044",
@@ -301,7 +404,8 @@
             "RV"
         ],
         "date": "1999-01-19 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "10246",
@@ -317,7 +421,8 @@
             "RV"
         ],
         "date": "1998-04-24 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "12619",
@@ -333,7 +438,8 @@
             "RV"
         ],
         "date": "1998-06-16 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "2855",
@@ -349,7 +455,8 @@
             "RV"
         ],
         "date": "1997-11-25 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "1411",
@@ -365,7 +472,8 @@
             "RV"
         ],
         "date": "1997-11-05 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "26546",
@@ -381,7 +489,8 @@
             "RV"
         ],
         "date": "1999-04-29 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "21905",
@@ -397,7 +506,8 @@
             "RV"
         ],
         "date": "1999-02-11 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "26650",
@@ -413,7 +523,8 @@
             "RV"
         ],
         "date": "1999-04-29 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "12712",
@@ -429,7 +540,25 @@
             "RV"
         ],
         "date": "1998-06-17 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "6288",
+        "sentence_nr": "1",
+        "text": "Den startede altså med Stauning, og han holdt jo en  meget uheldig nytårstale, hvor han hyldede det nye Europa og  Hitlers sejre og sagde, at vi skulle tilpasse os det nye  Europa.",
+        "speaker": "Per Stig Møller",
+        "party": "KF",
+        "preceding_sentence": "Først vil jeg godt sige, at jeg er enig med statsministeren  i, at vi skal holde dronningen helt uden for denne  diskussion, og derfor vil jeg fortsætte med at sige, at det  var venligt af statsministeren at gøre opmærksom på  statsministertaletraditionen.",
+        "succeeding_sent": "Nu har statsministeren efter vores opfattelse også  holdt en uheldig nytårstale, så kunne vi ikke få et løfte fra  statsministeren om, at nu tager Socialdemokraterne sig sammen  og holder nogle nytårstaler af et lidt højere niveau end dem,  Stauning var så uheldig at holde i 1941, og den tale,  statsministeren holdt den 1. januar - hvis altså  statsministeren på besynderlig vis skulle blive i stand til  at holde den næste nytårstale, hvad vi ikke regner med, for  nu har vi jo Enhedslistens løfte om, at det ikke sker.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-01-21 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "14289",
@@ -445,7 +574,8 @@
             "RV"
         ],
         "date": "1998-10-08 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "33301",
@@ -461,7 +591,8 @@
             "RV"
         ],
         "date": "1999-11-25 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5125",
@@ -477,7 +608,8 @@
             "RV"
         ],
         "date": "1997-12-17 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "20129",
@@ -493,7 +625,8 @@
             "RV"
         ],
         "date": "1999-01-19 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "18020",
@@ -509,7 +642,25 @@
             "RV"
         ],
         "date": "1998-12-04 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "19517",
+        "sentence_nr": "2",
+        "text": "Når man lytter til mediedebatten, også når man lytter  ude i de mange danske hjem, og når man læser de ustandselige  meningsmålinger og de utallige politiske kommentarer, kan man  imidlertid få det indtryk, at regeringen i Danmark har begået  århundredets dumhed og forbrydelse mod det danske folk.",
+        "speaker": "Mogens Lykketoft",
+        "party": "S",
+        "preceding_sentence": "Det er en finanslov, der fastholder den kloge og  ansvarlige økonomiske politik, der gennem de sidste næsten  6 år har gjort Danmark i stand til at bære en europæisk  førertrøje, når det gælder kampen mod arbejdsløshed og mod  gældsætning.",
+        "succeeding_sent": "Der  er ikke meget variation i analyserne.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-12-17 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "9498",
@@ -525,7 +676,8 @@
             "RV"
         ],
         "date": "1998-04-15 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "21068",
@@ -541,7 +693,8 @@
             "RV"
         ],
         "date": "1999-02-02 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "17340",
@@ -557,7 +710,25 @@
             "RV"
         ],
         "date": "1998-12-01 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "11094",
+        "sentence_nr": "3",
+        "text": "Man kunne have valgt  nødslagtningen, hvis ikke man ønskede at betale til Kræftens  Bekæmpelse.",
+        "speaker": "Ole Sohn",
+        "party": "SF",
+        "preceding_sentence": "Jeg synes lige, jeg bliver nødt til at understrege, at i  forbindelse med debatten om kyllinger og de 5 kr. blev det  faktisk tilkendegivet, at der blev givet to valgmuligheder:  enten kunne man foretage nødslagtning eller indgå en anden  ordning, hvor man betalte nogle penge.",
+        "succeeding_sent": "",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-05-06 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "33063",
@@ -573,7 +744,8 @@
             "RV"
         ],
         "date": "1999-11-24 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "8122",
@@ -589,7 +761,8 @@
             "RV"
         ],
         "date": "1998-02-17 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "3204",
@@ -605,7 +778,25 @@
             "RV"
         ],
         "date": "1997-11-27 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "5331",
+        "sentence_nr": "106",
+        "text": "Det er  ikke troværdigt, og det er ikke sympatisk.",
+        "speaker": "Pia Gjellerup",
+        "party": "S",
+        "preceding_sentence": "Det er kun den  sterile kontobesparelse på 20 pct., de stemmer for.",
+        "succeeding_sent": "Det er verdens  allerfattigste, der skal bøde, men hvem det er, kan vi ikke  få at vide.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-12-18 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "6991",
@@ -621,7 +812,25 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "6964",
+        "sentence_nr": "9",
+        "text": "Men det, der er min pointe, er, at der må have  været nogle på Færøerne, som har vidst, hvor galt tingene  stod til.",
+        "speaker": "Peter Duetoft",
+        "party": "CD",
+        "preceding_sentence": "Til hr. Breckmann vil jeg sige, at jeg har jo også i min  ordførertale nævnt gældsafviklingsaftalen osv., så dér er vi  helt enige.",
+        "succeeding_sent": "Det var ikke kun informationer fra den danske  regering, der manglede.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-01-27 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5916",
@@ -637,7 +846,8 @@
             "RV"
         ],
         "date": "1998-01-15 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5728",
@@ -653,7 +863,8 @@
             "RV"
         ],
         "date": "1998-01-14 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "21310",
@@ -669,7 +880,25 @@
             "RV"
         ],
         "date": "1999-02-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "10189",
+        "sentence_nr": "47",
+        "text": "Der er tale om, at i dag bliver børns helbred sat på  spil, inklusive varige skader.",
+        "speaker": "Jette Gottlieb",
+        "party": "EL",
+        "preceding_sentence": "Det er jo det, vi taler om.",
+        "succeeding_sent": "Det er jo ikke kun ting, der  bliver, om jeg så må sige, repareret på kort sigt, der er  også tale om varige skader.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-04-23 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "21281",
@@ -685,7 +914,8 @@
             "RV"
         ],
         "date": "1999-02-03 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28261",
@@ -701,7 +931,8 @@
             "RV"
         ],
         "date": "1999-05-21 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "5121",
@@ -717,7 +948,8 @@
             "RV"
         ],
         "date": "1997-12-17 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24244",
@@ -733,7 +965,8 @@
             "RV"
         ],
         "date": "1999-03-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "17898",
@@ -749,7 +982,8 @@
             "RV"
         ],
         "date": "1998-12-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "36028",
@@ -765,7 +999,8 @@
             "RV"
         ],
         "date": "1999-12-16 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "29979",
@@ -781,7 +1016,8 @@
             "RV"
         ],
         "date": "1999-10-12 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "18163",
@@ -797,7 +1033,8 @@
             "RV"
         ],
         "date": "1998-12-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "2829",
@@ -813,7 +1050,8 @@
             "RV"
         ],
         "date": "1997-11-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7778",
@@ -829,7 +1067,8 @@
             "RV"
         ],
         "date": "1998-02-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "29629",
@@ -845,7 +1084,8 @@
             "RV"
         ],
         "date": "1999-10-05 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "22201",
@@ -861,7 +1101,8 @@
             "RV"
         ],
         "date": "1999-02-12 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "15569",
@@ -877,7 +1118,8 @@
             "RV"
         ],
         "date": "1998-11-05 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "35976",
@@ -893,7 +1135,8 @@
             "RV"
         ],
         "date": "1999-12-16 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28436",
@@ -909,7 +1152,8 @@
             "RV"
         ],
         "date": "1999-05-25 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "32679",
@@ -925,7 +1169,8 @@
             "RV"
         ],
         "date": "1999-11-19 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "19883",
@@ -941,7 +1186,8 @@
             "RV"
         ],
         "date": "1999-01-14 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "15261",
@@ -957,7 +1203,8 @@
             "RV"
         ],
         "date": "1998-10-29 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "23020",
@@ -973,7 +1220,8 @@
             "RV"
         ],
         "date": "1999-03-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "2220",
@@ -989,7 +1237,8 @@
             "RV"
         ],
         "date": "1997-11-14 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "10901",
@@ -1005,7 +1254,8 @@
             "RV"
         ],
         "date": "1998-05-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6971",
@@ -1021,7 +1271,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "14525",
@@ -1037,7 +1288,8 @@
             "RV"
         ],
         "date": "1998-10-21 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "25154",
@@ -1053,7 +1305,25 @@
             "RV"
         ],
         "date": "1999-04-15 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "25581",
+        "sentence_nr": "2",
+        "text": "Det er jo egentlig lidt beskæmmende, at man skal stå her  og fortælle et folketingsmedlem, at deres muligheder nu er at  møde op i folketingsudvalget, bede om foretræde for  Kommunaludvalget, forelægge deres synspunkter og argumentere  for dem, og så selvfølgelig, for alle partier, fortsat gennem  de partipolitiske kanaler deltage i drøftelserne herom.",
+        "speaker": "Klaus Hækkerup",
+        "party": "S",
+        "preceding_sentence": "Så spørger hr.  Christian H. Hansen om, hvordan så hele problemstillingen er  velbelyst, og hvad mulighederne er for de sekundære  kommunalenheder og primære kommunalenheder, der ønsker at  give udtryk for deres synspunkter ud over de, vil jeg sige,  meget klare høringssvar, vi har fået, og meget oplysende  høringssvar.",
+        "succeeding_sent": "Så  det er vejen frem i en almindelig demokratisk  beslutningsproces, bare til oplysning for Dansk Folkepartis  ordfører.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-04-20 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "33469",
@@ -1069,7 +1339,8 @@
             "RV"
         ],
         "date": "1999-11-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "3365",
@@ -1085,7 +1356,8 @@
             "RV"
         ],
         "date": "1997-11-28 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28434",
@@ -1101,7 +1373,8 @@
             "RV"
         ],
         "date": "1999-05-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7638",
@@ -1117,7 +1390,8 @@
             "RV"
         ],
         "date": "1998-02-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "8181",
@@ -1133,7 +1407,8 @@
             "RV"
         ],
         "date": "1998-02-17 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "14134",
@@ -1149,7 +1424,8 @@
             "RV"
         ],
         "date": "1998-10-07 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "18237",
@@ -1165,7 +1441,8 @@
             "RV"
         ],
         "date": "1998-12-08 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24789",
@@ -1181,7 +1458,8 @@
             "RV"
         ],
         "date": "1999-04-13 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "13994",
@@ -1197,7 +1475,8 @@
             "RV"
         ],
         "date": "1998-09-08 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "33526",
@@ -1213,7 +1492,8 @@
             "RV"
         ],
         "date": "1999-11-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "25385",
@@ -1229,7 +1509,8 @@
             "RV"
         ],
         "date": "1999-04-16 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "14157",
@@ -1245,7 +1526,8 @@
             "RV"
         ],
         "date": "1998-10-08 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "1548",
@@ -1261,7 +1543,8 @@
             "RV"
         ],
         "date": "1997-11-05 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "3244",
@@ -1277,7 +1560,8 @@
             "RV"
         ],
         "date": "1997-11-27 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "3101",
@@ -1293,7 +1577,8 @@
             "RV"
         ],
         "date": "1997-11-26 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "20420",
@@ -1309,7 +1594,8 @@
             "RV"
         ],
         "date": "1999-01-21 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "21651",
@@ -1325,7 +1611,8 @@
             "RV"
         ],
         "date": "1999-02-10 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "13643",
@@ -1341,7 +1628,25 @@
             "RV"
         ],
         "date": "1998-06-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "14007",
+        "sentence_nr": "1",
+        "text": "Jeg  skal i al stilfærdighed sige, at der var 20 ting, der skulle  siges på 20 minutter, og så er der grænser for, hvor langt vi  kan gå ned i dem, men vi kan vende tilbage til dem.",
+        "speaker": "Peter Duetoft",
+        "party": "CD",
+        "preceding_sentence": "Jeg er naturligvis ked af, at hr. Estrup ikke synes, at mit  synspunkt omkring forsvaret var særlig velargumenteret.",
+        "succeeding_sent": "Jeg er lidt fascineret af, at hr. Estrup allerede nu,  hvor Forsvarskommissionen ikke er færdig, inddrager nogle  besparelser.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-09-08 00:00:00",
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "18168",
@@ -1357,7 +1662,8 @@
             "RV"
         ],
         "date": "1998-12-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "2118",
@@ -1373,7 +1679,8 @@
             "RV"
         ],
         "date": "1997-11-13 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "420",
@@ -1389,7 +1696,8 @@
             "RV"
         ],
         "date": "1997-10-22 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7021",
@@ -1405,7 +1713,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "10949",
@@ -1421,7 +1730,8 @@
             "RV"
         ],
         "date": "1998-05-05 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "11530",
@@ -1437,7 +1747,8 @@
             "RV"
         ],
         "date": "1998-05-07 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "12270",
@@ -1453,7 +1764,8 @@
             "RV"
         ],
         "date": "1998-06-11 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "33270",
@@ -1469,7 +1781,25 @@
             "RV"
         ],
         "date": "1999-11-25 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "15874",
+        "sentence_nr": "16",
+        "text": "Denne  kammeratlige adfærd indbragte den radikale partisekretær en  belønning i form af ferierejse med familie til Østtyskland.",
+        "speaker": "Birthe Rønn Hornbech",
+        "party": "V",
+        "preceding_sentence": "Den kolde krig var en tid, hvor en radikal partisekretær  deltog i partikongresser i DDR og siddende på podiet under  DDR's faner lyttede til propagandataler i et regime, der på  alle tænkelige måder undertrykte menneskerettighederne.",
+        "succeeding_sent": "Efter Murens fald fortæller de østtyske kontakter, at  alle vidste, at det var Stasi, der stod for kontakterne til  Det Radikale Venstre, som i den grad betragtede vore egne  allierede i NATO som fjenden.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-11-12 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "31779",
@@ -1485,7 +1815,8 @@
             "RV"
         ],
         "date": "1999-11-12 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5000",
@@ -1501,7 +1832,8 @@
             "RV"
         ],
         "date": "1997-12-16 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "8352",
@@ -1517,7 +1849,8 @@
             "RV"
         ],
         "date": "1998-02-18 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "31282",
@@ -1533,7 +1866,25 @@
             "RV"
         ],
         "date": "1999-11-03 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "21316",
+        "sentence_nr": "2",
+        "text": "Man kan  måske sige, at det sådan er lidt vel polemisk og lidt for  meget skyttegravskrig, og det er også jeres skyld, og det er  også jeres skyld.",
+        "speaker": "Jes Lunde",
+        "party": "SF",
+        "preceding_sentence": "Vi er godt i gang med et slagsmål om værdier.",
+        "succeeding_sent": "Debatten skulle gerne løfte sig lidt op  over det, men jeg synes, noget af det spændende ved debatten  er, at jeg kan høre synspunkter både fra socialdemokratisk  side og fra borgerlig side, som jeg da er helt enig i.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-02-04 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "15217",
@@ -1549,7 +1900,8 @@
             "RV"
         ],
         "date": "1998-10-29 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "28904",
@@ -1565,7 +1917,8 @@
             "RV"
         ],
         "date": "1999-05-27 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "13370",
@@ -1581,7 +1934,42 @@
             "RV"
         ],
         "date": "1998-06-24 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "23753",
+        "sentence_nr": "1",
+        "text": "Det  er jammerligt.",
+        "speaker": "Margrete Auken",
+        "party": "SF",
+        "preceding_sentence": "Jeg har faktisk været både i Vestjylland og i Sønderjylland,  ikke bare for nylig, det har jeg også, men mange gange, og  jeg er ganske enig med hr. Kaj Ikast: Det er jammerligt.",
+        "succeeding_sent": "Men hvis det skal løses med hr. Heiselbergs  motorvej, er det ikke så jammerligt; det er jo ret flot.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-03-19 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "16889",
+        "sentence_nr": "0",
+        "text": "Som Venstres ordfører lige har været inde på, så står vi jo  her i dag med endnu et afsnit i en efterhånden pinlig  føljeton om de graverende fejl, som regeringen efter vores  mening begik, da den fik lovforslag nr. L 135, som jo er det  oprindelige lovforslag, hastet igennem i december 1997.",
+        "speaker": "Brian Mikkelsen",
+        "party": "KF",
+        "preceding_sentence": "",
+        "succeeding_sent": "Forslaget blev jo egentlig kun vedtaget, fordi regeringen  manglede 400 mio. kr. i forbindelse med finansloven sidste  år.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-11-24 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "29804",
@@ -1597,7 +1985,8 @@
             "RV"
         ],
         "date": "1999-10-07 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "7014",
@@ -1613,7 +2002,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "29534",
@@ -1629,7 +2019,8 @@
             "RV"
         ],
         "date": "1999-09-07 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "22100",
@@ -1645,7 +2036,8 @@
             "RV"
         ],
         "date": "1999-02-11 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "21925",
@@ -1661,7 +2053,8 @@
             "RV"
         ],
         "date": "1999-02-11 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "16725",
@@ -1677,7 +2070,8 @@
             "RV"
         ],
         "date": "1998-11-19 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "23084",
@@ -1693,7 +2087,8 @@
             "RV"
         ],
         "date": "1999-03-04 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "17973",
@@ -1709,7 +2104,8 @@
             "RV"
         ],
         "date": "1998-12-04 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "23746",
@@ -1725,7 +2121,42 @@
             "RV"
         ],
         "date": "1999-03-19 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "751",
+        "sentence_nr": "43",
+        "text": "Hvis ministeren er så overbevist om, at regeringen har  styr på situationen, så har jeg et enkelt spørgsmål til  ministeren: Er ministeren parat til at opholde sig i et fly  nytårsnat mellem år 1999 og år 2000?",
+        "speaker": "Kim Behnke",
+        "party": "FP",
+        "preceding_sentence": "Det synes  vi er et problem.",
+        "succeeding_sent": "Hvis ministeren svarer  ja, så tror jeg, ministeren er ærlig i sin vurdering af, at  der er styr på situationen, men hvis ministeren ikke svarer  ja, så har vi et problem.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-10-28 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "8114",
+        "sentence_nr": "12",
+        "text": "Rent ud sagt er det verdenssamfundet, der har været til  grin for Saddam Hussein, og det er på tide, at den slags  holder op.",
+        "speaker": "Annette Just",
+        "party": "FP",
+        "preceding_sentence": "Uha, så blev de sendt  tilbage igen.",
+        "succeeding_sent": "Nu skal han have at vide, det er nu, eller også  får han, om jeg så må sige, så hatten passer.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-02-17 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "35549",
@@ -1741,7 +2172,59 @@
             "RV"
         ],
         "date": "1999-12-14 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "35541",
+        "sentence_nr": "4",
+        "text": "Og de otte personer, som har begået grov personfarlig  kriminalitet, belønnes nu med et dansk statsborgerskab af fru  Dorte Bennedsen og et flertal i dette Folketing.",
+        "speaker": "Helge Adam Møller",
+        "party": "KF",
+        "preceding_sentence": "Det stemmer fru Dorte Bennedsen  for, det gør vi ikke.",
+        "succeeding_sent": "Det stemmer  vi også imod.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-12-10 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "14083",
+        "sentence_nr": "15",
+        "text": "Milosevic ved, at flyangreb er  uundgåelige, hvis han ikke omgående går med til en række  aftaler om Kosova, så Milosevic har ansvaret.",
+        "speaker": "Ingrid Rasmussen",
+        "party": "S",
+        "preceding_sentence": "Milosevic må tvinges til permanent tilbagetrækning af de ca.  12.000 tropper, og han må efterleve kravene om den nødvendige  sikring af borgerne i Kosova.",
+        "succeeding_sent": "Der bliver i dagspressen rejst spørgsmål om »rules of  engagement« og om, hvordan en militær aktion skal  gennemføres.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-10-07 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "29046",
+        "sentence_nr": "72",
+        "text": "Nu er det for sent.",
+        "speaker": "Pia Christmas-Møller",
+        "party": "KF",
+        "preceding_sentence": "Da var I ikke at høre, da var I ikke at  se.",
+        "succeeding_sent": "Socialdemokratiet, regeringen, Det Radikale Venstre  ønskede massive besparelser på forsvarsbudgettet.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-05-27 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "6946",
@@ -1757,7 +2240,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "5932",
@@ -1773,7 +2257,8 @@
             "RV"
         ],
         "date": "1998-01-15 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "33928",
@@ -1789,7 +2274,8 @@
             "RV"
         ],
         "date": "1999-12-02 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "21945",
@@ -1805,7 +2291,8 @@
             "RV"
         ],
         "date": "1999-02-11 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "11046",
@@ -1821,7 +2308,8 @@
             "RV"
         ],
         "date": "1998-05-06 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "16568",
@@ -1837,7 +2325,8 @@
             "RV"
         ],
         "date": "1998-11-19 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "30200",
@@ -1853,7 +2342,8 @@
             "RV"
         ],
         "date": "1999-10-14 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "20592",
@@ -1869,7 +2359,8 @@
             "RV"
         ],
         "date": "1999-01-21 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "15993",
@@ -1885,7 +2376,8 @@
             "RV"
         ],
         "date": "1998-11-12 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "9197",
@@ -1901,7 +2393,8 @@
             "RV"
         ],
         "date": "1998-04-03 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "22543",
@@ -1917,7 +2410,8 @@
             "RV"
         ],
         "date": "1999-02-25 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "11144",
@@ -1933,7 +2427,8 @@
             "RV"
         ],
         "date": "1998-05-06 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "29327",
@@ -1949,7 +2444,8 @@
             "RV"
         ],
         "date": "1999-05-28 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "17371",
@@ -1965,7 +2461,8 @@
             "RV"
         ],
         "date": "1998-12-01 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "2627",
@@ -1981,7 +2478,8 @@
             "RV"
         ],
         "date": "1997-11-20 00:00:00",
-        "label": 1
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "17",
@@ -1997,7 +2495,8 @@
             "RV"
         ],
         "date": "1997-10-09 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "33397",
@@ -2013,7 +2512,42 @@
             "RV"
         ],
         "date": "1999-11-25 00:00:00",
-        "label": 0
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "7054",
+        "sentence_nr": "0",
+        "text": "Ja, det svider til de skyldfrie,",
+        "speaker": "Pia Gjellerup",
+        "party": "S",
+        "preceding_sentence": "",
+        "succeeding_sent": "siger fanden med hr. Uffe  Ellemann-Jensens stemme.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-01-27 00:00:00",
+        "Blame": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "25508",
+        "sentence_nr": "2",
+        "text": "- som ligger bag den dér forkrøblede  tankegang.",
+        "speaker": "Arne Melchior",
+        "party": "CD",
+        "preceding_sentence": "Det må være udslag af et meget lille hjertelag -  hvad hedder sådan noget?",
+        "succeeding_sent": "Så til selve forslaget om et »Jutlandia II«.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-04-20 00:00:00",
+        "Blame": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "2061",
@@ -2029,7 +2563,8 @@
             "RV"
         ],
         "date": "1997-11-13 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "25993",
@@ -2045,7 +2580,8 @@
             "RV"
         ],
         "date": "1999-04-23 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "29512",
@@ -2061,7 +2597,8 @@
             "RV"
         ],
         "date": "1999-09-07 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "30076",
@@ -2077,7 +2614,8 @@
             "RV"
         ],
         "date": "1999-10-13 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "1934",
@@ -2093,7 +2631,8 @@
             "RV"
         ],
         "date": "1997-11-07 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12243",
@@ -2109,7 +2648,8 @@
             "RV"
         ],
         "date": "1998-06-11 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "17038",
@@ -2125,7 +2665,8 @@
             "RV"
         ],
         "date": "1998-11-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "8743",
@@ -2141,7 +2682,8 @@
             "RV"
         ],
         "date": "1998-04-01 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "31925",
@@ -2157,7 +2699,8 @@
             "RV"
         ],
         "date": "1999-11-16 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "20127",
@@ -2173,7 +2716,8 @@
             "RV"
         ],
         "date": "1999-01-19 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6699",
@@ -2189,7 +2733,8 @@
             "RV"
         ],
         "date": "1998-01-23 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "25147",
@@ -2205,7 +2750,8 @@
             "RV"
         ],
         "date": "1999-04-15 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28069",
@@ -2221,7 +2767,8 @@
             "RV"
         ],
         "date": "1999-05-20 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "5180",
@@ -2237,7 +2784,8 @@
             "RV"
         ],
         "date": "1997-12-17 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "22634",
@@ -2253,7 +2801,8 @@
             "RV"
         ],
         "date": "1999-02-26 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12554",
@@ -2269,7 +2818,8 @@
             "RV"
         ],
         "date": "1998-06-12 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "23364",
@@ -2285,7 +2835,8 @@
             "RV"
         ],
         "date": "1999-03-16 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "35102",
@@ -2301,7 +2852,8 @@
             "RV"
         ],
         "date": "1999-12-09 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7427",
@@ -2317,7 +2869,8 @@
             "RV"
         ],
         "date": "1998-01-30 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "34577",
@@ -2333,7 +2886,8 @@
             "RV"
         ],
         "date": "1999-12-07 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "16710",
@@ -2349,7 +2903,8 @@
             "RV"
         ],
         "date": "1998-11-19 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24183",
@@ -2365,7 +2920,8 @@
             "RV"
         ],
         "date": "1999-03-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24146",
@@ -2381,7 +2937,8 @@
             "RV"
         ],
         "date": "1999-03-25 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "10580",
@@ -2397,7 +2954,8 @@
             "RV"
         ],
         "date": "1998-04-29 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "31954",
@@ -2413,7 +2971,8 @@
             "RV"
         ],
         "date": "1999-11-16 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24375",
@@ -2429,7 +2988,8 @@
             "RV"
         ],
         "date": "1999-04-07 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "35382",
@@ -2445,7 +3005,8 @@
             "RV"
         ],
         "date": "1999-12-10 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "9801",
@@ -2461,7 +3022,8 @@
             "RV"
         ],
         "date": "1998-04-21 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6719",
@@ -2477,7 +3039,8 @@
             "RV"
         ],
         "date": "1998-01-23 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "19423",
@@ -2493,7 +3056,8 @@
             "RV"
         ],
         "date": "1998-12-17 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "30710",
@@ -2509,7 +3073,8 @@
             "RV"
         ],
         "date": "1999-10-28 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "22956",
@@ -2525,7 +3090,8 @@
             "RV"
         ],
         "date": "1999-03-03 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "11952",
@@ -2541,7 +3107,8 @@
             "RV"
         ],
         "date": "1998-06-04 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "30125",
@@ -2557,7 +3124,8 @@
             "RV"
         ],
         "date": "1999-10-13 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "23816",
@@ -2573,7 +3141,8 @@
             "RV"
         ],
         "date": "1999-03-19 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24049",
@@ -2589,7 +3158,25 @@
             "RV"
         ],
         "date": "1999-03-24 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "182",
+        "sentence_nr": "62",
+        "text": "Hvis man ser på, hvad fonden har bidraget med på  Færøerne, har den kun i ubetydeligt omfang bidraget med en  finansiering af nye investeringer.",
+        "speaker": "Johannes Martin Olsen",
+        "party": "V",
+        "preceding_sentence": "Årsagen er, at man ikke mener, at fonden lever  op til de oprindelige hensigter.",
+        "succeeding_sent": "Derimod har den helt alene  overtaget United Seafood, der ejer over halvdelen af de  færøske fiskefabrikker, og salgskoncernen Faroe Seafood  Prime, som er den absolut største eksportør af  fiskeprodukter.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-10-09 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "11315",
@@ -2605,7 +3192,8 @@
             "RV"
         ],
         "date": "1998-05-06 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7026",
@@ -2621,7 +3209,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12554",
@@ -2637,7 +3226,8 @@
             "RV"
         ],
         "date": "1998-06-12 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "5353",
@@ -2653,7 +3243,8 @@
             "RV"
         ],
         "date": "1997-12-18 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "32518",
@@ -2669,7 +3260,8 @@
             "RV"
         ],
         "date": "1999-11-18 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12012",
@@ -2685,7 +3277,42 @@
             "RV"
         ],
         "date": "1998-06-04 00:00:00",
-        "label": 1
+        "Blame": 0,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "28094",
+        "sentence_nr": "8",
+        "text": "Passiv rygning indebærer for den enkelte ikke alene  alvorlige gener, men samtidig en egentlig sundhedsrisiko.",
+        "speaker": "Carsten Koch",
+        "party": "S",
+        "preceding_sentence": "Også passiv rygning er et alvorligt problem for mange  danskere.",
+        "succeeding_sent": "Denne risiko er særlig stor for personer med lunge- eller  overfølsomhedssygdomme, og små børn har en fordoblet risiko  for luftvejssygdomme.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-05-20 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "28167",
+        "sentence_nr": "40",
+        "text": "Lad dem komme ned til den læge,  der sidder nede på politistationen, så kunne det godt være,  de kunne opføre sig ordentligt, hvis de skal ind gennem  politiets ekspedition først og ved, at de skal samme vej ud  igen, inden de kan forlade politigården.",
+        "speaker": "Tom Behnke",
+        "party": "FP",
+        "preceding_sentence": "Der har også været en lang debat om, at  voldelige patienter hos den almindelige praktiserende læge er  et problem i lægepraksiserne.",
+        "succeeding_sent": "Så har lægen fire  funktioner, og det vil i sig selv være nok til, at der er  økonomi i det hele, og at det kan hænge sammen.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-05-20 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "19918",
@@ -2701,7 +3328,25 @@
             "RV"
         ],
         "date": "1999-01-15 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "29895",
+        "sentence_nr": "0",
+        "text": "Der var sådan set mange ting i statsministerens tale her, som  jeg kunne have lyst til at kommentere, men tiden taget i  betragtning vil jeg nøjes med blot at hæfte mig ved én ting,  som statsministeren sagde, og det var påstanden om, at  Venstres forslag på sygehusområdet medfører egenbetaling.",
+        "speaker": "Ulla Tørnæs",
+        "party": "V",
+        "preceding_sentence": "",
+        "succeeding_sent": "Venstre ønsker et frit valg af sygehus uanset  tegnebogens størrelse.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-10-07 00:00:00",
+        "Blame": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "10667",
@@ -2717,7 +3362,8 @@
             "RV"
         ],
         "date": "1998-04-30 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "11240",
@@ -2733,7 +3379,8 @@
             "RV"
         ],
         "date": "1998-05-06 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "17227",
@@ -2749,7 +3396,8 @@
             "RV"
         ],
         "date": "1998-11-27 00:00:00",
-        "label": 0
+        "Blame": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "35061",
@@ -2765,7 +3413,8 @@
             "RV"
         ],
         "date": "1999-12-09 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24549",
@@ -2781,7 +3430,8 @@
             "RV"
         ],
         "date": "1999-04-08 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "17204",
@@ -2797,7 +3447,8 @@
             "RV"
         ],
         "date": "1998-11-27 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "5249",
@@ -2813,7 +3464,8 @@
             "RV"
         ],
         "date": "1997-12-17 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "10111",
@@ -2829,7 +3481,8 @@
             "RV"
         ],
         "date": "1998-04-23 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "26144",
@@ -2845,7 +3498,8 @@
             "RV"
         ],
         "date": "1999-04-23 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7976",
@@ -2861,7 +3515,8 @@
             "RV"
         ],
         "date": "1998-02-06 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "22201",
@@ -2877,7 +3532,8 @@
             "RV"
         ],
         "date": "1999-02-12 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "23322",
@@ -2893,7 +3549,8 @@
             "RV"
         ],
         "date": "1999-03-16 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24095",
@@ -2909,7 +3566,8 @@
             "RV"
         ],
         "date": "1999-03-24 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12908",
@@ -2925,7 +3583,8 @@
             "RV"
         ],
         "date": "1998-06-19 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "14073",
@@ -2941,7 +3600,8 @@
             "RV"
         ],
         "date": "1998-10-07 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "15720",
@@ -2957,7 +3617,8 @@
             "RV"
         ],
         "date": "1998-11-06 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "34962",
@@ -2973,7 +3634,8 @@
             "RV"
         ],
         "date": "1999-12-09 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "20399",
@@ -2989,7 +3651,8 @@
             "RV"
         ],
         "date": "1999-01-20 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "25166",
@@ -3005,7 +3668,8 @@
             "RV"
         ],
         "date": "1999-04-16 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "27071",
@@ -3021,7 +3685,8 @@
             "RV"
         ],
         "date": "1999-05-07 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "19119",
@@ -3037,7 +3702,8 @@
             "RV"
         ],
         "date": "1998-12-16 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "25154",
@@ -3053,7 +3719,8 @@
             "RV"
         ],
         "date": "1999-04-15 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "34556",
@@ -3069,7 +3736,8 @@
             "RV"
         ],
         "date": "1999-12-07 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "34528",
@@ -3085,7 +3753,8 @@
             "RV"
         ],
         "date": "1999-12-07 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "13245",
@@ -3101,7 +3770,8 @@
             "RV"
         ],
         "date": "1998-06-24 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "18804",
@@ -3117,7 +3787,8 @@
             "RV"
         ],
         "date": "1998-12-11 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "35538",
@@ -3133,7 +3804,8 @@
             "RV"
         ],
         "date": "1999-12-10 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "34841",
@@ -3149,7 +3821,8 @@
             "RV"
         ],
         "date": "1999-12-08 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6528",
@@ -3165,7 +3838,8 @@
             "RV"
         ],
         "date": "1998-01-22 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "1182",
@@ -3181,7 +3855,8 @@
             "RV"
         ],
         "date": "1997-10-30 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "23210",
@@ -3197,7 +3872,8 @@
             "RV"
         ],
         "date": "1999-03-05 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "29102",
@@ -3213,7 +3889,8 @@
             "RV"
         ],
         "date": "1999-05-27 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "21967",
@@ -3229,7 +3906,8 @@
             "RV"
         ],
         "date": "1999-02-11 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "20869",
@@ -3245,7 +3923,8 @@
             "RV"
         ],
         "date": "1999-01-28 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "21539",
@@ -3261,7 +3940,25 @@
             "RV"
         ],
         "date": "1999-02-09 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "18720",
+        "sentence_nr": "2",
+        "text": "Men hvis de har været med i  planlægningen, hvis de har bidraget til aktiviteten, der  fører frem til kriminaliteten, jamen så er det, vi kan  strafforfølge dem.",
+        "speaker": "Frank Jensen",
+        "party": "S",
+        "preceding_sentence": "For der er jo mange  misforståelser, når det drejer sig om vores medvirkens- og  forsøgsregler, som er grundlæggende principper i vores  straffelovgivning, og der er mange andre lande, som - jeg  tror, det var fru Anne Baastrup, der var inde på det -  simpelt hen ikke forstår, at vi har så vide rammer i vores  lovgivning, som domstolene kan anvende til at kunne  retshåndhæve over for folk, der har et medvirkens - og  forsøgsansvar, selv om de ikke direkte har lavet den  kriminelle handling.",
+        "succeeding_sent": "Det er ikke afgørende, om det lige netop  personligt var dem, der begik den kriminelle handling.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-12-10 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "1182",
@@ -3277,7 +3974,8 @@
             "RV"
         ],
         "date": "1997-10-30 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "35350",
@@ -3293,7 +3991,8 @@
             "RV"
         ],
         "date": "1999-12-10 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28021",
@@ -3309,7 +4008,8 @@
             "RV"
         ],
         "date": "1999-05-20 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "16052",
@@ -3325,7 +4025,8 @@
             "RV"
         ],
         "date": "1998-11-12 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "28212",
@@ -3341,7 +4042,8 @@
             "RV"
         ],
         "date": "1999-05-21 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "10839",
@@ -3357,7 +4059,8 @@
             "RV"
         ],
         "date": "1998-04-30 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "29148",
@@ -3373,7 +4076,8 @@
             "RV"
         ],
         "date": "1999-05-27 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "22898",
@@ -3389,7 +4093,8 @@
             "RV"
         ],
         "date": "1999-03-03 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "2362",
@@ -3405,7 +4110,8 @@
             "RV"
         ],
         "date": "1997-11-19 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "18275",
@@ -3421,7 +4127,8 @@
             "RV"
         ],
         "date": "1998-12-08 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24313",
@@ -3437,7 +4144,8 @@
             "RV"
         ],
         "date": "1999-04-06 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "12257",
@@ -3453,7 +4161,8 @@
             "RV"
         ],
         "date": "1998-06-11 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "21306",
@@ -3469,7 +4178,8 @@
             "RV"
         ],
         "date": "1999-02-04 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "3987",
@@ -3485,7 +4195,8 @@
             "RV"
         ],
         "date": "1997-12-05 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "7036",
@@ -3501,7 +4212,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "31592",
@@ -3517,7 +4229,8 @@
             "RV"
         ],
         "date": "1999-11-11 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "13455",
@@ -3533,7 +4246,25 @@
             "RV"
         ],
         "date": "1998-06-25 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "29102",
+        "sentence_nr": "55",
+        "text": "Kan udlændinge, som ønsker ophold her i  landet, ikke acceptere det, er der ikke noget at gøre ved  det, det er ikke noget, vi skal indrette os efter, og så må  de finde et andet land at være i.",
+        "speaker": "Pia Kjærsgaard",
+        "party": "DF",
+        "preceding_sentence": "Danmark er et kristent land, og det skal det  vedblive at være.",
+        "succeeding_sent": "På retspolitikkens område, og det har været et  debatteret emne også fra Dansk Folkepartis side i det her  folketingsår, er der desværre ikke kommet de stramninger, der  var lagt op til i forbindelse med den voldspakke, som  Folketinget vedtog i 1997.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-05-27 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "23772",
@@ -3549,7 +4280,8 @@
             "RV"
         ],
         "date": "1999-03-19 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6971",
@@ -3565,7 +4297,8 @@
             "RV"
         ],
         "date": "1998-01-27 00:00:00",
-        "label": 1
+        "label": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "25067",
@@ -3581,7 +4314,25 @@
             "RV"
         ],
         "date": "1999-04-15 00:00:00",
-        "label": 1
+        "label": 0,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "25023",
+        "sentence_nr": "5",
+        "text": "Vil  man acceptere, at vi har en lov vedrørende arbejdsmarkedet,  som er ret grundlæggende, og som er i strid med de  konventioner, vi i øvrigt ønsker at følge?",
+        "speaker": "Ole Sohn",
+        "party": "SF",
+        "preceding_sentence": "Så er det, mit spørgsmål til Socialdemokratiet er:",
+        "succeeding_sent": "Det er det ene.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-04-15 00:00:00",
+        "label": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "13126",
@@ -3597,7 +4348,25 @@
             "RV"
         ],
         "date": "1998-06-23 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "21410",
+        "sentence_nr": "0",
+        "text": "Jeg synes, der var nogle lidt foruroligende, helt generelle  betragtninger i hr. Klaus Kjærs tale, nemlig at ud over  grundforløbet af de videregående uddannelser, som staten  skulle betale, måtte det være arbejdsgiverne eller andre, der  skulle betale det andet.",
+        "speaker": "Elisabeth Arnold",
+        "party": "RV",
+        "preceding_sentence": "",
+        "succeeding_sent": "Skal det forstås sådan, at alt ud over en  basisuddannelse, f.eks. til bachelorniveau, skal  brugerfinansieres?",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-02-04 00:00:00",
+        "label": 0,
+        "choices": "Blame"
     },
     {
         "paragraph": "2221",
@@ -3613,7 +4382,25 @@
             "RV"
         ],
         "date": "1997-11-14 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "13251",
+        "sentence_nr": "43",
+        "text": "Man har spist over 30 mia. kr. op.",
+        "speaker": "Kim Behnke",
+        "party": "FP",
+        "preceding_sentence": "Økonomiministeren gik kort tid efter  regeringsskiftet i 1993 ud med det absurde argument, at vi nu  skulle bruge lidt af betalingsbalancen til at hæve  beskæftigelsen, og man kan da være helt sikker på, at det  løfte er blevet opfyldt.",
+        "succeeding_sent": "Hvis det så bare var slutningen på udviklingen, kunne  man sige, at så kunne vi igen begynde at have et stigende  betalingsbalanceoverskud, men alle afrapporteringer fra  relevante eksporterhverv fortæller om tab af konkurrenceevne.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-06-24 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "28326",
@@ -3629,7 +4416,8 @@
             "RV"
         ],
         "date": "1999-05-21 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "14350",
@@ -3645,7 +4433,8 @@
             "RV"
         ],
         "date": "1998-10-20 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "91",
@@ -3661,7 +4450,25 @@
             "RV"
         ],
         "date": "1997-10-09 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "13671",
+        "sentence_nr": "14",
+        "text": "Hvis man bare krummer så meget som  ét hår på hovedet af deres kernevælgere, så løber de væk.",
+        "speaker": "Holger K. Nielsen",
+        "party": "SF",
+        "preceding_sentence": "De er jo ikke villige til overhovedet at  overveje det nødvendige.",
+        "succeeding_sent": "Derfor håber jeg på, at konsekvensen af debatten i dag  vil blive, at der virkelig bliver reelle forhandlinger med  venstrefløjen om finansloven her til efteråret.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-06-25 00:00:00",
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "17682",
@@ -3677,7 +4484,42 @@
             "RV"
         ],
         "date": "1998-12-03 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "31569",
+        "sentence_nr": "16",
+        "text": "Men så  skulle man da have sagt det.",
+        "speaker": "Helga Moos",
+        "party": "V",
+        "preceding_sentence": "Men det er  måske heller ikke CO2-reduktionen, vi er ude på at købe, det  er måske energieffektivisering af selve industrien.",
+        "succeeding_sent": "Så skulle man have sagt: Vi vil  godt give et tilskud til, at vores danske industri kan komme  til at køre effektivt og så ladet være med at pakke det ind i  CO2-reduktion.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-11-11 00:00:00",
+        "label": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "5354",
+        "sentence_nr": "22",
+        "text": "Hr.  Kim Behnke og hans parti viser jo kun ord og henviser til  undersøgelser.",
+        "speaker": "Pia Gjellerup",
+        "party": "S",
+        "preceding_sentence": "Til hr. Kim Behnke, som jeg ikke kunne svare før i  forhold til hjemmehjælpen, vil jeg sige: Det er meget fint,  at vi faktisk er i stand til at vise nogle handlinger.",
+        "succeeding_sent": "Vi går ind og taler med de ansvarlige for  hjemmehjælpen ude i kommunerne, og vi gør det på den måde, at  vi faktisk også har nogle penge med, så det er muligt at  påvirke en bedre tilrettelæggelse de steder, hvor  hjemmehjælpen ikke er god nok.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-12-18 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "20592",
@@ -3693,7 +4535,8 @@
             "RV"
         ],
         "date": "1999-01-21 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "17481",
@@ -3709,7 +4552,8 @@
             "RV"
         ],
         "date": "1998-12-02 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "29146",
@@ -3725,7 +4569,8 @@
             "RV"
         ],
         "date": "1999-05-27 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "11849",
@@ -3741,7 +4586,8 @@
             "RV"
         ],
         "date": "1998-06-04 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "18953",
@@ -3757,7 +4603,8 @@
             "RV"
         ],
         "date": "1998-12-11 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "25554",
@@ -3773,7 +4620,8 @@
             "RV"
         ],
         "date": "1999-04-20 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "9272",
@@ -3789,7 +4637,8 @@
             "RV"
         ],
         "date": "1998-04-03 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "25622",
@@ -3805,7 +4654,8 @@
             "RV"
         ],
         "date": "1999-04-20 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "7988",
@@ -3821,7 +4671,8 @@
             "RV"
         ],
         "date": "1998-02-06 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "3881",
@@ -3837,7 +4688,8 @@
             "RV"
         ],
         "date": "1997-12-04 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "507",
@@ -3853,7 +4705,8 @@
             "RV"
         ],
         "date": "1997-10-22 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "6593",
@@ -3869,7 +4722,25 @@
             "RV"
         ],
         "date": "1998-01-22 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "6487",
+        "sentence_nr": "25",
+        "text": "Jeg mener, at det er de i ånden svage  danskere og de over for dansk kultur skeptiske danskere, der  frygter de nye danskere.",
+        "speaker": "Arne Melchior",
+        "party": "CD",
+        "preceding_sentence": "I øvrigt interesserer jeg mig slet ikke så meget for de  tal og de procenter.",
+        "succeeding_sent": "Der har heldigvis været en række  ordførere, der har sagt, at danskheden er stærk nok,  levedygtig nok til at have godt af denne tilførsel fra andre  kulturer, og jeg holder med dem.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-01-22 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "358",
@@ -3885,7 +4756,8 @@
             "RV"
         ],
         "date": "1997-10-21 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "25260",
@@ -3901,7 +4773,8 @@
             "RV"
         ],
         "date": "1999-04-16 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "1114",
@@ -3917,7 +4790,25 @@
             "RV"
         ],
         "date": "1997-10-30 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "5224",
+        "sentence_nr": "42",
+        "text": "Det her er noget, vi kommer til bitterligt at fortryde.",
+        "speaker": "Kim Behnke",
+        "party": "FP",
+        "preceding_sentence": "Nej, der er ingen, der vil have  de her ændringer.  Jo, én eneste person i dette land vil have de ændringer,  og det er finansministeren, og så skal det med djævelens vold  og magt presses igennem Folketinget på få timer få dage før  jul.",
+        "succeeding_sent": "Dette her bliver 1997's eller 1998's stænklapsag, som  Folketinget kommer til at lave om på, for det kommer ikke til  at fungere, og det eneste, vi kan ærgre os over i  Fremskridtspartiet,",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-12-17 00:00:00",
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "6344",
@@ -3933,7 +4824,25 @@
             "RV"
         ],
         "date": "1998-01-21 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
+    },
+    {
+        "paragraph": "4552",
+        "sentence_nr": "1",
+        "text": "Det handlede om, at De  Konservative ønskede, at der skulle siges nej til at  forhandle, og der skete jo det, at da De Konservative  gennemtvang den holdning, fik de øvrige lande det også at  vide, og hvem tager et lands forhandlere alvorligt, når man  på forhånd ved, at dette land stemmer nej uanset  forhandlingsresultatet?",
+        "speaker": "Ove Fich",
+        "party": "S",
+        "preceding_sentence": "Nej, det handlede ikke om, at vi skulle fastlægge et ja eller  et nej til et forhandlingsresultat.",
+        "succeeding_sent": "Vi ønskede at give ministeren  mulighed for at forhandle og opnå et bedre resultat end det,  der blev tilfældet.",
+        "current_speaker_in_government": true,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1997-12-11 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "30929",
@@ -3949,7 +4858,8 @@
             "RV"
         ],
         "date": "1999-10-29 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "922",
@@ -3965,7 +4875,8 @@
             "RV"
         ],
         "date": "1997-10-29 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "16286",
@@ -3981,7 +4892,25 @@
             "RV"
         ],
         "date": "1998-11-17 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "6680",
+        "sentence_nr": "4",
+        "text": "Jeg kan slet ikke forstå, at man kan støtte vore forslag  og gå så voldsomt imod de øvrige.",
+        "speaker": "Helge Adam Møller",
+        "party": "KF",
+        "preceding_sentence": "Det skal ske af hensyn til dem selv og af hensyn til det  danske samfund, så de kan komme ud og lave noget produktivt  og ikke køre på bistandshjælp og belaste samfundet, og  endelig af hensyn til, at den dag, de kan sendes hjem, er de  da langt bedre stillet i deres eget hjemland, fordi de har  lavet noget fornuftigt i Danmark frem for at sidde på passiv  forsørgelse i 3 eller 4 år.",
+        "succeeding_sent": "Der er simpelt hen ingen  logik i det, men det er vel også det, der er problemet.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-01-22 00:00:00",
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "17658",
@@ -3997,7 +4926,8 @@
             "RV"
         ],
         "date": "1998-12-03 00:00:00",
-        "label": 0
+        "label": 1,
+        "choices": "No blame"
     },
     {
         "paragraph": "4765",
@@ -4013,7 +4943,8 @@
             "RV"
         ],
         "date": "1997-12-12 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "1373",
@@ -4029,7 +4960,25 @@
             "RV"
         ],
         "date": "1997-11-04 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "9687",
+        "sentence_nr": "3",
+        "text": "Dansk Folkeparti har gang på gang kritiseret regeringen  og specielt de skiftende trafikministre for næsten altid at  anmode om bemyndigelse til at udføre forskellige opgaver i  stedet for at gennemarbejde forslagene bedre og lade",
+        "speaker": "Klaus Kjær",
+        "party": "DF",
+        "preceding_sentence": "Lovforslag nr. L 39  er et forslag om bemyndigelse til at anlægge en ny  hovedlandevejsstrækning som motortrafikvej mellem Ris og  Ølholm.",
+        "succeeding_sent": "Folketinget tage stilling til de enkelte projekter.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1998-04-16 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "5368",
@@ -4045,7 +4994,8 @@
             "RV"
         ],
         "date": "1997-12-18 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "23540",
@@ -4061,7 +5011,25 @@
             "RV"
         ],
         "date": "1999-03-18 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
+    },
+    {
+        "paragraph": "36243",
+        "sentence_nr": "2",
+        "text": "Man kunne have forstået det, hvis det her forslag alene  gik på hård kriminalitet, for det er sådan noget, som man -  og der vil jeg godt give nogle ret - hvis man har været ude i  det, så til en vis grad også selv har ansvar for.",
+        "speaker": "Knud Erik Hansen",
+        "party": "SF",
+        "preceding_sentence": "Hvis man taler en del med de unge, der er opvokset i Danmark,  og som fungerer i Danmark, og som gerne vil være en fuld del  af det danske samfund, så oplever de det her lovforslag som  endnu en forfølgelse, som om det danske samfund endnu en gang  tager afstand fra dem.",
+        "succeeding_sent": "Men det her  rammer jo folk, der bare begår det, man kan kalde dumheder.",
+        "current_speaker_in_government": false,
+        "parties_in_government": [
+            "S",
+            "RV"
+        ],
+        "date": "1999-12-17 00:00:00",
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "7540",
@@ -4077,7 +5045,8 @@
             "RV"
         ],
         "date": "1998-02-03 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "7293",
@@ -4093,7 +5062,8 @@
             "RV"
         ],
         "date": "1998-01-29 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     },
     {
         "paragraph": "24303",
@@ -4109,7 +5079,8 @@
             "RV"
         ],
         "date": "1999-04-06 00:00:00",
-        "label": 1
+        "label": 1,
+        "choices": "Blame"
     },
     {
         "paragraph": "8438",
@@ -4125,6 +5096,7 @@
             "RV"
         ],
         "date": "1998-03-27 00:00:00",
-        "label": 0
+        "label": 0,
+        "choices": "No blame"
     }
 ]
