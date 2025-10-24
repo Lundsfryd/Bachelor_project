@@ -28,10 +28,10 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "Wi",
+    "dense",
     "classifier",
     "Wo",
-    "dense",
+    "Wi",
     "Wqkv"
   ],
   "target_parameters": null,
