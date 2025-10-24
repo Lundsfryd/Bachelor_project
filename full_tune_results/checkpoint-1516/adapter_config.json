@@ -30,9 +30,9 @@
   "target_modules": [
     "Wi",
     "Wo",
-    "dense",
     "classifier",
-    "Wqkv"
+    "Wqkv",
+    "dense"
   ],
   "target_parameters": null,
   "task_type": null,
