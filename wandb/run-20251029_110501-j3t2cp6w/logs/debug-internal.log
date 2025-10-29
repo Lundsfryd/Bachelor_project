@@ -1,6 +1,1 @@
-{"time":"2025-10-29T11:05:01.390119742+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-29T11:05:01.728154694+01:00","level":"INFO","msg":"stream: created new stream","id":"j3t2cp6w"}
-{"time":"2025-10-29T11:05:01.728243547+01:00","level":"INFO","msg":"handler: started","stream_id":"j3t2cp6w"}
-{"time":"2025-10-29T11:05:01.728971085+01:00","level":"INFO","msg":"stream: started","id":"j3t2cp6w"}
-{"time":"2025-10-29T11:05:01.729006848+01:00","level":"INFO","msg":"writer: started","stream_id":"j3t2cp6w"}
-{"time":"2025-10-29T11:05:01.729010314+01:00","level":"INFO","msg":"sender: started","stream_id":"j3t2cp6w"}
+run-20251029_110501-j3t2cp6w/logs/debug-internal.log
