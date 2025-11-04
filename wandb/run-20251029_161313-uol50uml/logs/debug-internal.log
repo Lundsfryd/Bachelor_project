@@ -1,0 +1,6 @@
+{"time":"2025-10-29T16:13:13.454380341+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T16:13:13.817559872+01:00","level":"INFO","msg":"stream: created new stream","id":"uol50uml"}
+{"time":"2025-10-29T16:13:13.817660322+01:00","level":"INFO","msg":"handler: started","stream_id":"uol50uml"}
+{"time":"2025-10-29T16:13:13.818225407+01:00","level":"INFO","msg":"stream: started","id":"uol50uml"}
+{"time":"2025-10-29T16:13:13.818242743+01:00","level":"INFO","msg":"writer: started","stream_id":"uol50uml"}
+{"time":"2025-10-29T16:13:13.818246198+01:00","level":"INFO","msg":"sender: started","stream_id":"uol50uml"}
