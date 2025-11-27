@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 install.packages("pacman")
 library(pacman)
 
-pacman::p_load("tidyverse", "lubridate", "zoo", "lme4", "glmmTMB", "DHARMa", "emmeans")
+pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot")
 
 ```
 
@@ -94,6 +94,39 @@ inf_data_filtered <- inf_data %>%
 ```
 
 
+#Make personal leaderboard
+```{r}
+blame_leaderboard <- inf_data_filtered %>% 
+  group_by(speaker) %>% 
+  summarise(total_blame = sum(prediction),
+            n_sent = n(),
+            blame_percentage = (total_blame/n_sent)*100,
+            parties = list(unique(party))) %>% 
+  filter(n_sent>=1000) %>% 
+  ungroup() %>% 
+  arrange(desc(blame_percentage))
+
+
+head(blame_leaderboard, 10)
+```
+
+#Make party leaderboard
+
+```{r}
+party_leaderboard <- inf_data_filtered %>% 
+  group_by(party) %>% 
+  summarise(party_n_sent = n(),
+            party_blame = sum(prediction),
+            party_blame_percentage = (party_blame/party_n_sent)*100) %>% 
+  filter(party_n_sent>=1000) %>% 
+  arrange(desc(party_blame_percentage)) %>% 
+  ungroup()
+
+head(party_leaderboard, 12)
+```
+
+
+
 
 #show daily/montly counts of blame pr party and in total
 #Show daily/monthly relative amounts of blame pr party
@@ -127,7 +160,7 @@ monthly_blame <- inf_data_filtered %>%
 
 ```{r}
 ggplot(monthly_blame, aes(x = month, y = total_blame, color = party)) +
-  geom_smooth(span = 0.5, se = TRUE) +                    # per-party trends
+  geom_smooth( span = 0.5, se = FALSE) +                    # per-party trends
   geom_smooth(aes(x = month, y = total_blame),              # global trend
               color = "black", linetype = "dashed", 
               se = FALSE, span = 0.5) +
@@ -156,12 +189,29 @@ ggplot(monthly_blame, aes(x = month, y = offset_ratio, color = party)) +
               color = "black", linetype = "dashed", 
               se = FALSE, span = 0.5) +
   labs(
-    title = "Monthly blame Over Time by Party with Global Trend",
+    title = "Monthly Blame Over Time by Party with Global Trend",
+    subtitle = "controlled by number of sentences uttered",
     x = "Month",
     y = "Blame pr sentence"
   ) +
   theme_minimal()
 ```
+#same as above but with glm
+
+```{r}
+ggplot(monthly_blame, aes(x = month, y = total_nr_sentences, color = party)) +
+  geom_smooth(span = 0.5, se = FALSE) +                    # per-party trends
+  geom_smooth(aes(x = month, y = total_nr_sentences),              # global trend
+              color = "black", linetype = "dashed", 
+              se = FALSE, span = 0.5) +
+  labs(
+    title = "Number of uttered sentences monthly",
+    x = "Month",
+    y = "Total sentences"
+  ) +
+  theme_minimal()
+```
+
 
 #Show number of sentences pr year
 
@@ -207,15 +257,13 @@ str(monthly_blame) #all good
 #Blame predicted by time
 
 ```{r}
-model_blame_time_0 <- glmmTMB(total_blame ~ month_index  + (1|in_gov) + offset(log(total_nr_sentences)), 
-                           ziformula = ~1,
+model_blame_time_0 <- glmmTMB(total_blame ~ 1  + (1|party) + offset(log(total_nr_sentences)), 
                            family = nbinom2, 
                            data = monthly_blame)
 ```
 
 ```{r}
 model_blame_time_1 <- glmmTMB(total_blame ~ month_index  + (1|party) + offset(log(total_nr_sentences)), 
-                           ziformula = ~1,
                            family = nbinom2, 
                            data = monthly_blame)
 ```
@@ -224,14 +272,24 @@ model_blame_time_1 <- glmmTMB(total_blame ~ month_index  + (1|party) + offset(lo
 
 ```{r}
 model_blame_time_2 <- glmmTMB(total_blame ~ month_index + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)), 
-                           ziformula = ~1,
-                           family = nbinom1, 
+                           family = nbinom2, 
                            data = monthly_blame)
 
 summary(model_blame_time_2)
 ```
+
 ```{r}
-anova(model_blame_time_0, model_blame_time_1, model_blame_time_2)
+model_blame_time_3 <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2) + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)),
+                           family = nbinom2, 
+                           data = monthly_blame)
+
+summary(model_blame_time_3)
+```
+
+
+
+```{r}
+anova(model_blame_time_0, model_blame_time_1, model_blame_time_2, model_blame_time_3)
 ```
 
 #Plot best model
@@ -251,18 +309,22 @@ sjPlot::plot_model(model_blame_time_2,
                    axis.title = c("Months after Jan 2000", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "General Evolution of Blame in the Danish Parliament over time",
                    ci.lvl = NA,
-                   show.legend = TRUE
+                   axis.lim = c(3,7)
                    ) +
   theme_minimal()
 ```
 #shows downtrend over time
+
+```{r}
+#check assumptions
+model_check(model_blame_time_2)
+```
 
 
 #Create models of overall tendentcy since 2000 of increasing complexity and anova them
 
 ```{r}
 model_intercept <- glmmTMB(total_blame ~ 1 + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                           ziformula = ~1,
                            family = nbinom1, 
                            data = monthly_blame)
 
@@ -271,7 +333,6 @@ summary(model_intercept)
 
 ```{r}
 model_in_gov <- glmmTMB(total_blame ~ in_gov + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                      ziformula = ~1,          # models extra zeros
                       family = nbinom1, 
                       data = monthly_blame)
 
@@ -282,7 +343,6 @@ summary(model_in_gov)
 
 ```{r}
 model_block <- glmmTMB(total_blame ~ in_gov + block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                       ziformula = ~1,          # models extra zeros
                        family = nbinom1, 
                        data = monthly_blame)
 
@@ -290,90 +350,38 @@ summary(model_block)
 ```
 
 ```{r}
-model_wing <- glmmTMB(total_blame ~ in_gov + wing + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                      ziformula = ~1,          # models extra zeros
+model_block_int <- glmmTMB(total_blame ~ in_gov + block + in_gov*block + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
                       family = nbinom1, 
                       data = monthly_blame)
 
-summary(model_wing)
+summary(model_block_int)
 ```
 
 ```{r}
-model_wing_block <- glmmTMB(total_blame ~ in_gov + wing + block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                            ziformula = ~1,          # models extra zeros
+model_wing_block <- glmmTMB(total_blame ~ in_gov + block + in_gov * block + wing + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
                             family = nbinom1, 
                             data = monthly_blame)
 
 summary(model_wing_block)
 ```
 
-```{r}
-model_wing_block_int <- glmmTMB(total_blame ~ in_gov + wing + block + wing*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame)
 
-summary(model_wing_block_int)
+
+
+```{r}
+anova(model_intercept, model_in_gov, model_block, model_block_int, model_wing_block)
 ```
 
 ```{r}
-model_wing_block_int_2 <- glmmTMB(total_blame ~ in_gov + block + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame)
-
-summary(model_wing_block_int_2)
-```
-
-```{r}
-model_wing_block_int_3 <- glmmTMB(total_blame ~ in_gov + wing + block + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame)
-
-summary(model_wing_block_int_3)
-```
-
-
-```{r}
-
-
-model_wing_block_int_4 <- glmmTMB(total_blame ~ in_gov + wing + block + wing*block + in_gov*wing + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame)
-
-summary(model_wing_block_int_4)
-```
-
-
-
-
-#Check assumptions for all models
-
-```{r}
-model_check(model_block)
-model_check(model_wing)
-model_check(model_wing_block)
-model_check(model_wing_block_int)
-```
-
-
-```{r}
-anova(model_intercept, model_in_gov, model_wing, model_wing_block, model_wing_block_int,model_wing_block_int_2,model_wing_block_int_3,model_wing_block_int_4)
-```
-
-```{r}
-anova(model_intercept, model_in_gov,model_wing_block_int_2,model_wing_block_int_3)
+anova(model_in_gov, model_block_int)
 ```
 
 
 #check assumptions of best model
 
 ```{r}
-model_check(model_wing_block_int_2)
+model_check(model_block_int)
 ```
-
 
 
 #SOme deviation, but cannot be made better
@@ -387,7 +395,7 @@ in_govTRUE:blockRight  0.177978   0.050112   3.552 0.000383 ***
 
 
 ```{r}
-sjPlot::plot_model(model_wing_block_int_2, 
+sjPlot::plot_model(model_block_int, 
                    type = "int", 
                    #terms = c("in_gov", "block"), 
                    condition = c(total_nr_sentences = 100),
@@ -395,18 +403,18 @@ sjPlot::plot_model(model_wing_block_int_2,
                    title = "Blame Predicted by Government and Block",
                    ci.lvl = NA,
                    show.legend = TRUE,
-                   axis.lim = c(3.5,7)
+                   axis.lim = c(3,7)
                    ) +
   theme_minimal()
 
-sjPlot::plot_model(model_wing_block_int_2, 
+sjPlot::plot_model(model_block_int, 
                    type = "pred", 
                    terms = c("block"), 
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("In government", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Blame Predicted by Block",
                    ci.lvl = NA,
-                   axis.lim = c(3.5,7)
+                   axis.lim = c(3,7)
                    ) +
   theme_minimal()
 ```
@@ -448,7 +456,6 @@ ggplot(monthly_blame_18, aes(x = month, y = offset_ratio, color = party)) +
 
 ```{r}
 model_intercept_18 <- glmmTMB(total_blame ~ 1 + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                           ziformula = ~1,
                            family = nbinom1, 
                            data = monthly_blame_18)
 
@@ -457,7 +464,6 @@ summary(model_intercept_18)
 
 ```{r}
 model_in_gov_18 <- glmmTMB(total_blame ~ in_gov + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                      ziformula = ~1,          # models extra zeros
                       family = nbinom1, 
                       data = monthly_blame_18)
 
@@ -468,81 +474,40 @@ summary(model_in_gov_18)
 
 ```{r}
 model_block_18 <- glmmTMB(total_blame ~ in_gov + block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                       ziformula = ~1,          # models extra zeros
                        family = nbinom1, 
                        data = monthly_blame_18)
 
 summary(model_block_18)
 ```
 
-```{r}
-model_wing_18 <- glmmTMB(total_blame ~ in_gov + wing + (1|party) + (1|month_index)+ offset(log(total_nr_sentences)), 
-                      ziformula = ~1,          # models extra zeros
-                      family = nbinom1, 
-                      data = monthly_blame_18)
-
-summary(model_wing_18)
-```
 
 ```{r}
 model_wing_block_18 <- glmmTMB(total_blame ~ in_gov + wing + block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                            ziformula = ~1,          # models extra zeros
+                                family = nbinom1, 
+                                data = monthly_blame_18)
+
+summary(model_wing_block)
+```
+
+
+
+```{r}
+model_block_int_18 <- glmmTMB(total_blame ~ in_gov + block + in_gov * block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
                             family = nbinom1, 
                             data = monthly_blame_18)
 
-summary(model_wing_block_18)
-```
-
-```{r}
-model_wing_block_int_18 <- glmmTMB(total_blame ~ in_gov + wing + block + wing*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame_18)
-
-summary(model_wing_block_int)
-```
-
-```{r}
-model_wing_block_int_2_18 <- glmmTMB(total_blame ~ in_gov + block + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame_18)
-
-summary(model_wing_block_int_2)
-```
-
-```{r}
-model_wing_block_int_3_18 <- glmmTMB(total_blame ~ in_gov + wing + block + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame_18)
-
-summary(model_wing_block_int_3)
+summary(model_block_int_18)
 ```
 
 
-```{r}
 
-
-model_wing_block_int_4_18 <- glmmTMB(total_blame ~ in_gov + wing + block + wing*block + in_gov*wing + in_gov*block + (1|party) + (1|month_index) + offset(log(total_nr_sentences)), 
-                                ziformula = ~1,          # models extra zeros
-                                family = nbinom1, 
-                                data = monthly_blame_18)
-
-summary(model_wing_block_int_4)
-```
 
 
 
 ```{r}
-anova(model_intercept_18, model_in_gov_18, model_wing_18, model_wing_block_18, model_wing_block_int_18,model_wing_block_int_2_18,model_wing_block_int_3_18,model_wing_block_int_4_18)
+anova(model_intercept_18, model_in_gov_18, model_block_18, model_wing_block_18, model_block_int_18)
 ```
 
-```{r}
-anova(model_in_gov_18, model_wing_block_18, model_wing_block_int_18)
-```
-
-* model_wing_block_18 is the better model for predicting amount of blame within recent years
 
 #check assumption of best model
 
@@ -562,7 +527,7 @@ sjPlot::plot_model(model_wing_block_18,
                    axis.title = c("In Government", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by In Government and Wing in period 2019-2022",
                    ci.lvl = NA,
-                   axis.lim = c(3,6.5)
+                   axis.lim = c(3,7)
                    ) +
   theme_minimal()
 
@@ -585,34 +550,57 @@ in_govTRUE  -0.27310    0.08655   -3.16   0.0016 **
 wingWing     0.34538    0.08697    3.97 7.15e-05 ***
 blockRight   0.32434    0.07422    4.37 1.24e-05 ***
 
-```{r}
-fixef(model_wing_block_int_18)
-```
+
 
 
 #time as predictor of blame in recent years
 
 ```{r}
-model_blame_time_18 <- glmmTMB(total_blame ~ month_index  + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)), 
+model_blame_time_18 <- glmmTMB(total_blame ~ scale(month_index)  + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)), 
                            ziformula = ~1,
-                           family = nbinom2, 
+                           family = nbinom1, 
                            data = monthly_blame_18)
 
 summary(model_blame_time_18)
 ```
+
+```{r}
+model_blame_time_18_2 <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2)  + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)), 
+                           ziformula = ~1,
+                           family = nbinom2, 
+                           data = monthly_blame_18)
+
+summary(model_blame_time_18_2)
+
+model_check(model_blame_time_18_2)
+```
+```{r}
+anova(model_blame_time_18, model_blame_time_18_2)
+```
+
+#
+Cannot fix assummptions here
+
+
 #Plot this model
 
 ```{r}
-sjPlot::plot_model(model_blame_time_18, 
+sjPlot::plot_model(model_blame_time_18_2, 
                    type = "pred", 
                    terms = c("month_index"), 
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Month since Jan 2000", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Evolution of the Use of Blame in period 2019-2022",
                    ci.lvl = NA,
-                   axis.lim = c(3,6.5)
+                    axis.lim = c(3,7)
                    ) +
   theme_minimal()
+```
+
+#check assumption
+
+```{r}
+model_check(model_blame_time_18_2)
 ```
 
 #Now the trend is turning and in the last few years it has been going up
@@ -682,7 +670,20 @@ election_model_triq <- glmmTMB(total_blame ~ scale(time_since_election) + I(scal
 summary(election_model_triq)
 ```
 
+```{r}
+anova(election_model, election_model_quad, election_model_triq)
+```
 
+
+#check assumptions
+```{r}
+
+election_model_quad <- glmmTMB(total_blame ~ scale(time_since_election) + I(scale(time_since_election)^2) + (1|party) + (1|in_gov) + offset(log(total_nr_sentences)), 
+                                family = nbinom1, 
+                                data = election_monthly_blame)
+summary(election_model_quad)
+model_check(election_model_quad)
+```
 
 
 
@@ -705,9 +706,20 @@ sjPlot::plot_model(election_model_quad,
                    axis.title = c("Months Since Nearest Election", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Counts of blame by time since nearest election ",
                    ci.lvl = NA,
-                   show.legend = TRUE
+                   axis.lim = c(3,7)
                    ) +
   theme_minimal()
 ```
 
+```{r}
+names(monthly_blame)
+```
+
+```{r}
+length(monthly_blame$month)
+```
+
+```{r}
+min(monthly_blame$month_index)
+```
 
