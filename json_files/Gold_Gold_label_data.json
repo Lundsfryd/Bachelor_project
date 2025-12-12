@@ -1,3 +1,1608 @@
+<<<<<<< HEAD
 version https://git-lfs.github.com/spec/v1
 oid sha256:6a4959503603cba485c65156b54d3f77bb0348296923879283dc1c922269e999
 size 76516
+=======
+[
+  {
+    "paragraph": "12653",
+    "sentence_nr": "3",
+    "text": "Fru Margrete Auken benyttede nogle forenklende og  usaglige synspunkter, som ikke er hendes standard værdig,  f.eks. det med, at man kører med sømmet i bund.",
+    "speaker": "Arne Melchior",
+    "party": "CD",
+    "preceding_sentence": "For at få dét  til at rime sammen skal man vist være underligt skabt i  øverste etage.",
+    "succeeding_sent": "Jeg ved ikke, hvor fru Margrete Auken har dét fra, om  det er egen erfaring eller det er nogle mennesker, hun kender  godt, der kører på den måde, men vi andre kører altså efter  reglerne og efter forholdene, sådan som vi er forpligtede  til, og ikke med sømmet i bund!",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-16 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "14682",
+    "sentence_nr": "1",
+    "text": "Og længe leve fordommene, specielt fra fru Elisabeth  Arnold.",
+    "speaker": "Brian Mikkelsen",
+    "party": "KF",
+    "preceding_sentence": "Man skal nogle gange høre meget herinde, før ørerne falder  af.",
+    "succeeding_sent": "Jeg kunne godt tænke mig at vide, om hun har læst det  konservative finanslovoplæg, og jeg vil godt have  konkretiseret, hvor der er en nettobesparelse på  uddannelsesområdet.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-22 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "27558",
+    "sentence_nr": "24",
+    "text": "Jeg tror, jeg har ret, når jeg siger,  at de mennesker i samfundets yderste hjørner, som har et  usselt liv, som de næsten ikke selv kan holde ud, i  virkeligheden er mennesker, der i alt for stor udstrækning  også er unge kvinder.",
+    "speaker": "Poul Nyrup Rasmussen",
+    "party": "S",
+    "preceding_sentence": "Det andet, jeg vil nævne, er det sociale arbejde, det  socialpolitiske arbejde, som der heller ikke blev fokuseret  så voldsomt på i dag.",
+    "succeeding_sent": "Det gælder narkomaner, det gælder en  række andre sociale grupper på samfundets allernederste trin,  og det gælder i virkeligheden også de mennesker, der ikke kan  holde deres eget liv ud og begår selvmord.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-12 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "28378",
+    "sentence_nr": "33",
+    "text": "Det er ganske smart lavet af  venstrefløjen, som jeg også bemærker ikke ønsker nogen  undersøgelse af arbejderbevægelsens indsats under den kolde  krig.",
+    "speaker": "Birthe Rønn Hornbech",
+    "party": "V",
+    "preceding_sentence": "Det er nogle partsindlæg.",
+    "succeeding_sent": "Det hele bygger på et pres fra venstrefløjen.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-25 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "3439",
+    "sentence_nr": "0",
+    "text": "Jeg skal blot beklage, at hr. Poul Erik Dyrlund  tilsyneladende ikke forstår sit eget lovforslag.",
+    "speaker": "Charlotte Antonsen",
+    "party": "V",
+    "preceding_sentence": "",
+    "succeeding_sent": "Når man taler om omfordeling, er der altså tale om, at  man fjerner 100 mio. kr. fra nogle virksomheder og giver dem  til nogle andre.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-02 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "36058",
+    "sentence_nr": "3",
+    "text": "Det gik så  på, at det skulle være specielt nedværdigende, at der er en  støtte på 100.000 kr. til dem, der ansætter dem.",
+    "speaker": "Jes Lunde",
+    "party": "SF",
+    "preceding_sentence": "Det kan jeg slet ikke forstå.",
+    "succeeding_sent": "Jeg ved ikke, om hr. Thor Pedersen føler det  nedværdigende, når man modtager hektarstøtte.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-12-16 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "28703",
+    "sentence_nr": "3",
+    "text": "Når jeg lige bruger et par ord på det her, så er det,  fordi jeg synes sådan set, det er - undskyld mig udtrykket,  jeg håber, formanden tillader det - på kanten af en anelse  barnligt, når regeringspartierne altid afviser at stemme ja  til forslag, bare fordi de ikke selv har fremsat dem.",
+    "speaker": "Frank Aaen",
+    "party": "EL",
+    "preceding_sentence": "Så ligefrem at det bare var for at løbe  indenom, sådan vil jeg nu ikke lige fremstille forløbet.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-26 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "4567",
+    "sentence_nr": "23",
+    "text": "Værsgo, bare ned og stemme nej.",
+    "speaker": "Elisabeth Arnold",
+    "party": "RV",
+    "preceding_sentence": "Ikke noget med veto og ikke noget med  forhandling.",
+    "succeeding_sent": "Det er det  eneste, man kan gøre.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-11 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "23090",
+    "sentence_nr": "23",
+    "text": "Der er ingen  opdagelsesfare, og annoncerne for prostitution er således  skyld i den store andel af indendørsprostitution på  massageklinikker.",
+    "speaker": "Tove Videbæk",
+    "party": "KRF",
+    "preceding_sentence": "Annoncerne gør det muligt for  kunden at sidde i ro og mag derhjemme med avis og tv og  udvælge den prostituerede, han ønsker.",
+    "succeeding_sent": "Det er også lettere at skjule handel med  mennesker, når den gemmes væk i massageklinikker.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-03-04 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "5425",
+    "sentence_nr": "6",
+    "text": "Ser Det  Radikale Venstre noget problem, når agtværdige, dygtige  medlemmer af dette Folketing bliver ledere af pengekasser til  uddeling?",
+    "speaker": "Niels Jørgen Langkilde",
+    "party": "KF",
+    "preceding_sentence": "I går var der en spændende positionering fra Det  Radikale Venstre om, at den lovgivende og den dømmende magt -  det viste sig så, at det ikke helt var den dømmende magt -  blev blandt sammen, men hvad med dette område?",
+    "succeeding_sent": "Det synes jeg kunne være spændende at få belyst.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-18 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "13961",
+    "sentence_nr": "6",
+    "text": "Hvad med de mennesker,  der arbejder i et offentligt trafikselskab, er de ikke  produktive lige så vel som de folk, der arbejder i et privat  trafikselskab?",
+    "speaker": "Villy Søvndal",
+    "party": "SF",
+    "preceding_sentence": "At mennesker, der arbejder i  offentlige forvaltninger, i kommunerne, med at producere el,  vand og varme, ikke er produktive, men at de samme mennesker,  der flytter med over til et nyt job, hvis man privatiserer  det hele, pludselig bliver produktive?",
+    "succeeding_sent": "Hvad med de mennesker, der arbejder med  undervisning i et offentligt system, er de uproduktive?",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-09-08 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "2554",
+    "sentence_nr": "0",
+    "text": "Jeg er da skuffet over, at den radikale ordfører, som jo  ellers gerne udadtil vil holde en høj miljøprofil, når det  kommer til konkret handling, ikke vil være med til at gøre  noget og synes, at tingene er gode nok, som de er.",
+    "speaker": "Jens Vibjerg",
+    "party": "V",
+    "preceding_sentence": "",
+    "succeeding_sent": "Jeg synes,  det er beskæmmende, at vi i Danmark skal være så længe om at  få godkendt nye midler.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-20 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "11806",
+    "sentence_nr": "9",
+    "text": "Men der er altså desværre  politikere, der er døgnets politikere, som altså bare følger  fra den ene avisudgivelse til den anden.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Jeg har valgt i den her sag fra første færd at  samarbejde med regeringen og gå efter det indholdsmæssige, en  ny regulering af PET, en ny lovgivning for PET, muligheder  for at undersøge, hvorvidt man kan lave oplysningsadgang til  folk selv, styrket kontrol.",
+    "succeeding_sent": "Det er selvfølgelig  ens eget frie valg, men når det kommer til at stå tilbage,  hvem der sætter sig flest spor i historiebøgerne, så tror jeg  stadig væk på, at det er dem, der går efter det  indholdsmæssige.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-03 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "13583",
+    "sentence_nr": "7",
+    "text": "Jeg har faktisk hørt, at alt, hvad vi andre har  foreslået, har Venstre været det parti herinde i Folketinget  der er gået kraftigst i spidsen for at sige nej til, men er  ikke selv kommet med nogen bud på, hvad det så er, der kan  gøres.",
+    "speaker": "Kristian Thulesen Dahl",
+    "party": "DF",
+    "preceding_sentence": "Nej, det har jeg hørt Venstre sige nej til.",
+    "succeeding_sent": "Og nu står vi ved en proces, hvor vi hen over sommeren  skal arbejde med de her ting bl.a. i Folketingets  Europaudvalg, og derfor kunne det ærlig talt være rart her i  fuld offentlighed at få nogle bud fra Venstre på det her.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-25 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "27803",
+    "sentence_nr": "7",
+    "text": "Jamen havde man dog bare ventet nogle dage mere.",
+    "speaker": "Poul Erik Dyrlund",
+    "party": "S",
+    "preceding_sentence": "Vi så jo ved den sidste konflikt, hvor der blev grebet  ind efter cirka en uge, at udsagnene efter indgrebet jo meget  gik på:",
+    "succeeding_sent": "Med hvilket formål?",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-20 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "15280",
+    "sentence_nr": "5",
+    "text": "Og så vil jeg gerne spørge Venstres ordfører, hvornår  folk egentlig skal bruge de penge, de sparer op, hvis de ikke  skal bruge dem i deres alderdom.",
+    "speaker": "Pernille Frahm",
+    "party": "SF",
+    "preceding_sentence": "Men det er  måske ikke mere en del af Venstres politik, at man gerne vil  være med til at gøre det forebyggende arbejde?",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-11-03 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "12420",
+    "sentence_nr": "26",
+    "text": "Når jeg siger det sådan lidt bistert, er det, fordi  ministeren jo oversendte til os forleden dag en række svar på  spørgsmål, vi havde stillet i forbindelse med  Ørestadsselskabet, og dér refererer, uden at ryste på hånden  og i hvert fald ikke kommenterer det, Ørestadsselskabets egen  definition af, hvordan de vil leve op til offentlighedsloven.",
+    "speaker": "Margrete Auken",
+    "party": "SF",
+    "preceding_sentence": "Og  det skal ikke være selskabet, der afgør, hvornår det synes,  det er sjovt, men det skal altså følge reglerne i  offentlighedsloven.",
+    "succeeding_sent": "De præsenterer sig selv for et tag selvbord, og hvis det var  sådan, vores offentlighedslov så ud, var den altså ikke meget  værd.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-11 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "23567",
+    "sentence_nr": "12",
+    "text": "Det er hul i  hovedet, og derfor støtter vi stoppet.",
+    "speaker": "Frank Aaen",
+    "party": "EL",
+    "preceding_sentence": "Der er ikke noget transportmæssigt behov for  ruten, der er kun et skatteteknisk behov for, at ruten skal  sejle meget længere, end den ellers skulle.",
+    "succeeding_sent": "Jeg fornemmer også, at argumenterne imod toldfrit salg  er så stærke og argumenterne for så ringe, at stort set ingen  i dag tør stille sig op og sige, at de ønsker toldfrit salg  fortsat til evig tid, bortset fra nogle ganske få her i  Folketingssalen.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-03-18 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "12760",
+    "sentence_nr": "35",
+    "text": "Det Radikale Venstre satte  spørgsmålet om mere fleksible orlovsordninger og 20  pct.-debatten på dagsordenen i valgkampen.",
+    "speaker": "Anders Samuelsen",
+    "party": "RV",
+    "preceding_sentence": "Der har været diskussioner om, hvorvidt pakken lever op  til diverse valgløfter.",
+    "succeeding_sent": "Jeg kan ikke se,  at disse emner er umulige at gennemføre på grundlag af  redegørelsen.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "30238",
+    "sentence_nr": "4",
+    "text": "Og nu er det så højrefløjen i Folketinget, som  punker os på det her område.",
+    "speaker": "Anders Samuelsen",
+    "party": "RV",
+    "preceding_sentence": "Det gælder i hvert fald de  ting, som vi har været medvirkende til at ændre inden for de  senere år.",
+    "succeeding_sent": "Det eneste, jeg kan sige, er, at vi prøver at se det i  en sammenhæng, og at vi, ligesom vi også har gjort tidligere,  vil tage højde for de kritikpunkter, der kommer, i det omfang  vi mener det er relevant.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-10-14 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "13643",
+    "sentence_nr": "100",
+    "text": "Men det er jo et sygt samfund.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Hvis man kan anbringe dem i  ældreghettoer og kun besøge dem juleaftensdag, er det jo  godt.",
+    "succeeding_sent": "Det er jo et samfund,  som vi ikke kan være bekendt.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-25 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "9805",
+    "sentence_nr": "32",
+    "text": "Folketinget gjorde sig altså til dommer,  i øvrigt uden at have beviserne i orden.",
+    "speaker": "Søren Kolstrup",
+    "party": "EL",
+    "preceding_sentence": "Der var uregelmæssigheder af den  ene og den anden karakter, men der var ikke noget, der kunne  minde om bedrageri.",
+    "succeeding_sent": "Jeg synes også, at det er interessant at fastholde, at  undervisningsminister Ole Vig Jensen flere gange  understregede, at de her skoler, som tidligere nævnt, jo bare  kunne få afprøvet deres grundpåstande ved domstolene, og man  kunne jo også lade en grundlovssag køre.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-04-21 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "8121",
+    "sentence_nr": "1",
+    "text": "I de mange år, hvor hr. Keld Albrechtsen var ordfører,  bl.a. under den såkaldte kolde krig og under alle  fodnotedebatterne, er jeg desværre blevet belemret med og har  været så uheldig at måtte høre på og læse alle hr. Keld  Albrechtsens ordførertaler, hvor han konstant og systematisk  angreb NATO, og hvor han konstant og systematisk angreb  amerikanerne.",
+    "speaker": "Helge Adam Møller",
+    "party": "KF",
+    "preceding_sentence": "Jeg kan garantere hr. Keld Albrechtsen for, at jeg ikke vil  give nogen undskyldning for det, jeg sagde, for det, jeg  sagde, var jo sandheden.",
+    "succeeding_sent": "Hvis det, som hr. Keld Albrechtsen stod for  dengang, var blevet virkelighed, havde vi i dag ikke levet i  et samfund, hvor vi ikke alene har et frit Vesteuropa, men  også et frit Østeuropa.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-02-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "20044",
+    "sentence_nr": "16",
+    "text": "Dem er man altså nødt  til at administrere, for de forstår ikke alvoren af det.",
+    "speaker": "Keld Albrechtsen",
+    "party": "EL",
+    "preceding_sentence": "Det er de simpelt hen ikke.",
+    "succeeding_sent": "Og  derfor er det kun Ministerrådet og regeringerne, der er  tilbage til at gøre noget ved det her.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-01-19 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "10246",
+    "sentence_nr": "7",
+    "text": "Jeg finder det ærlig talt koldt og kynisk, at der er  nogle, der godt vil have et barn, men af egoistiske årsager  ønsker de ikke lige at blande en mand ind i det.",
+    "speaker": "Henriette Kjær",
+    "party": "KF",
+    "preceding_sentence": "Der skal én til af hvert køn, for at der kan komme et  barn ud af det, og det må man respektere.",
+    "succeeding_sent": "Det synes  jeg absolut ikke er fair over for det barn, der bliver født.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-04-24 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "12619",
+    "sentence_nr": "4",
+    "text": "Men så er det hendes ansvar.",
+    "speaker": "Margrete Auken",
+    "party": "SF",
+    "preceding_sentence": "Det skal vi sådan  set heller ikke.",
+    "succeeding_sent": "Så er det  hende, der skal fortælle sit barn:",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-16 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "2855",
+    "sentence_nr": "2",
+    "text": "Hr. Keld Albrechtsens modstand imod EU er så stor, at  min fantasi efterhånden ikke rækker til, at  udenrigsministeren kan komme her i salen med nogen aftaler,  EU har indgået med noget land på noget demokratisk grundlag,  som hr. Keld Albrechtsen ville respektere, for hr. Keld  Albrechtsens modstand imod EU er så intens og så indædt, at  der aldrig nogen sinde fra hr. Keld Albrechtsens side ville  blive set nogen former for menneskelighed i øjnene, når der  kigges på EU.",
+    "speaker": "Ole Stavad",
+    "party": "S",
+    "preceding_sentence": "Altså renheden i hr.  Keld Albrechtsens modstand imod EU, klarheden, aldrig nogen  sinde en tvivl gør jo, at vi ligesom har et grundlag for at  have, kan vi sige rene linjer at diskutere ud fra.",
+    "succeeding_sent": "Det synes jeg er et udgangspunkt, som gør, at vi ved,  hvor vi har hinanden.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-25 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "1411",
+    "sentence_nr": "1",
+    "text": "Jeg er noget bestyrtet  over, at ministeren slet ikke er optaget af den situation,  der er i øjeblikket i fængslerne, og som er dødsensfarlig, at  ministeren overhovedet ikke vil kommentere den.",
+    "speaker": "Birthe Rønn Hornbech",
+    "party": "V",
+    "preceding_sentence": "Jeg er meget utilfreds med det svar.",
+    "succeeding_sent": "Jeg spørger  igen: Hvad vil ministeren gøre ved de helt uacceptable  forhold, der er i dag, hvor sikkerheden er nede på et  minimum?",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-05 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "26546",
+    "sentence_nr": "19",
+    "text": "Et fradrag giver det indtryk, at  sigtede, der har begået særlig grov kriminalitet eller  kriminalitet af organiseret karakter, og som modvirker  efterforskningen, efterfølgende skal belønnes i form af en  kortere straf.",
+    "speaker": "Brian Mikkelsen",
+    "party": "KF",
+    "preceding_sentence": "Vi mener, det er helt stødende for retsfølelsen, hvis  varetægtsarrestanter skal have rabat på afsoning, fordi de  har siddet i isolation, så det vil vi altså fra konservativ  side sige fra over for.",
+    "succeeding_sent": "Det er vist et indgreb, som kun findes i  socialdemokratisk retspolitik og på venstrefløjen.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-29 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "21905",
+    "sentence_nr": "9",
+    "text": "Man kunne ikke engang give dem uddannelse.",
+    "speaker": "Ole Vagn Christensen",
+    "party": "S",
+    "preceding_sentence": "Da kunne man ikke engang  give dem arbejde.",
+    "succeeding_sent": "Man kunne kun give dem støttet arbejde ved, at det var det  offentlige, der betalte for, at de fik nogle muligheder for  at kunne få en tilknytning til arbejdsmarkedet.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-11 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "26650",
+    "sentence_nr": "0",
+    "text": "Først til fru Anne Baastrup:       Intet, absolut intet, kan undskylde den vaskeægte  skandale, der i øjeblikket er under opsejling i Folketingets  EU-Oplysning.",
+    "speaker": "Elisabeth Arnold",
+    "party": "RV",
+    "preceding_sentence": "",
+    "succeeding_sent": "Jeg er - som flere andre, tror jeg - dybt  beskæmmet over de trykfejl, der har været i en publikation,  som den netop har udsendt, og det må få en eller anden form  for konsekvenser.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-29 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "12712",
+    "sentence_nr": "5",
+    "text": "Skal man tjene på at have børn?",
+    "speaker": "Jan Petersen",
+    "party": "S",
+    "preceding_sentence": "Det kunne så også være et svar til hr. Jann Sjursen:  Skal man nødvendigvis tjene på at have børnepasningsorlov?",
+    "succeeding_sent": "Jeg går ud fra, at der i hr.  Jann Sjursens parti er en anden indgangsvinkel, nemlig at det  er et gode i sig selv at have børn, og at det gerne må koste  noget.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "6288",
+    "sentence_nr": "1",
+    "text": "Den startede altså med Stauning, og han holdt jo en  meget uheldig nytårstale, hvor han hyldede det nye Europa og  Hitlers sejre og sagde, at vi skulle tilpasse os det nye  Europa.",
+    "speaker": "Per Stig Møller",
+    "party": "KF",
+    "preceding_sentence": "Først vil jeg godt sige, at jeg er enig med statsministeren  i, at vi skal holde dronningen helt uden for denne  diskussion, og derfor vil jeg fortsætte med at sige, at det  var venligt af statsministeren at gøre opmærksom på  statsministertaletraditionen.",
+    "succeeding_sent": "Nu har statsministeren efter vores opfattelse også  holdt en uheldig nytårstale, så kunne vi ikke få et løfte fra  statsministeren om, at nu tager Socialdemokraterne sig sammen  og holder nogle nytårstaler af et lidt højere niveau end dem,  Stauning var så uheldig at holde i 1941, og den tale,  statsministeren holdt den 1. januar - hvis altså  statsministeren på besynderlig vis skulle blive i stand til  at holde den næste nytårstale, hvad vi ikke regner med, for  nu har vi jo Enhedslistens løfte om, at det ikke sker.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-21 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "14289",
+    "sentence_nr": "8",
+    "text": "Vindmøllebaronerne pudser deres grønne glorie med de røde  afgifter.",
+    "speaker": "Aase D. Madsen",
+    "party": "DF",
+    "preceding_sentence": "Det er offentligt kendt.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-08 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "33301",
+    "sentence_nr": "6",
+    "text": "Og jeg kan også konstatere, at fru Birthe Rønn  Hornbech øjensynlig ikke har noget problem med, at en  velhavende kvinde fra Afrika ikke kan komme her til landet og  besøge sin datter, der er dansk gift, ved dette pars første  barnefødsel og dermed også, i det tilfælde, familiens første  barnebarn.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Og så kan jeg forstå, at det ikke er noget problem for  fru Birthe Rønn Hornbech, at man ikke kan være gift med en  udlænding, hvis man er fisker eller repræsentant eller  langtidschauffør, og at det ikke er noget problem for fru  Birthe Rønn Hornbech, at man ikke kan komme til at spille  fodbold som 13-årig i Frederikshavn, hvis man kommer fra  Armenien.",
+    "succeeding_sent": "Det er altså ikke noget problem for fru Birthe Rønn  Hornbech, og det synes jeg er synd, navnlig hvis fru Birthe  Rønn Hornbech nogen sinde får indflydelse på, hvordan  administrationen af udlændingeloven skal være i Danmark.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-11-25 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "5125",
+    "sentence_nr": "6",
+    "text": "Det var skandaløst.",
+    "speaker": "Pia Christmas-Møller",
+    "party": "KF",
+    "preceding_sentence": "Til fru Pia Gjellerup, som stillede en række stærkt  polemiske, lettere forvaskede spørgsmål til mig, vil jeg  sige, at jeg er fuldstændig enig med hr. Thor Pedersen i, at  folkepensionens grundbeløb er noget, alle skal have ret til,  alle, der er fyldt 67 år, og det var denne ret, som  Socialdemokratiet og de øvrige partier i rødkløverregeringen  over en nat fjernede for en række pensionister uden  forudgående varsel.",
+    "succeeding_sent": "Det var i lodret  strid med statsministerens løfter, der var givet mindre end  to måneder forud.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "20129",
+    "sentence_nr": "35",
+    "text": "Det er jo da i virkeligheden også en skamplet på det  socialdemokratiske velfærdssamfund, at næsten 1½ mio.  danskere køber en tillægsforsikring, for det burde den  socialdemokratiske velfærdsmodel da have fanget op, så folk  ikke havde brug for det.",
+    "speaker": "Kim Behnke",
+    "party": "FP",
+    "preceding_sentence": "Jamen det er jo  sådan set også et brud på de gældende principper, at 1,47  mio. danskere af 65 pct. beskattet lønindkomst vælger at købe  sig til en fortsat sygeforsikring i Fortsættelsessygekassen  Danmark.",
+    "succeeding_sent": "Og det er jo også kun dem, der har  råd til det; der er jo ikke skattefradrag for den  kontingentbetaling.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-01-19 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "18020",
+    "sentence_nr": "0",
+    "text": "Hr. Thulesen Dahl har en fabelagtig evne til ikke at høre  efter, hvad der bliver sagt.",
+    "speaker": "Knud Erik Kirkegaard",
+    "party": "KF",
+    "preceding_sentence": "",
+    "succeeding_sent": "Han sagde noget i retning af, at  jeg havde givet udtryk for, at så snart der var politisk  mulighed for det, ville vi lave efterlønsordningen om.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-04 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "19517",
+    "sentence_nr": "2",
+    "text": "Når man lytter til mediedebatten, også når man lytter  ude i de mange danske hjem, og når man læser de ustandselige  meningsmålinger og de utallige politiske kommentarer, kan man  imidlertid få det indtryk, at regeringen i Danmark har begået  århundredets dumhed og forbrydelse mod det danske folk.",
+    "speaker": "Mogens Lykketoft",
+    "party": "S",
+    "preceding_sentence": "Det er en finanslov, der fastholder den kloge og  ansvarlige økonomiske politik, der gennem de sidste næsten  6 år har gjort Danmark i stand til at bære en europæisk  førertrøje, når det gælder kampen mod arbejdsløshed og mod  gældsætning.",
+    "succeeding_sent": "Der  er ikke meget variation i analyserne.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "9498",
+    "sentence_nr": "10",
+    "text": "Hvordan kan man forsvare, at dårlig  ryg eller melallergi skyldes en personlig brist eller et knæk  i barndommen, som skal bankes ud af folk med psykisk terror?",
+    "speaker": "Jette Gottlieb",
+    "party": "EL",
+    "preceding_sentence": "Og her spørger jeg så: Hvad er meningen med, at man med  offentlig støtte finansierer en kursusindustri, der baserer  sig på en filosofi om, at arbejdsløshed altså er den  pågældendes egen skyld?",
+    "succeeding_sent": "Det er den type kurser, som vi får gentagne henvendelser  om, at folk bliver sendt på i praksis.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-04-15 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "21068",
+    "sentence_nr": "3",
+    "text": "Hr. Svend Heiselberg forsøgte jo, sådan som jeg hørte  det, selv om han roste mig for saglighed, ligesom at stikke  en, hvad skal vi sige, bordkniv ind i regeringssamarbejdet.",
+    "speaker": "Vibeke Peschardt",
+    "party": "RV",
+    "preceding_sentence": "Svaret er  ja, det har betydet et enormt løft for togtrafikken over  Storebælt, at den forbindelse er kommet, og det skal man  glæde sig over.",
+    "succeeding_sent": "Det skal på ingen måde være muligt for hr. Svend Heiselberg  at gøre det, for vi er sådan set enige også i den tale,  ministeren har holdt i dag.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-02 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "17340",
+    "sentence_nr": "4",
+    "text": "Minsandten om man ikke iblandt ministeriets embedsmænd,  hvis relationer til det virkelige liv jo tilsyneladende er  voldsomt begrænsede, forestiller sig, at pengeinstitutterne  bare kan finde ud af at få de her ting skrabet sammen, når  det gælder de forskellige puljeinvesteringer.",
+    "speaker": "Kim Behnke",
+    "party": "FP",
+    "preceding_sentence": "Det var en  god ting, men der manglede jo penge i statskassen, og i  stedet for indførte man en ny afgift på selve afkastet.",
+    "succeeding_sent": "Først  efterfølgende, først når der er gået et halvt år, og man fra  pengeinstitutternes side har dokumenteret, at det ikke kan  lade sig gøre, kommer ministeren til Folketinget og siger, at  der ville være uløselige tekniske problemer for  pengeinstitutterne.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-01 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "11094",
+    "sentence_nr": "3",
+    "text": "Man kunne have valgt  nødslagtningen, hvis ikke man ønskede at betale til Kræftens  Bekæmpelse.",
+    "speaker": "Ole Sohn",
+    "party": "SF",
+    "preceding_sentence": "Jeg synes lige, jeg bliver nødt til at understrege, at i  forbindelse med debatten om kyllinger og de 5 kr. blev det  faktisk tilkendegivet, at der blev givet to valgmuligheder:  enten kunne man foretage nødslagtning eller indgå en anden  ordning, hvor man betalte nogle penge.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-05-06 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "33063",
+    "sentence_nr": "6",
+    "text": "Altså man kan sige, at der ikke er noget ulovligt  i det, men en af vore forbandelser er jo, at der hele tiden  sidder en hob af revisorer og advokater og kloge folk, som  forsøger at finde omvejene for at undgå at betale normalt, og  det er derfor, vi får så komplicerede skatteregler.",
+    "speaker": "Ole Stavad",
+    "party": "S",
+    "preceding_sentence": "Til hr. Thulesen Dahl vil jeg så sige, at den der med at  sige, at man gerne må have lov til at sidde og nørkle i alle  reglerne for at prøve at finde ud af, hvordan man nu kan  smyge sige udenom, og at det er god moral, det er ikke min  opfattelse.",
+    "succeeding_sent": "Hvis det var sådan, at der var en vis parathed til ikke  kun at nyde, men også at yde, så kunne vi have meget, meget  enklere regler.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-11-24 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "8122",
+    "sentence_nr": "3",
+    "text": "Det er pinligt at skue.",
+    "speaker": "Pia Kjærsgaard",
+    "party": "DF",
+    "preceding_sentence": "Vi husker de talrige  pinlige debatter, som vi havde år tilbage, og nu boltrer SF  og Enhedslisten sig endnu en gang.",
+    "succeeding_sent": "Det er meget, meget pinligt, synes jeg, men det er stadig væk  endnu mere pinligt for Socialdemokratiet, og jeg håber, at  Socialdemokratiets ordfører vil gå op og besvare alle de  mange spørgsmål, som faktisk er stillet, herunder også  spørgsmålet, om de aggressive, hadefulde angreb, der kom her  fra Enhedslisten, ikke er noget, som man bør tage afstand  fra.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-02-17 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "3204",
+    "sentence_nr": "6",
+    "text": "Jeg vil også sige, at gør vi ikke det, så  hører vi som en nation nærmest til dem, der vælger at få en  dyr kosmetisk operation i stedet for at hjælpe en masse  sultne i tredjeverdenslandene.",
+    "speaker": "Niels Jørgen Langkilde",
+    "party": "KF",
+    "preceding_sentence": "Vi vil gerne  skubbe på, og det er så også det, som hr. Steen Gade  alligevel kommer frem til efter alle de her runder: at det  godt kan bruges.",
+    "succeeding_sent": "Vi skal bruge pengene ordentligt, og vi skal ikke lave  nogen former for smuthuller - det får man heller ikke Det  Konservative Folkeparti med til - og derfor skal vi også i  gang med at diskutere omsættelige kvoter.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-27 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "5331",
+    "sentence_nr": "106",
+    "text": "Det er  ikke troværdigt, og det er ikke sympatisk.",
+    "speaker": "Pia Gjellerup",
+    "party": "S",
+    "preceding_sentence": "Det er kun den  sterile kontobesparelse på 20 pct., de stemmer for.",
+    "succeeding_sent": "Det er verdens  allerfattigste, der skal bøde, men hvem det er, kan vi ikke  få at vide.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-18 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "6991",
+    "sentence_nr": "12",
+    "text": "Det er som at træde på en liggende, sønderknust mand eller  kvinde.",
+    "speaker": "Johannes Martin Olsen",
+    "party": "V",
+    "preceding_sentence": "Men når det er sagt, vil jeg  samtidig påpege, at synderne i 1980'erne ikke berettiger  hverken Den Danske Bank, den danske regering eller Danmarks  offentlige myndigheder til at bedrage det færøske landsstyre.",
+    "succeeding_sent": "Mens debatten i Danmark her i valgåret 1998 stort set  udelukkende har drejet sig om at placere ansvaret for  Færøbanksagen, er det andre spørgsmål, der har optaget  sindene på Færøerne.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-27 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "6964",
+    "sentence_nr": "9",
+    "text": "Men det, der er min pointe, er, at der må have  været nogle på Færøerne, som har vidst, hvor galt tingene  stod til.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Til hr. Breckmann vil jeg sige, at jeg har jo også i min  ordførertale nævnt gældsafviklingsaftalen osv., så dér er vi  helt enige.",
+    "succeeding_sent": "Det var ikke kun informationer fra den danske  regering, der manglede.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-27 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "5916",
+    "sentence_nr": "15",
+    "text": "Det er virkeligheden, men  Dansk Folkeparti er i alt for lang tid sluppet af sted med at  give befolkningen et helt andet indtryk.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Ja, helt op til 17-18-20 år har de levet  efterfølgende og holdt sig kriminalitetsfri og levet  fuldstændig efter dansk lovgivning.",
+    "succeeding_sent": "Derfor har det været en god debat i dag.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-15 00:00:00",
+    "Blame": 1
+  },
+  {
+    "paragraph": "5728",
+    "sentence_nr": "5",
+    "text": "Den socialpædagogiske ekspertise, der er til  rådighed i den sociale sektor i kommunerne bør inddrages ved  tilrettelæggelsen af disse ordninger.",
+    "speaker": "Ole Vig Jensen",
+    "party": "RV",
+    "preceding_sentence": "Ministeriet har dog i sin  vejledning nr. 159 om skolefritidsordninger bl.a. fremhævet,  at kommunerne i samarbejde med forældrene bør indrette  skolefritidsordningerne i overensstemmelse med de lokale  ønsker og etablere SFO på en måde, der er fuldt betryggende  for børnene.",
+    "succeeding_sent": "Under forårets debat fremhævede jeg også to forhold, som  jeg anser for meget vigtige: dels at man som hovedregel må  have tillid til det kommunale selvstyre, hvor  kommunalbestyrelsen har hovedansvaret, dels at det er en  forældrevalgt skolebestyrelse, som har indflydelse på  tilsynet med skolefritidsordningerne, og det vil jeg vende  tilbage til om et øjeblik.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-14 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "21310",
+    "sentence_nr": "2",
+    "text": "Derfor skulle  det vel også være muligt at finde flertal for, at den skelnen  heller ikke indgår i selve teksten, og det tror jeg sagtens  vi kan forhandle os frem til.",
+    "speaker": "Søren Søndergaard",
+    "party": "EL",
+    "preceding_sentence": "Jeg synes også, at der måske er en svaghed i det  beslutningsforslag, når der i selve teksten til  beslutningsforslaget lægges lidt for tydeligt op til en  skelnen, en skelnen, der sådan set ikke begrundes eller  argumenteres for i bemærkningerne og, hvis man ser på den  norske model, sådan set heller ikke indgår dér.",
+    "succeeding_sent": "Derimod kan jeg ikke følge den socialdemokratiske  ordfører, ikke forstå den socialdemokratiske ordfører, når vi  får sangen om, at værdidiskussion jo ikke skal lukkes inde i  en kommission.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "10189",
+    "sentence_nr": "47",
+    "text": "Der er tale om, at i dag bliver børns helbred sat på  spil, inklusive varige skader.",
+    "speaker": "Jette Gottlieb",
+    "party": "EL",
+    "preceding_sentence": "Det er jo det, vi taler om.",
+    "succeeding_sent": "Det er jo ikke kun ting, der  bliver, om jeg så må sige, repareret på kort sigt, der er  også tale om varige skader.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-04-23 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "21281",
+    "sentence_nr": "32",
+    "text": "Vi synes, det er alt for meget et  spørgsmål om, at området bliver gjort statisk.",
+    "speaker": "Kim Behnke",
+    "party": "FP",
+    "preceding_sentence": "Derfor må vi fra Fremskridtspartiets side  sige, at det lovforslag, som det ligger her, ikke umiddelbart  kan få vores støtte.",
+    "succeeding_sent": "Der bliver ikke plads til, at nye kan komme med, og der  bliver endnu mindre plads til, at man kan lade dem, der er  for dårlige, gå konkurs, og sidst, men ikke mindst mener vi  stadig væk, at den samlede bevilling fra skatteyderne til det  storkøbenhavnske teaterområde er alt for stor.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-03 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "28261",
+    "sentence_nr": "8",
+    "text": "Ifølge de  oplysninger, som er fremkommet, skulle der her være en  fuldstændig beskrivelse af et netværk af de agenter, som  arbejdede for Stasi i DDR-tiden.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Men dette  er ikke ensbetydende med, at der ikke kan komme det, og vi  arbejder nu af fuld kraft på at få adgang til de nye  oplysninger, som ligger på de dekrypterede bånd.",
+    "succeeding_sent": "Det er den bestræbelse, som gør, at vi yderligere har  intensiveret vort arbejde.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-21 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "5121",
+    "sentence_nr": "25",
+    "text": "På sygedagpengeområdet bliver der også strammet op:       Kommunernes opfølgning af sygedagpengesager forbedres og  fremrykkes.",
+    "speaker": "Pia Christmas-Møller",
+    "party": "KF",
+    "preceding_sentence": "Og kommunerne skal foretage en  rådighedsvurdering, og der skal etableres en  rådighedsstatistik for kontanthjælpsmodtagerne.",
+    "succeeding_sent": "Der skal foretages en skærpet rådighedsvurdering  af ledige, der tre gange har meldt sig syge i forbindelse med  jobtilbud m.v.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-12-17 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "24244",
+    "sentence_nr": "3",
+    "text": "Det er vedtaget.",
+    "speaker": "Poul Nødgaard",
+    "party": null,
+    "preceding_sentence": "(Ophold).",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-03-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "17898",
+    "sentence_nr": "6",
+    "text": "Sagt på en anden måde: Hvis man  droppede det her forslag, kunne man nedsætte  efterlønskontingentet med 400 kr. om året for dem, der ønsker  at få efterløn.",
+    "speaker": "Frank Aaen",
+    "party": "EL",
+    "preceding_sentence": "Det, der selvfølgelig undrer os, er, at  Socialdemokratiet og regeringen synes, at de vil være med til  den form for omfordeling.",
+    "succeeding_sent": "Men så har jeg et spørgsmål til skatteministeren.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "36028",
+    "sentence_nr": "7",
+    "text": "Men sådan er det jo: Noget koster, og noget kan man så  dele ud af.",
+    "speaker": "Jan Petersen",
+    "party": "S",
+    "preceding_sentence": "Ja, jeg ved ikke, om man gjorde det, det registrerede jeg  faktisk ikke.",
+    "succeeding_sent": "Og Dansk Folkeparti havde i går tydeligvis en  tendens, hvor man stemte imod indtægter, ganske mange af dem,  man stemte imod besparelser, også en hel del af dem, der  kunne vedtages, men man stemte også gladeligt for en lang  række udgifter.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-12-16 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "29979",
+    "sentence_nr": "0",
+    "text": "Jeg foreslår, at lovforslaget henvises til Udvalget for  Fødevarer, Landbrug og Fiskeri.",
+    "speaker": "Ole Løvig Simonsen",
+    "party": null,
+    "preceding_sentence": "",
+    "succeeding_sent": "Hvis ingen gør indsigelse,  betragter jeg det som vedtaget.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-10-12 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "18163",
+    "sentence_nr": "19",
+    "text": "Men det er lykkedes ministeren at overbevise i hvert  fald",
+    "speaker": "Tom Behnke",
+    "party": "FP",
+    "preceding_sentence": "Derfor er det lidt forvirrende med de her tal, og ministeriet  har ikke været specielt heldig med den pædagogiske hånd med  at forklare os, hvordan det er, virkeligheden ser ud.",
+    "succeeding_sent": "Fremskridtspartiet om, at det er hensigtsmæssigt, at man  sender et klart signal om, at de, der har muligheden for at  søge direkte på kvote I, og som ikke behøver spilde tid på at  samle point på anden vis, kan søge direkte ind på kvote I.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "2829",
+    "sentence_nr": "9",
+    "text": "En styrkelse af nærskibsfarten vil også mere generelt  forbedre markedsmulighederne for andre aktører i de  multimodale transportkæder, hvor skibene indgår.",
+    "speaker": "Bjørn Westh",
+    "party": "S",
+    "preceding_sentence": "Det vil forbedre  nærskibsfartens service over for transportkøberne.",
+    "succeeding_sent": "Der er behov  for effektive alternativer, der kan tage deres del af den  forventede vækst i transportbehovet og bidrage til løsning af  kapacitetsproblemerne på de europæiske landeveje.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "7778",
+    "sentence_nr": "32",
+    "text": "Så er jeg glad for, at man får sikret en mere ensartet  praksis rundt om i Danmark.",
+    "speaker": "Tom Behnke",
+    "party": "FP",
+    "preceding_sentence": "Jeg synes egentlig, de skulle have været inde på  et langt tidligere tidspunkt, og som jeg sagde før, mener  jeg, at de formidlende organisationer skal have langt mere at  skulle have sagt i disse sager, end tilfældet er, og end  tilfældet bliver med ministerens forslag.",
+    "succeeding_sent": "Vi må se, om det løfte bliver  ført ud i livet.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-02-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "29629",
+    "sentence_nr": "341",
+    "text": "Tidligere  generationers fremfærd og livssyn var bestemt af deres  udgangspunkt.",
+    "speaker": "Poul Nyrup Rasmussen",
+    "party": "S",
+    "preceding_sentence": "Vi ønsker at se fremad.",
+    "succeeding_sent": "Det kan vi ikke lave om på, men vi kan tage ved  lære af historien.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-10-05 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "22201",
+    "sentence_nr": "46",
+    "text": "Men hvad med de nedslidte, dem, der er  nedslidte, men ikke nok til, at de kan få en førtidspension?  Ja, de får jo altså en bet på denne her konto.",
+    "speaker": "Tom Behnke",
+    "party": "FP",
+    "preceding_sentence": "Vi har lagt mærke til, at førtidspensionisterne er  sikret en overgangsordning, og det skal regeringen da ikke  have utak for.",
+    "succeeding_sent": "Efter Fremskridtspartiets opfattelse burde efterlønnen  være en social sikring af de nedslidte og ikke en såkaldt  forsikringsordning for alle, uanset om man har behov for at  gå på efterløn eller ej.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-12 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "15569",
+    "sentence_nr": "41",
+    "text": "Det er vi unægtelig enige i.",
+    "speaker": "Birthe Rønn Hornbech",
+    "party": "V",
+    "preceding_sentence": "Bendtsen specielt nævnede, var, at der er alt for mange  regler.",
+    "succeeding_sent": "Og eksemplet med  flyvehavre viser jo til fulde, hvad det er, borgerne er oppe  imod, at man faktisk er dårligere beskyttet over for  myndighederne, hvis der gror noget flyvehavre, end hvis man  har begået en grov forbrydelse.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-11-05 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "35976",
+    "sentence_nr": "10",
+    "text": "Det har vi bidraget  aktivt til under det udvalgsarbejde, der var under Udvalget  for Forretningsordenen, og vi er altid parate til nye  diskussioner og overvejelser af nye forslag om, hvordan vi  kan sikre en høj lovkvalitet.",
+    "speaker": "Jan Petersen",
+    "party": "S",
+    "preceding_sentence": "Socialdemokratiet er altid tilhænger af,  at vi forsøger at forbedre lovkvaliteten.",
+    "succeeding_sent": "Men jeg vil ikke i dag give  noget konkret tilsagn om, hvad det skulle indeholde.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-12-16 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "28436",
+    "sentence_nr": "0",
+    "text": "Jeg må sige til hr. Arne Melchior: Lad nu være med at  inddrage nazisterne og Jonni Hansen i det her!",
+    "speaker": "Holger K. Nielsen",
+    "party": "SF",
+    "preceding_sentence": "",
+    "succeeding_sent": "Det er jo ikke  det, den her sag drejer sig om.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "32679",
+    "sentence_nr": "2",
+    "text": "Altså med den nuværende regel har vi en retssikret  orlovsperiode og en aftalebaseret orlovsperiode, men jeg vil  gerne spørge hr. Lars Kramer Mikkelsen, om der kommer flere  end de to muligheder i den nye ordning?",
+    "speaker": "Ole Sohn",
+    "party": "SF",
+    "preceding_sentence": "Men hvis jeg skulle have hørt forkert, det får vi jo  at se, når vi ser det på skrift, at der ikke bliver flere,  men at man splitter orlovsmuligheden op på flere perioder, så  vil jeg gerne spørge: Hvor mange flere splitter man op i?",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-11-19 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "19883",
+    "sentence_nr": "4",
+    "text": "Derfor tror jeg også,  at forslaget trækker i den modsatte retning af det, der  faktisk er angivet i bemærkningerne, og at det ikke anviser  den rigtige metode til at sikre syge mennesker en god  behandling.",
+    "speaker": "Jette Gottlieb",
+    "party": "EL",
+    "preceding_sentence": "Tværtimod tror vi i Enhedslisten, at det  bliver de syge, der bliver gidsler i dette spil, og jeg tror,  vi får langt flere eksempler på, at folk bliver raskmeldt,  selv om de rent faktisk ikke er raske.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-01-14 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "15261",
+    "sentence_nr": "7",
+    "text": "(Ændring af statens afregning af selskabsskat m.v. til  kommunerne).  (Lovforslag nr. L 72).",
+    "speaker": "Henning Grove",
+    "party": null,
+    "preceding_sentence": "Forslag til lov om ændring af lov om kommunal indkomstskat.",
+    "succeeding_sent": "Skatteministeren (Ole Stavad) har meddelt mig, at han ønsker  skriftligt at fremsætte:      Forslag til lov om ændring af skattekontrolloven,  kildeskatteloven, arbejdsmarkedsfondsloven, toldloven og en  række afgiftslove.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-29 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "23020",
+    "sentence_nr": "0",
+    "text": "Jeg tror lige, at jeg skal rette: De beløb, jeg snakker om på  50 og 100 mio. kr., er de beløb, som bliver doneret i arv.",
+    "speaker": "Sonja Albrink",
+    "party": "CD",
+    "preceding_sentence": "",
+    "succeeding_sent": "Som ministeren selv sagde, så ved vi jo ikke, hvor stort et  beløb det drejer sig om, men én ting er i hvert tilfælde  sikkert: Det, som vi i CD har fået henvendelser om, er, at de  mennesker og virksomheder, som har ønsket at være med til at  give en arv til de her foreninger af en vis stor størrelse,  har sagt nej på grund af pinsepakkens beskatning.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-03-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "2220",
+    "sentence_nr": "5",
+    "text": "Omkring stop for brug af tilsætningsstoffer, som ikke  kan begrundes i forbrugernes sundhed og sikkerhed,",
+    "speaker": "Jørn Jespersen",
+    "party": "SF",
+    "preceding_sentence": "Lad os tage dem ét for  ét.",
+    "succeeding_sent": "har det  været SF's politik hele tiden.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-14 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "10901",
+    "sentence_nr": "0",
+    "text": "Det Konservative Folkeparti kan ikke støtte Enhedslistens  forslag.",
+    "speaker": "Knud Erik Kirkegaard",
+    "party": "KF",
+    "preceding_sentence": "",
+    "succeeding_sent": "For det første mener vi egentlig ikke, det er særlig  rart at diskutere lige præcis dette tema i disse dage under  en igangværende konflikt.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-05-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "6971",
+    "sentence_nr": "42",
+    "text": "Derfor mener vi faktisk heller ikke, at  Finansieringsfonden kan slippe for et ansvar.",
+    "speaker": "Kristian Thulesen Dahl",
+    "party": "DF",
+    "preceding_sentence": "Alt tyder  på, at Finansieringsfonden i højere grad har været en  medspiller i Den Danske Banks forsøg på at slippe af med sin  moderselskabsforpligtelse end den modpart, som egentlig burde  stille fornuftige betingelser over for Den Danske Bank.",
+    "succeeding_sent": "Den Danske Bank er naturligvis heller ikke pletfri, men  omvendt tager de kritikere af Den Danske Bank fejl, som  mener, at det er Den Danske Banks hovedforpligtelse at tage  samfundsmæssige hensyn.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-01-27 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "14525",
+    "sentence_nr": "1",
+    "text": "Det må være rimeligt, at det bliver tilrettet i  lighed med folketingsvalget i det øvrige Danmark, så vi vil  medvirke til en hurtig behandling i Folketinget.",
+    "speaker": "Ole Donner",
+    "party": "DF",
+    "preceding_sentence": "Det er jo ikke let at tilføje debatten ret meget nyt i den  her sag, men jeg kan sige, at Dansk Folkeparti går ind for  forslaget.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-21 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "25154",
+    "sentence_nr": "56",
+    "text": "Men  hvad med det under 37 mia. kr.?",
+    "speaker": "Jørn Jespersen",
+    "party": "SF",
+    "preceding_sentence": "Endelig til Fremskridtspartiet: EU kontrollerer, ja.",
+    "succeeding_sent": "De næsthøjeste priser: Jo,  det er bl.a. på grund af skattetrykket, det er rigtigt.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-15 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "25581",
+    "sentence_nr": "2",
+    "text": "Det er jo egentlig lidt beskæmmende, at man skal stå her  og fortælle et folketingsmedlem, at deres muligheder nu er at  møde op i folketingsudvalget, bede om foretræde for  Kommunaludvalget, forelægge deres synspunkter og argumentere  for dem, og så selvfølgelig, for alle partier, fortsat gennem  de partipolitiske kanaler deltage i drøftelserne herom.",
+    "speaker": "Klaus Hækkerup",
+    "party": "S",
+    "preceding_sentence": "Så spørger hr.  Christian H. Hansen om, hvordan så hele problemstillingen er  velbelyst, og hvad mulighederne er for de sekundære  kommunalenheder og primære kommunalenheder, der ønsker at  give udtryk for deres synspunkter ud over de, vil jeg sige,  meget klare høringssvar, vi har fået, og meget oplysende  høringssvar.",
+    "succeeding_sent": "Så  det er vejen frem i en almindelig demokratisk  beslutningsproces, bare til oplysning for Dansk Folkepartis  ordfører.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-20 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "33469",
+    "sentence_nr": "6",
+    "text": "Vorherrebevares.",
+    "speaker": "Helge Adam Møller",
+    "party": "KF",
+    "preceding_sentence": "Der siges i virkeligheden,  at selv om man har mindreårige børn, og selv om man har en  ægtefælle, der sidder i et andet land, som man umuligt kan  komme tilbage til uden selv at blive fængslet, så skal man  leve adskilt fra hinanden resten af sit liv.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-11-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "3365",
+    "sentence_nr": "45",
+    "text": "Jeg skal ikke her i redegørelsesdebatten komme nærmere  ind på forslagene om Statens Kunstfond og de skabende  kunstneres levevilkår.",
+    "speaker": "Bent Hindrup Andersen",
+    "party": "EL",
+    "preceding_sentence": "Så har vi  et rent kvalitetsmæssigt problem, og vi har også et stort  demokratisk problem.",
+    "succeeding_sent": "Det vil jeg gemme til den konkrete  behandling af det efterfølgende forslag.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-28 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "28434",
+    "sentence_nr": "7",
+    "text": "Og når hr. Melchior er så optaget af den nazistiske  bevægelse, ved hr. Melchior jo, at jeg har samme opfattelse  som hr. Melchior, for vi har jo en fælles fortid i  Folkebevægelsen mod Nazisme, som vi var sammen om at starte  tilbage i 1988.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Selvfølgelig er det det.",
+    "succeeding_sent": "Så hr. Melchior må ikke blande tingene sammen.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-05-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "7638",
+    "sentence_nr": "6",
+    "text": "Udlændingestyrelsens afgørelse; 1 person afventer  indrejsetilladelse til hjemlandet; 1 person er  uidentificeret, som det hedder; 1 person afventer  fremskaffelse af rejselegitimation, og 1 person afventer en  afgørelse i Indenrigsministeriet.",
+    "speaker": "Thorkild Simonsen",
+    "party": "S",
+    "preceding_sentence": "Med hensyn til de resterende 20  personer - altså fra 25 til 45 - som endnu ikke er udsendt,  afsoner 13 personer fængselsstraf her i landet; 2 personer er  efterlyst; 1 person påregnes udsendt den 13. februar i år,  efter at Flygtningenævnet den 16. januar 1998 har stadfæstet",
+    "succeeding_sent": "Med hensyn til hr. Donners spørgsmål - og det lå vel  også noget i fru Pia Kjærsgaards -",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-02-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "8181",
+    "sentence_nr": "48",
+    "text": "Så er der også lige til sidst det med elektronik.",
+    "speaker": "Aage Brusgaard",
+    "party": "FP",
+    "preceding_sentence": "Hvis bare vi kunne  blive fri for det på en eller anden måde, så ville vi måske  spare, jeg ved ikke, 10 pct. af det papir, som vi i dag  bruger.",
+    "succeeding_sent": "Årsagen til, at det er et problem med elektronikskrot, er jo  egentlig, at det er for billigt.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-02-17 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "14134",
+    "sentence_nr": "31",
+    "text": "Så vi er for forslaget og skal gerne hjælpe med til, at  det kommer igennem Folketinget så hurtigt som muligt.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Forskellen på dem, der stemmer for forslaget, og dem,  der stemmer imod forslaget, er måske i virkeligheden, at vi,  der stemmer for, har overvejet konsekvenserne af forslaget,  men vi har også overvejet konsekvenserne af ikke at gøre det,  medens de, der stemmer imod, måske ikke rigtig har tænkt på,  hvad det er for nogle principper, og hvad det er for en  verden, man skaber ved bare at sige, at det dér vil vi ikke  blande os i andet end ved sniksnak.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-07 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "18237",
+    "sentence_nr": "21",
+    "text": "Det er ikke 87 timer siden, vi blev gjort til de rene  spilfægtere, til, at vi stod heroppe og talte mod bedre  vidende, og hvad ved jeg.",
+    "speaker": "Jette Gottlieb",
+    "party": "EL",
+    "preceding_sentence": "Her blev  venstrefløjen svinet til her fra talerstolen af  forligspartierne, fordi vi tillod os at mene, at det var  uforsvarligt, at man bad folk om at betale kontingent til  noget, som de ikke havde kendskab til hvordan blev udmøntet.",
+    "succeeding_sent": "Og for kun 24 timer siden bøjede  regeringen så af og indrømmede, at det godt nok var  uforsvarligt at indføre det uden den periode på 3 måneder.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-08 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "24789",
+    "sentence_nr": "4",
+    "text": "Når man ser på forslaget her, synes jeg derfor også, man  må holde fast i, at det indeholder to dele, om jeg så må  sige: den generelle del, hvor vi skaber rammerne for en  hensigtsmæssig eller i hvert fald mere hensigtsmæssig  beskatning af løbende ydelse generelt, og en anden del, som  er den henstandsordning, som vi har aftalt i forbindelse med  finansloven.",
+    "speaker": "Ole Stavad",
+    "party": "S",
+    "preceding_sentence": "Jeg mener til gengæld ikke, at de regler, vi har haft  hidtil, har været ordentlige, for et regelsæt, der betyder,  både at køberen har fradrag to gange for det, han betaler for  det købte, og at sælgeren skal beskattes to gange, mener jeg  altså hverken er skatteregler, der er hensigtsmæssige, eller  er noget, som man kan forsvare eller forklare.",
+    "succeeding_sent": "Man kan selvfølgelig altid diskutere henstandsordningen  som sådan, men jeg har under hele forløbet været optaget af  at få den indrettet sådan, at når vi ser på summen af de  ændringer, vi har lavet her, så er der ikke noget, der  forringer køberens situation, men noget, som meget gerne  skulle forbedre den.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-13 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "13994",
+    "sentence_nr": "10",
+    "text": "Det må man dog kunne svare på.",
+    "speaker": "Villy Søvndal",
+    "party": "SF",
+    "preceding_sentence": "Er det de steder, De Konservative vil  gå ind og skære?",
+    "succeeding_sent": "Må jeg så i øvrigt gøre opmærksom på, at på det punkt  tror jeg befolkningen er klogere end De Konservative.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-09-08 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "33526",
+    "sentence_nr": "1",
+    "text": "Det er et noget mere moderat og afbalanceret forslag set  i forhold til det lovforslag, som ministeren fremsatte i  februar 1998.",
+    "speaker": "Bodil Thrane",
+    "party": "V",
+    "preceding_sentence": "Lovforslag nr. L 92 omhandler, som det fremgår, revison af  lokal Agenda 21 og fravigelse af reglerne om planlægning i  kystnærhedszonen vedrørende sommerhusområde m.v.",
+    "succeeding_sent": "Der kom som bekendt et folketingsvalg i vejen,  hvilket gav anledning til en tænkepause, og jeg må sige, det  har været meget, meget nyttigt, og i den forbindelse noterer  jeg med stor tilfredshed, at mange af de elementer, som netop  Venstre kritiserede ved det første forslag, er taget ud.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-11-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "25385",
+    "sentence_nr": "20",
+    "text": "Dermed er det, som ministeren har lagt på  bordet, urealistisk.",
+    "speaker": "Kaj Ikast",
+    "party": "KF",
+    "preceding_sentence": ", og så  tager det 5 år.",
+    "succeeding_sent": "Vi kan ikke være med til den slags hasteindgreb, som jo  alligevel ikke nytter noget, og derfor vil jeg sige, at det,  som ministeren er ved at sætte i gang, er så skadeligt for  dansk erhvervsliv.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-04-16 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "14157",
+    "sentence_nr": "4",
+    "text": "Det ændringsforslag kan vi i Fremskridtspartiet  støtte helt.",
+    "speaker": "Thorkild B. Fransgaard",
+    "party": "FP",
+    "preceding_sentence": "I SF's ændringsforslag skriver de, at man kan gå med til  en aktion nede i Jugoslavien, når der foreligger et klart  FN-mandat.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-10-08 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "1548",
+    "sentence_nr": "7",
+    "text": "Men hvis  ministeren kan sige, at det, vi er i gang med nu, vil  medføre, at dyrene ikke skal have antibiotika, og at det er  sikkert, er det klart, at det er svært at protestere imod.",
+    "speaker": "Margrete Auken",
+    "party": "SF",
+    "preceding_sentence": "Jeg kan stadig væk ikke helt høre, om ministeren mener,  man skal blive klog i den takt, som det passer landbruget,  eller om man måske skulle blive klog i den takt, som vi andre  kan se, at dyrene har det godt eller skidt med.",
+    "succeeding_sent": "",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-05 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "3244",
+    "sentence_nr": "14",
+    "text": "Og så  slutter hr. Gade af med at sige, at uanset vedtagelsen mener  SF, at Folketinget skal fastholde de danske reduktionsmål og  insistere på, at EU fastholder sine.",
+    "speaker": "Ole Donner",
+    "party": "DF",
+    "preceding_sentence": "Hr. Steen Gade advarer også mod, at man på den  kommende konference vedtager nogle overskrifter og mener, at  det, der skal besluttes, skal være meget mere konkret.",
+    "succeeding_sent": "Her må jeg sige, at vi i Dansk Folkeparti er uenige.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-27 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "3101",
+    "sentence_nr": "13",
+    "text": "Så vi står faktisk i en situation nu, hvor der er bred  enighed om, at der skal være et mere rummeligt og mere  ansvarligt arbejdsmarked, og dér synes jeg også, vi er  nødsaget til at påtage os det ansvar at fjerne de barrierer -  måske ikke alene reelle barrierer, men også psykologiske  barrierer - for, at folk faktisk også bevæger sig hen til de  job, hvor de har mulighed for at tjene til i hvert fald en  delvis forsørgelse.",
+    "speaker": "Jytte Andersen",
+    "party": "S",
+    "preceding_sentence": "Det var også et udtryk,  der kom frem i forhold til lønmodtagersiden.",
+    "succeeding_sent": "Det er i den ånd, jeg godt vil bede partierne om at se  det her forslag, altså en lille justering i forhold til  fleksjob, som er blevet vedtaget med et meget stort flertal i  Folketinget, og så altså også en fjernelse af en lille  barriere, der kan bestå i, at man dumper ned i et hul mellem  to fleksjob i relation til sin seniorperiode, altså når man  er over 60 år.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-26 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "20420",
+    "sentence_nr": "47",
+    "text": "i mine og Justitsministeriets videre  overvejelser ved udarbejdelsen af et udkast til det  lovforslag, som vi vil udarbejde, og som vi vil sende ud til  høring her i foråret, og som vi i givet fald vil fremsætte  som et lovforslag ved samlingen til oktober.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Disse synspunkter  vil så indgå",
+    "succeeding_sent": "Men igen: Jeg vil gerne takke Kristeligt Folkeparti for  at have rejst debatten.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-01-21 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "21651",
+    "sentence_nr": "9",
+    "text": "Man kan altså ikke svare uden at vide præcis, hvad det  er for et indgreb, man vil foretage, for pengene, som er  indbetalt, nyder, som det er lagt til grund for regeringens  fremsættelse af lovforslaget, beskyttelse efter grundlovens §  73, så det må bero på på det tidspunkt, hvor Folketinget ikke  vil fjerne ordningen, men vil lave forandringer i ordningen,  hvor indgribende de her forandringer er, og det kan man altså  ikke svare på på nuværende tidspunkt alene baseret på et så  hypotetisk stillet spørgsmål og så ukonkret en baggrund.",
+    "speaker": "Frank Jensen",
+    "party": "S",
+    "preceding_sentence": "Hvis den består i, at man på den måde vil fjerne de beløb,  som borgeren har indbetalt, ja, så må man vurdere præcis på,  hvad det er for en fjernelse, der vil ske.",
+    "succeeding_sent": "Til fru Gottlieb: Det er rigtigt, at Justitsministeriets  lovafdelings grundlovsundersøgelse af efterlønsordningen er  baseret på, at der er tale om frivillige indbetalinger, som  jeg jo også sagde indledningsvis, som udgør en ikke  uvæsentlig del af den udbetalte efterløn, som det pågældende  medlem skal have på et givet tidspunkt, og også indgår som  det bidrag, som medlemmet skal give for at kunne blive  omfattet af ordningen.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1999-02-10 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "13643",
+    "sentence_nr": "6",
+    "text": "Vi er glade for, at  Danmark stadig væk spiller aktivt med, hvad enten det er ved  at have sine folk i Bosnien eller ved vores  solidaritetsmedvirken i forbindelse med Kosovo for nylig,  hvor danske fly deltog i øvelsen nede i Makedonien og  Albanien.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Vi er enige med statsministeren i, at det er godt, at  NATO-udvidelsen er kommet på plads.",
+    "succeeding_sent": "Det er godt, at regeringen stadig væk prioriterer en  aktiv dansk udenrigspolitisk deltagelse så højt, som den gør.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-06-25 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "14007",
+    "sentence_nr": "1",
+    "text": "Jeg  skal i al stilfærdighed sige, at der var 20 ting, der skulle  siges på 20 minutter, og så er der grænser for, hvor langt vi  kan gå ned i dem, men vi kan vende tilbage til dem.",
+    "speaker": "Peter Duetoft",
+    "party": "CD",
+    "preceding_sentence": "Jeg er naturligvis ked af, at hr. Estrup ikke synes, at mit  synspunkt omkring forsvaret var særlig velargumenteret.",
+    "succeeding_sent": "Jeg er lidt fascineret af, at hr. Estrup allerede nu,  hvor Forsvarskommissionen ikke er færdig, inddrager nogle  besparelser.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-09-08 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "18168",
+    "sentence_nr": "4",
+    "text": "Daghøjskoler og  produktionsskoler er et virkelig godt tilbud, og det giver en  god udvikling både for den enkelte og også for samfundet.",
+    "speaker": "Carsten Hansen",
+    "party": "S",
+    "preceding_sentence": "Det er et  godt tilbud til dem, som har et særligt behov for at blive  sluset ind på arbejdsmarkedet den vej rundt.",
+    "succeeding_sent": "Vi har i Socialdemokratiet været meget optaget af at  sikre en fortsat udvikling af de her to områder, både med  hensyn til en kvalitetsmæssig udvikling og et økonomisk  grundlag for videreførelsen af området.",
+    "current_speaker_in_government": true,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1998-12-04 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "2118",
+    "sentence_nr": "27",
+    "text": "Jeg kan jo ikke takke for, at et flertal støtter  forslaget, men det havde jeg heller ikke forventet.",
+    "speaker": "Kim Behnke",
+    "party": "FP",
+    "preceding_sentence": "Det må være noget, man afgør internt i  regeringen.",
+    "succeeding_sent": "Men vi  har endnu en gang lagt en sten ind i skoen, så den kan ligge  dér og gnave lidt, og så er det finansministerens lod at  afgøre, hvornår stenen skal pilles ud af skoen eller skoen  skiftes ud, og indtil da vil vi med jævne mellemrum lægge en  lille sten ind i skoen igen.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-11-13 00:00:00",
+    "Blame": 0
+  },
+  {
+    "paragraph": "420",
+    "sentence_nr": "2",
+    "text": "Vi har jo tidligere set, at man i Stockholm havde en  sag, hvor der var et privat firma, der udførte nogle opgaver  på et plejehjem, og da firmaet ikke kunne løse opgaverne på  tilstrækkelig vis, ja, så opsagde man kontrakten.",
+    "speaker": "Tom Behnke",
+    "party": "FP",
+    "preceding_sentence": "Men det, der er interessant, er i forhold til  tilsynet med de her institutioner.",
+    "succeeding_sent": "Firmaet  blev fyret.",
+    "current_speaker_in_government": false,
+    "parties_in_government": [
+      "S",
+      "RV"
+    ],
+    "date": "1997-10-22 00:00:00",
+    "Blame": 0
+  }
+]
+>>>>>>> 3b8aab0faa159bd11ab9e74f8df5d043ccd4a341
