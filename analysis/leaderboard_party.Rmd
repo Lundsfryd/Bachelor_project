@@ -1,0 +1,72 @@
+---
+title: "Untitled"
+output: html_document
+date: "2025-12-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+install.packages("pacman")
+library(pacman)
+
+pacman::p_load("tidyverse", "lubridate", "zoo")
+
+```
+
+
+#load data
+```{r, echo=FALSE}
+inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/inferece_data/inference_data.csv")
+
+#Make date column into date object
+inf_data$date = as.Date(inf_data$date)
+
+#Get the month
+inf_data$month <- format(inf_data$date,"%y-%m")
+inf_data$month <- as.yearmon(inf_data$month, "%y-%m")
+# Extract only the year
+inf_data$year <- as.numeric(format(inf_data$month, "%y"))
+
+inf_data$party = as.factor(inf_data$party)
+```
+
+```{r, echo=FALSE}
+#name parties that changed name
+inf_data$party[inf_data$party == 'KRF'] <- 'KD'
+
+#Ny alliance og LA
+inf_data$party[inf_data$party == 'NY'] <- 'LA'
+```
+
+
+
+
+```{r, echo=FALSE}
+
+#Omitted parties
+#NA, "UP", "FRI" "CD"  "LH"  "FP"  "IA"  "SIU" "T"   "UFG" "FF" "SP" "NQ"  "JF"   "M", "-"
+parties_to_keep <- c("S", "DF", "EL", "SF", "V", "RV", "KD", "LA", "DD", "FG", "KF", "ALT", "NB" )
+
+inf_data_filtered <- inf_data %>% 
+  filter(party %in% parties_to_keep)
+
+```
+
+
+#Make party leaderboard
+
+```{r}
+party_leaderboard <- inf_data_filtered %>% 
+  group_by(party) %>% 
+  summarise(party_n_sent = n(),
+            party_blame = sum(prediction),
+            party_blame_percentage = (party_blame/party_n_sent)*100) %>% 
+  #filter(party_n_sent>=1000) %>% 
+  arrange(desc(party_blame_percentage)) %>% 
+  ungroup()
+
+head(party_leaderboard, 13)
+```
