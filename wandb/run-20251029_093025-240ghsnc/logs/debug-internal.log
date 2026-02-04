@@ -1,6 +1,0 @@
-{"time":"2025-10-29T09:30:26.432184458+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-29T09:30:26.956959333+01:00","level":"INFO","msg":"stream: created new stream","id":"240ghsnc"}
-{"time":"2025-10-29T09:30:26.957038882+01:00","level":"INFO","msg":"handler: started","stream_id":"240ghsnc"}
-{"time":"2025-10-29T09:30:26.957895972+01:00","level":"INFO","msg":"stream: started","id":"240ghsnc"}
-{"time":"2025-10-29T09:30:26.95791492+01:00","level":"INFO","msg":"sender: started","stream_id":"240ghsnc"}
-{"time":"2025-10-29T09:30:26.957924795+01:00","level":"INFO","msg":"writer: started","stream_id":"240ghsnc"}

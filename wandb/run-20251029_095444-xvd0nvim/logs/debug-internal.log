@@ -1,7 +1,0 @@
-{"time":"2025-10-29T09:54:44.827605655+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-29T09:54:45.184079218+01:00","level":"INFO","msg":"stream: created new stream","id":"xvd0nvim"}
-{"time":"2025-10-29T09:54:45.184190984+01:00","level":"INFO","msg":"handler: started","stream_id":"xvd0nvim"}
-{"time":"2025-10-29T09:54:45.184784861+01:00","level":"INFO","msg":"stream: started","id":"xvd0nvim"}
-{"time":"2025-10-29T09:54:45.184803409+01:00","level":"INFO","msg":"writer: started","stream_id":"xvd0nvim"}
-{"time":"2025-10-29T09:54:45.184836338+01:00","level":"INFO","msg":"sender: started","stream_id":"xvd0nvim"}
-{"time":"2025-10-29T10:00:00.576506058+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}

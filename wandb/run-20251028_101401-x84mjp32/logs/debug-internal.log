@@ -1,6 +1,0 @@
-{"time":"2025-10-28T10:14:03.05808007+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-28T10:14:03.571755238+01:00","level":"INFO","msg":"stream: created new stream","id":"x84mjp32"}
-{"time":"2025-10-28T10:14:03.571831311+01:00","level":"INFO","msg":"handler: started","stream_id":"x84mjp32"}
-{"time":"2025-10-28T10:14:03.572455754+01:00","level":"INFO","msg":"stream: started","id":"x84mjp32"}
-{"time":"2025-10-28T10:14:03.572470926+01:00","level":"INFO","msg":"writer: started","stream_id":"x84mjp32"}
-{"time":"2025-10-28T10:14:03.572471387+01:00","level":"INFO","msg":"sender: started","stream_id":"x84mjp32"}

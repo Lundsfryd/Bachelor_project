@@ -1,6 +1,0 @@
-{"time":"2025-10-29T09:48:50.591508812+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-29T09:48:50.945978395+01:00","level":"INFO","msg":"stream: created new stream","id":"mhtx5blr"}
-{"time":"2025-10-29T09:48:50.946063021+01:00","level":"INFO","msg":"handler: started","stream_id":"mhtx5blr"}
-{"time":"2025-10-29T09:48:50.946668435+01:00","level":"INFO","msg":"stream: started","id":"mhtx5blr"}
-{"time":"2025-10-29T09:48:50.946689707+01:00","level":"INFO","msg":"sender: started","stream_id":"mhtx5blr"}
-{"time":"2025-10-29T09:48:50.946690008+01:00","level":"INFO","msg":"writer: started","stream_id":"mhtx5blr"}

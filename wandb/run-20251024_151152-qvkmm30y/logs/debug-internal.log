@@ -1,7 +1,0 @@
-{"time":"2025-10-24T15:11:53.021995182+02:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
-{"time":"2025-10-24T15:11:53.383411746+02:00","level":"INFO","msg":"stream: created new stream","id":"qvkmm30y"}
-{"time":"2025-10-24T15:11:53.383475612+02:00","level":"INFO","msg":"handler: started","stream_id":"qvkmm30y"}
-{"time":"2025-10-24T15:11:53.384047106+02:00","level":"INFO","msg":"stream: started","id":"qvkmm30y"}
-{"time":"2025-10-24T15:11:53.384068928+02:00","level":"INFO","msg":"sender: started","stream_id":"qvkmm30y"}
-{"time":"2025-10-24T15:11:53.384073385+02:00","level":"INFO","msg":"writer: started","stream_id":"qvkmm30y"}
-{"time":"2025-10-24T19:26:40.887530387+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/rune-trust-aarhus-university/huggingface/qvkmm30y/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
