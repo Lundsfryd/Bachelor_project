@@ -1,1 +1,0 @@
-{'eval_loss': 0.46705466508865356, 'eval_keras_BCE': 0.4670414924621582, 'eval_weigthed BCE': 0.31243467330932617, 'eval_precision': 0.652620435757883, 'eval_accuracy': 0.7586206896551724, 'eval_f1': 0.7180555555555556, 'eval_runtime': 3.2533, 'eval_samples_per_second': 53.485, 'eval_steps_per_second': 6.762, 'epoch': 3.0}
