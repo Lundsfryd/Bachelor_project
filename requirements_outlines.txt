@@ -1,6 +1,0 @@
-outlines
-transformers
-pydantic
-torch
-accelerate
-pandas
