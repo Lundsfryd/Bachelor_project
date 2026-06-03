@@ -1,13 +1,13 @@
-# BlameBERT — Blame Detection in Danish Parliamentary Debates
+# BlameBERT: Blame Detection in Danish Parliamentary Debates
 
-A Bachelor's project by **Markus Lundsfryd Jensen** and **Rune Trust**.
+A project by **Markus Lundsfryd Jensen** and **Rune Egeskov Trust**.
 
 This project develops **BlameBERT**, a fine-tuned multilingual BERT model for detecting *blame attribution* in transcripts from the Danish Parliament (Folketinget). The full pipeline covers everything from raw parliamentary data to a trained and deployed model, including machine translation, zero-shot preliminary labelling, human annotation, LoRA-based fine-tuning, inference, and statistical analysis.
 
 The trained model is publicly available on Hugging Face:
 **[Lundsfryd/blameBERT](https://huggingface.co/Lundsfryd/blameBERT)**
 
-Reproducability of XML files: Folketingets open data (ODA) FTP server can be accessed by following this guide: https://www.ft.dk/-/media/sites/ft/pdf/dokumenter/aabne-data/oda-browser_brugervejledning.pdf 
+### Reproducability of XML files: Folketingets open data (ODA) FTP server can be accessed by following this guide: https://www.ft.dk/-/media/sites/ft/pdf/dokumenter/aabne-data/oda-browser_brugervejledning.pdf 
  ---
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Reproducability of XML files: Folketingets open data (ODA) FTP server can be acc
 
 ## Project Overview
 
-The goal of the project is to automatically detect sentences in which a Danish politician is *blaming* another party, politician, or institution. The pipeline proceeds as follows:
+The goal of the project is to automatically detect sentences in which a Danish politician is *blaming* another party, politician, or institution.
 
 1. Raw parliamentary debate transcripts (XML/CSV from Folketing) are cleaned and sentence-segmented.
 2. Sentences are translated from Danish to English using the Helsinki-NLP MarianMT model.
@@ -45,7 +45,7 @@ The goal of the project is to automatically detect sentences in which a Danish p
 ## Repository Structure
 
 ```
-Bachelor_project/
+BlameBERT/
 │
 ├── src/
 │   ├── sentence_segmentation.py # Sentence segmentation using DaCy/spaCy
@@ -200,7 +200,7 @@ python src/PBD.py \
 **Notebooks:** `nbs/3_annotation_and_validation/`  
 **Script:** `src/json_formatting.py`
 
-A subset of the PBD-labelled data was exported to [Label Studio](https://labelstud.io/) for manual annotation by both authors (Markus and Rune). The `Formatter` class in `json_formatting.py` handles:
+A subset of the PBD-labelled data was exported to [Label Studio](https://labelstud.io/) for manual annotation by both authors. The `Formatter` class in `json_formatting.py` handles:
 
 - Converting JSONL to Label Studio's import format
 - Processing Label Studio exports back to JSONL
@@ -215,7 +215,7 @@ Annotated files went through multiple reconciliation rounds, with gold-labelled 
 **Notebooks:** `nbs/4_training/`  
 **Scripts:** `src/training_setup.py`, `src/training_pipeline_with_viz.py`, `src/full_training.py`, `src/gridsearch_training.py`
 
-The base model `jhu-clsp/mmBERT-base` (multilingual BERT) is fine-tuned for binary sequence classification (blame / not blame) using [LoRA](https://arxiv.org/abs/2106.09685) adapters via the `peft` library and Hugging Face `Trainer`.
+The base model `jhu-clsp/mmBERT-base` (multilingual BERT) is fine-tuned for binary sequence classification (blame / not blame) using LoRA adapters via the `peft` library and Hugging Face `Trainer`.
 
 Training features:
 - **LoRA fine-tuning** for parameter-efficient training
@@ -261,7 +261,7 @@ python src/gridsearch_training.py
 **Notebook:** `nbs/5_inference/Blame_inference.ipynb`  
 **Script:** `src/blame_detection.py`
 
-The trained BlameBERT model is loaded via the `BlameDetector` class and run on all Folketing debate sentences. Results are written back to JSONL with `prediction` (0/1) and `confidence` fields. The `danish_minister_party_pipeline.py` script enriches records with the correct party affiliation for each minister based on the debate date, accounting for ministers who changed parties over time (e.g., Lars Lokke Rasmussen switching from Venstre to Moderaterne).
+The trained BlameBERT model is loaded via the `BlameDetector` class and run on all Folketing debate sentences. Results are written back to JSONL with `prediction` (0/1) and `confidence` fields. The `danish_minister_party_pipeline.py` script enriches records with the correct party affiliation for each minister based on the debate date, accounting for ministers who changed parties over time (e.g., Lars Løkke Rasmussen switching from Venstre to Moderaterne).
 
 ```python
 from blame_detection import BlameDetector
@@ -327,15 +327,15 @@ Statistical analysis is performed in R and Python after inference is complete.
 
 ### R Analysis (`analysis/r/`)
 
-- **`blame_analysis.Rmd`** — Primary analysis using Generalised Linear Mixed-Effects Models (GLMMs via `glmmTMB`). Models blame counts over time, controlling for party and cabinet period. Includes overdispersion checks, residual diagnostics, and post-hoc comparisons using `emmeans`.
-- **`leaderboard_party.Rmd`** — Party-level aggregation and ranking of blame attribution rates.
+- **`blame_analysis.Rmd`** - Primary analysis using Generalised Linear Mixed-Effects Models (GLMMs via `glmmTMB`). Models blame counts over time, controlling for party and cabinet period. Includes overdispersion checks, residual diagnostics, and post-hoc comparisons using `emmeans`.
+- **`leaderboard_party.Rmd`** - Party-level aggregation and ranking of blame attribution rates.
 
 Both reports are pre-rendered as HTML files.
 
 ### Python Analysis (`analysis/python/`)
 
-- **`power_analysis.ipynb`** — Statistical power analysis for the annotation study.
-- **`inference_data.ipynb`** — Exploratory analysis of the raw inference output.
+- **`power_analysis.ipynb`** - Statistical power analysis for the annotation study.
+- **`inference_data.ipynb`** - Exploratory analysis of the raw inference output.
 
 ---
 
@@ -357,18 +357,6 @@ Each JSONL record contains fields for `date`, `speaker`, `party`, `paragraph_nr`
 ### Python
 
 Install the main dependencies:
-
-```bash
-pip install torch transformers datasets peft accelerate
-pip install spacy dacy
-pip install pandas tqdm scikit-learn
-pip install umap-learn plotly wandb
-pip install sentencepiece sacremoses
-pip install keras tensorflow
-pip install ipywidgets IProgress
-```
-
-Or install from the notebook requirements file:
 
 ```bash
 pip install -r nbs/requirements.txt
