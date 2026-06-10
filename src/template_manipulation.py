@@ -366,6 +366,8 @@ class TemplateManipulation(object):
         self.plot_agreement_statistics_per_hyp(pct_threshold, pct_hyp)
 
         return
+
+        
     
 
 

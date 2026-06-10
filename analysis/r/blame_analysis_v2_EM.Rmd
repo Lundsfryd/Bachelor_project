@@ -12,7 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 #load packages
 
 ```{r, echo=FALSE, include=FALSE}
-options(download.file.method = "wininet")
 install.packages("pacman")
 
 library(pacman)
@@ -61,7 +60,7 @@ model_check <- function(model_name){
 
 #load data
 ```{r}
-inf_data = read_csv("C:/Uni/Project/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+inf_data = read_csv("C:/Uni/Project/BlameBERT/data/inference/predicted_inference_data_with_gov.csv")
 
 #Make date column into date object
 inf_data$date = as.Date(inf_data$date)
@@ -97,6 +96,13 @@ inf_data_filtered <- inf_data_filtered %>%
     prediction_strict = as.integer(prediction == 1 & confidence > 0.7)  # raise from 0.5
   )
 
+```
+
+
+```{r}
+strict <- inf_data_filtered %>% 
+  
+  prediction==1)
 ```
 
 

@@ -234,10 +234,39 @@ summary(model_blame_time_3)
 diagnose(model_blame_time_3)
 ```
 
+#test
+
+```{r}
+model_blame_time_4 <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2) + I(scale(month_index)^3) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_4)
+diagnose(model_blame_time_4)
+```
 
 
 ```{r}
-anova(model_blame_time_1, model_blame_time_2, model_blame_time_3)
+model_blame_time_5 <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2) + I(scale(month_index)^3) + I(scale(month_index)^4) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_5)
+diagnose(model_blame_time_5)
+```
+
+```{r}
+model_blame_time_6 <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2) + I(scale(month_index)^3) + I(scale(month_index)^4) + I(scale(month_index)^5) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_6)
+diagnose(model_blame_time_6)
+```
+
+
+```{r}
+anova(model_blame_time_1, model_blame_time_2, model_blame_time_3, model_blame_time_4, model_blame_time_5, model_blame_time_6)
 ```
 
 #check assumptions
@@ -263,6 +292,33 @@ print(month_star)
 print(231/12)
 ```
 
+
+```{r}
+b1 <- fixef(model_blame_time_4)$cond["scale(month_index)"]
+b2 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^2)"]
+b3 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^3)"]
+
+# derivative: b1 + 2*b2*x + 3*b3*x^2 = 0
+# solve with quadratic formula
+discriminant <- (2*b2)^2 - 4*(3*b3)*b1
+
+if (discriminant < 0) {
+  message("No real turning points")
+} else {
+  x1 <- (-2*b2 + sqrt(discriminant)) / (2 * 3*b3)
+  x2 <- (-2*b2 - sqrt(discriminant)) / (2 * 3*b3)
+  
+  # back-transform from scaled to original month index
+  m <- mean(monthly_blame$month_index)
+  s <- sd(monthly_blame$month_index)
+  
+  month_star1 <- x1 * s + m
+  month_star2 <- x2 * s + m
+  
+  print(month_star1)
+  print(month_star2)
+}
+```
 
 
 
@@ -311,18 +367,52 @@ library(sjPlot)
 sjPlot::plot_model(model_blame_time_3, type = "re")
 
 #Due to the offset, in order to do meaningfull interpretation, the total number of sentences must be kept constant. Thus the following plot shows the change in predicted amount of blame pr 1000 sentences uttered as time goes on  
-sjPlot::plot_model(model_blame_time_3, 
+sjPlot::plot_model(model_blame_time_6, 
                    type = "pred", 
                    terms = "month_index[all]", 
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Months after Jan 2000", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "General Evolution of Blame in the Danish Parliament over time",
-                   #ci.lvl = NA,
-                   #axis.lim = c(3,12)
+                   ci.lvl = .95,
+                   #show.data = TRUE,
+                   #axis.lim = c(8,12)
                    ) +
   theme_minimal()
 ```
+#try overlapping model with raw data
 
+```{r}
+plot_data <- monthly_blame %>%
+  mutate(blame_rate = (total_blame / total_nr_sentences) * 100)
+
+sjPlot::plot_model(model_blame_time_3,
+                   type = "pred",
+                   terms = "month_index[all]",
+                   condition = c(total_nr_sentences = 100),
+                   ci.lvl = .95) +
+  geom_point(data = plot_data,
+             aes(x = month_index, y = blame_rate),
+             alpha = 0.2, size = 0.8, color = "steelblue") +
+  theme_minimal()
+```
+
+
+```{r}
+monthly_avg <- monthly_blame %>%
+  group_by(month_index) %>%
+  summarise(blame_rate = sum(total_blame) / sum(total_nr_sentences) * 100)
+
+sjPlot::plot_model(model_blame_time_3,
+                   type = "pred",
+                   terms = "month_index[all]",
+                   condition = c(total_nr_sentences = 100),
+                   ci.lvl = .95) +
+  geom_smooth(data = monthly_avg,
+              aes(x = month_index, y = blame_rate),
+              color = "steelblue", se = FALSE,
+              linewidth = 0.7) +
+  theme_minimal()
+```
 
 # Interpretation
 
