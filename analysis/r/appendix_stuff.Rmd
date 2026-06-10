@@ -48,16 +48,29 @@ ts_data <- inf_data %>%
 
 library(ggplot2)
 
-ggplot(ts_data, aes(x = month, y = n_sentences)) +
-  geom_line() +
-  geom_smooth(se = FALSE) +
+countplot_1 <- ggplot(ts_data, aes(x = month, y = n_sentences)) +
+  geom_line(color = "grey") +
+  geom_smooth(se = FALSE, color = "#2C7BB6") +
   geom_vline(xintercept = as.yearmon("2019-01"),
-             linetype = "dashed", color = "red") +
-  labs(title = "Sentence Counts pr Month",
-       subtitle = "No abrupt shift at dataset merge (2019)")+
-       ylab("nr Sentences pr Month")+
+             linetype = "dashed", color = "#C0392B", linewidth = 1) +
+  #labs(title = "Sentence Counts pr Month",
+       #subtitle = "No abrupt shift at dataset merge (2019)")+
+       ylab("Sentences per Month")+
        xlab("Month")+
-  theme_minimal()
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 11,  color = "grey50")
+  )
+countplot_1
+ggsave("countplot_1.png",countplot_1, width = 5, height = 4)
 ```
 
 
@@ -75,16 +88,52 @@ ts_data <- inf_data %>%
   ) %>%
   mutate(sentences_per_day = n_sentences / n_days)
 
-ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
-  geom_line() +
-  geom_smooth(se = FALSE) +
+# countplot_2 <- ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
+#   geom_line(color = "grey") +
+#   geom_smooth(se = FALSE, color = "#2C7BB6") +
+#   geom_vline(xintercept = as.yearmon("2019-01"),
+#              linetype = "dashed", "#C0392B", linewidth = 1) +
+#          ylab("nr Monthly Sentences pr active day")+
+#        xlab("Month")+
+#   theme_minimal()+
+#   theme(
+#     panel.grid.minor   = element_blank(),
+#     panel.grid.major.x = element_blank(),
+#     panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+#     axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+#     axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+#     axis.ticks.length  = unit(3, "pt"),
+#     plot.title         = element_blank(),
+#     axis.title         = element_text(size = 15, color = "grey40"),
+#     axis.text          = element_text(size = 13,  color = "grey50")
+#   )
+# 
+# countplot_2
+# ggsave("countplot_2.png",countplot_2, width = 5, height = 4)
+
+countplot_2 <- ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
+  geom_line(color = "grey") +
+  geom_smooth(se = FALSE, color = "#2C7BB6") +
   geom_vline(xintercept = as.yearmon("2019-01"),
-             linetype = "dashed", color = "red") +
-  labs(title = "Monthly Sentences pr active Day Counts Over Time",
-       subtitle = "No abrupt shift at dataset merge (2019)")+
-         ylab("nr Monthly Sentences pr active day")+
+             linetype = "dashed", color = "#C0392B", linewidth = 1) +
+  #labs(title = "Sentence Counts pr Month",
+       #subtitle = "No abrupt shift at dataset merge (2019)")+
+       ylab("Monthly Sentences per Active Day")+
        xlab("Month")+
-  theme_minimal()
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 11,  color = "grey50")
+  )
+countplot_2
+ggsave("countplot_2.png",countplot_2, width = 5, height = 4)
 ```
 ## This does not seem alarming at all. Of cause some changes are expected, but visually, the change in amount of sentences does not seem abtrupt, which is what we expect, at the data shoudl originate from the same source.
 
@@ -107,22 +156,49 @@ monthly_data <- inf_data %>%
 
 
 ```{r}
-ggplot(monthly_data, aes(x = n_sentences, fill = factor(post_2019))) +
+density_plot <- ggplot(monthly_data, aes(x = n_sentences, fill = factor(post_2019))) +
   geom_density(alpha = 0.4) +
-  labs(fill = "Post 2019",
-       title = "Desity Plot of Number of Sentences in the Dataset Split by Merge Date") +
-  xlab("Nr of Sentences")+
+  labs(fill = "Post 2019") +
+  xlab("Number of Sentences")+
   ylab("Density")+
-  theme_minimal()
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50")
+  )
+
+density_plot
+ggsave("density_plot.png",density_plot,width = 5, height = 4)
 ```
 
 ```{r}
-ggplot(monthly_data, aes(x = factor(post_2019), y = n_sentences, fill = post_2019)) +
+boxplot_plot <- ggplot(monthly_data, aes(x = factor(post_2019), y = n_sentences, fill = post_2019)) +
   geom_boxplot() +
-  labs(title = "Boxplot of Number of Sentences in the Dataset Split by Merge Date") +
   xlab("Post 2019")+
-  ylab("Nr of Sentences")+
-  theme_minimal()
+  ylab("Number of Sentences")+
+  theme_minimal()+
+   theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50"),
+    legend.position = "none"
+  )
+
+boxplot_plot
+ggsave("boxplot.png",boxplot_plot,width = 5, height = 4)
 ```
 # Instead of comparing raw distributions, compare residuals after removing the trend:
 

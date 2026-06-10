@@ -666,7 +666,7 @@ anova(model_in_gov_18, model_bloc_wing_int_18)
 summary(model_bloc_wing_int_18)
 ```
 ```{r}
-exp(0.8171468)
+exp(-0.5217973)
 ```
 
 #check assumption of best model
@@ -732,6 +732,9 @@ sjPlot::plot_model(model_bloc_wing_int_18,
   theme_minimal()
 ```
 
+```{r}
+head(monthly_blame)
+```
 
 
 
