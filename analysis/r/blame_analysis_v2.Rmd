@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 install.packages("pacman")
 library(pacman)
 
-pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot")
+pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot", "modelsummary")
 
 ```
 
@@ -59,7 +59,8 @@ model_check <- function(model_name){
 
 #load data
 ```{r}
-inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+#inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+inf_data = read_csv("../../data/inference/predicted_inference_data_with_gov.csv")
 
 #Make date column into date object
 inf_data$date = as.Date(inf_data$date)
@@ -91,6 +92,11 @@ inf_data_filtered <- inf_data %>%
   mutate(party = droplevels(party))
 
 ```
+
+```{r}
+inf_data_filtered
+```
+
 
 
 #Make personal leaderboard
@@ -260,6 +266,7 @@ print(231/12)
 
 
 
+
 #regarding random effects:
 The variance of the random slope is very small (0.009 vs 0.061 for the intercept), meaning parties barely differ in how they respond to government status — the random slope is adding very little while destabilising the model. Switched to simple intercept for party.
 The random intercept alone is the defensible and stable choice here. You can justify dropping the random slope by noting that the variance component was negligible and the model showed signs of overparameterisation given 14 groups — this is a principled simplification, not a shortcut.
@@ -412,7 +419,6 @@ model_check(model_bloc_bloc_wing_int)
 ```{r}
 summary(model_bloc_bloc_wing_int)
 ```
-
 
 
 
@@ -665,6 +671,7 @@ sjPlot::plot_model(model_bloc_wing_int_18,
 
 
 
+
 #time as predictor of blame in recent years
 
 ```{r}
@@ -731,6 +738,136 @@ sum(monthly_blame$total_blame)/sum(monthly_blame$total_nr_sentences)
 ```{r}
 table(monthly_blame$bloc, monthly_blame$wingness)
 ```
+
+#get model summary in latex format
+
+```{r}
+summary(model_blame_time_3)
+```
+
+
+
+
+```{r}
+modelsummary(
+  model_blame_time_3,
+  fmt = fmt_significant(3),          # 3 significant digits
+  exponentiate = FALSE,              # set TRUE if you want IRRs
+  statistic = "std.error",           # show SE (or "statistic", "p.value", "conf.int")
+  stars = TRUE,
+  output = "latex",
+  title = "Negative Binomial Model Predicting Total Blame (1997-2026)",
+  notes = "Random effect: party (intercept). Offset: log(total\\_nr\\_sentences)."
+)
+
+# Save directly to file:
+modelsummary(
+  model_blame_time_3,
+  fmt = fmt_significant(3),
+  output = "analysis_model_time_summary.tex"
+)
+```
+
+
+
+
+
+
+
+
+
+```{r}
+
+modelsummary(
+  model_blame_time_3,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_bloc_bloc_wing_int,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_blame_time_18,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_bloc_wing_int_18,
+  output = "latex"
+)
+```
+
+#all latex models
+
+
+```{r}
+pacman::p_load("texreg")
+
+texreg(model_blame_time_3, digits = 10, file = "analysis_model_time_summary.tex")
+texreg(model_bloc_bloc_wing_int, digits = 10, file = "analysis_model_pol_summary.tex")
+texreg(model_blame_time_18, digits = 10, file = "analysis_model_time_19_summary.tex")
+texreg(model_bloc_wing_int_18, digits = 10, file = "analysis_model_pol_19_summary.tex")
+```
+
+```{r}
+pacman::p_load("stringr", "texreg")
+
+# Step 1: capture texreg output with maximum digits
+tex_lines <- capture.output(
+  texreg(model_blame_time_3, digits = 10)
+)
+
+# Step 2: handle coefficient lines with stars: $-2.3806^{***}$
+# → \num{-2.3806}$^{***}$
+tex_lines_fixed <- str_replace_all(
+  tex_lines,
+  pattern     = "\\$(-?\\d+\\.\\d+)(\\^\\{\\*+\\})\\$",
+  replacement = "\\\\num{\\1}$\\2$"
+)
+
+# Step 3: handle plain number in math mode (no stars): $-2.3806$
+# → \num{-2.3806}
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\$(-?\\d+\\.\\d+)\\$",
+  replacement = "\\\\num{\\1}"
+)
+
+# Step 4: handle standard errors in parentheses: $(0.0644)$
+# → (\num{0.0644})
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\$\\((-?\\d+\\.\\d+)\\)\\$",
+  replacement = "(\\\\num{\\1})"
+)
+
+# Step 5: fix footnote line — restore it to original clean format
+# target only the \scriptsize footnote line and rewrite it entirely
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\\\scriptsize\\{.*\\}",
+  replacement = "\\\\scriptsize{$^{***}$p$<$0.001; $^{**}$p$<$0.01; $^{*}$p$<$0.05}"
+)
+
+# Step 6: save and inspect
+cat(paste(tex_lines_fixed, collapse = "\n"))
+writeLines(tex_lines_fixed, "test.tex")
+```
+
 
 
 

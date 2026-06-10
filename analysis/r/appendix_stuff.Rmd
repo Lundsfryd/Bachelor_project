@@ -1,0 +1,155 @@
+---
+title: "appendix_stuff"
+output: html_document
+---
+
+```{r}
+#load packages
+library(pacman)
+pacman::p_load("tidyverse", "lubridate", "zoo", "strucchange")
+
+```
+
+```{r}
+getwd()
+```
+
+
+```{r}
+# load dataset
+inf_data = read_csv("../../data/inference/predicted_inference_data_with_gov.csv")
+
+#Make date column into date object
+inf_data$date = as.Date(inf_data$date)
+# 
+#Get the month
+inf_data$month <- as.yearmon(inf_data$date)
+# Extract only the year
+inf_data$year <- as.numeric(format(inf_data$month, "%Y"))
+
+inf_data$party = as.factor(inf_data$party)
+```
+```{r}
+inf_data
+```
+
+
+```{r}
+library(dplyr)
+library(zoo)
+library(lubridate)
+
+ts_data <- inf_data %>%
+  mutate(month = as.yearmon(date)) %>%
+  group_by(month) %>%
+  summarise(n_sentences = n()) %>%
+  arrange(month)
+
+
+library(ggplot2)
+
+ggplot(ts_data, aes(x = month, y = n_sentences)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  geom_vline(xintercept = as.yearmon("2019-01"),
+             linetype = "dashed", color = "red") +
+  labs(title = "Sentence Counts pr Month",
+       subtitle = "No abrupt shift at dataset merge (2019)")+
+       ylab("nr Sentences pr Month")+
+       xlab("Month")+
+  theme_minimal()
+```
+
+
+#rerun with normalized for activity
+
+
+```{r}
+
+ts_data <- inf_data %>%
+  mutate(month = as.yearmon(date)) %>%
+  group_by(month) %>%
+  summarise(
+    n_sentences = n(),
+    n_days = n_distinct(date)
+  ) %>%
+  mutate(sentences_per_day = n_sentences / n_days)
+
+ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  geom_vline(xintercept = as.yearmon("2019-01"),
+             linetype = "dashed", color = "red") +
+  labs(title = "Monthly Sentences pr active Day Counts Over Time",
+       subtitle = "No abrupt shift at dataset merge (2019)")+
+         ylab("nr Monthly Sentences pr active day")+
+       xlab("Month")+
+  theme_minimal()
+```
+## This does not seem alarming at all. Of cause some changes are expected, but visually, the change in amount of sentences does not seem abtrupt, which is what we expect, at the data shoudl originate from the same source.
+
+
+# SOme more on distributional changes:
+
+```{r}
+library(dplyr)
+library(zoo)
+library(ggplot2)
+
+monthly_data <- inf_data %>%
+  mutate(
+    month = as.yearmon(date),
+    post_2019 = year(date) >= 2019
+  ) %>%
+  group_by(month) %>%
+  summarise(n_sentences = n(), post_2019 = first(post_2019))
+```
+
+
+```{r}
+ggplot(monthly_data, aes(x = n_sentences, fill = factor(post_2019))) +
+  geom_density(alpha = 0.4) +
+  labs(fill = "Post 2019",
+       title = "Desity Plot of Number of Sentences in the Dataset Split by Merge Date") +
+  xlab("Nr of Sentences")+
+  ylab("Density")+
+  theme_minimal()
+```
+
+```{r}
+ggplot(monthly_data, aes(x = factor(post_2019), y = n_sentences, fill = post_2019)) +
+  geom_boxplot() +
+  labs(title = "Boxplot of Number of Sentences in the Dataset Split by Merge Date") +
+  xlab("Post 2019")+
+  ylab("Nr of Sentences")+
+  theme_minimal()
+```
+# Instead of comparing raw distributions, compare residuals after removing the trend:
+
+```{r}
+monthly_data <- monthly_data %>%
+  mutate(t = 1:n())
+
+trend_model <- lm(n_sentences ~ t, data = monthly_data)
+
+monthly_data$residuals <- resid(trend_model)
+
+ggplot(monthly_data, aes(x = residuals, fill = factor(post_2019))) +
+  geom_density(alpha = 0.4)+ theme_minimal()
+```
+# and formally test
+
+```{r}
+ks.test(
+  monthly_data$residuals[monthly_data$post_2019 == 0],
+  monthly_data$residuals[monthly_data$post_2019 == 1]
+)
+```
+# Can also be this approach:
+
+```{r}
+extra_model <- lm(n_sentences ~ t + post_2019, data = monthly_data)
+summary(extra_model)
+
+```
+

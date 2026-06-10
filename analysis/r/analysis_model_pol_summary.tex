@@ -1,0 +1,36 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c}
+\hline
+ & Model 1 \\
+\hline
+(Intercept)              & $-2.5162271043^{***}$ \\
+                         & $(0.1029532986)$      \\
+in\_gov1                 & $-0.4784407568^{***}$ \\
+                         & $(0.0204972033)$      \\
+blocright\_bloc          & $-0.3155176257$       \\
+                         & $(0.1689205054)$      \\
+wingness                 & $0.0849513641$        \\
+                         & $(0.0966628953)$      \\
+scale(month\_index)      & $-0.0076615727$       \\
+                         & $(0.0059985888)$      \\
+scale(month\_index)$^2$  & $0.0174722048^{**}$   \\
+                         & $(0.0064940804)$      \\
+in\_gov1:blocright\_bloc & $0.1051757103^{**}$   \\
+                         & $(0.0345921114)$      \\
+blocright\_bloc:wingness & $0.5535863762^{**}$   \\
+                         & $(0.1841709518)$      \\
+\hline
+AIC                      & $24877.5970231384$    \\
+Log Likelihood           & $-12428.7985115692$   \\
+Num. obs.                & $2529$                \\
+Num. groups: party       & $13$                  \\
+Var: party (Intercept)   & $0.0215038941$        \\
+\hline
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Statistical models}
+\label{table:coefficients}
+\end{center}
+\end{table}
