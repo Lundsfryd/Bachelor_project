@@ -1,0 +1,231 @@
+---
+title: "appendix_stuff"
+output: html_document
+---
+
+```{r}
+#load packages
+library(pacman)
+pacman::p_load("tidyverse", "lubridate", "zoo", "strucchange")
+
+```
+
+```{r}
+getwd()
+```
+
+
+```{r}
+# load dataset
+inf_data = read_csv("../../data/inference/predicted_inference_data_with_gov.csv")
+
+#Make date column into date object
+inf_data$date = as.Date(inf_data$date)
+# 
+#Get the month
+inf_data$month <- as.yearmon(inf_data$date)
+# Extract only the year
+inf_data$year <- as.numeric(format(inf_data$month, "%Y"))
+
+inf_data$party = as.factor(inf_data$party)
+```
+```{r}
+inf_data
+```
+
+
+```{r}
+library(dplyr)
+library(zoo)
+library(lubridate)
+
+ts_data <- inf_data %>%
+  mutate(month = as.yearmon(date)) %>%
+  group_by(month) %>%
+  summarise(n_sentences = n()) %>%
+  arrange(month)
+
+
+library(ggplot2)
+
+countplot_1 <- ggplot(ts_data, aes(x = month, y = n_sentences)) +
+  geom_line(color = "grey") +
+  geom_smooth(se = FALSE, color = "#2C7BB6") +
+  geom_vline(xintercept = as.yearmon("2019-01"),
+             linetype = "dashed", color = "#C0392B", linewidth = 1) +
+  #labs(title = "Sentence Counts pr Month",
+       #subtitle = "No abrupt shift at dataset merge (2019)")+
+       ylab("Sentences per Month")+
+       xlab("Month")+
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 11,  color = "grey50")
+  )
+countplot_1
+ggsave("countplot_1.png",countplot_1, width = 5, height = 4)
+```
+
+
+#rerun with normalized for activity
+
+
+```{r}
+
+ts_data <- inf_data %>%
+  mutate(month = as.yearmon(date)) %>%
+  group_by(month) %>%
+  summarise(
+    n_sentences = n(),
+    n_days = n_distinct(date)
+  ) %>%
+  mutate(sentences_per_day = n_sentences / n_days)
+
+# countplot_2 <- ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
+#   geom_line(color = "grey") +
+#   geom_smooth(se = FALSE, color = "#2C7BB6") +
+#   geom_vline(xintercept = as.yearmon("2019-01"),
+#              linetype = "dashed", "#C0392B", linewidth = 1) +
+#          ylab("nr Monthly Sentences pr active day")+
+#        xlab("Month")+
+#   theme_minimal()+
+#   theme(
+#     panel.grid.minor   = element_blank(),
+#     panel.grid.major.x = element_blank(),
+#     panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+#     axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+#     axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+#     axis.ticks.length  = unit(3, "pt"),
+#     plot.title         = element_blank(),
+#     axis.title         = element_text(size = 15, color = "grey40"),
+#     axis.text          = element_text(size = 13,  color = "grey50")
+#   )
+# 
+# countplot_2
+# ggsave("countplot_2.png",countplot_2, width = 5, height = 4)
+
+countplot_2 <- ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
+  geom_line(color = "grey") +
+  geom_smooth(se = FALSE, color = "#2C7BB6") +
+  geom_vline(xintercept = as.yearmon("2019-01"),
+             linetype = "dashed", color = "#C0392B", linewidth = 1) +
+  #labs(title = "Sentence Counts pr Month",
+       #subtitle = "No abrupt shift at dataset merge (2019)")+
+       ylab("Monthly Sentences per Active Day")+
+       xlab("Month")+
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 11,  color = "grey50")
+  )
+countplot_2
+ggsave("countplot_2.png",countplot_2, width = 5, height = 4)
+```
+## This does not seem alarming at all. Of cause some changes are expected, but visually, the change in amount of sentences does not seem abtrupt, which is what we expect, at the data shoudl originate from the same source.
+
+
+# SOme more on distributional changes:
+
+```{r}
+library(dplyr)
+library(zoo)
+library(ggplot2)
+
+monthly_data <- inf_data %>%
+  mutate(
+    month = as.yearmon(date),
+    post_2019 = year(date) >= 2019
+  ) %>%
+  group_by(month) %>%
+  summarise(n_sentences = n(), post_2019 = first(post_2019))
+```
+
+
+```{r}
+density_plot <- ggplot(monthly_data, aes(x = n_sentences, fill = factor(post_2019))) +
+  geom_density(alpha = 0.4) +
+  labs(fill = "Post 2019") +
+  xlab("Number of Sentences")+
+  ylab("Density")+
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50")
+  )
+
+density_plot
+ggsave("density_plot.png",density_plot,width = 5, height = 4)
+```
+
+```{r}
+boxplot_plot <- ggplot(monthly_data, aes(x = factor(post_2019), y = n_sentences, fill = post_2019)) +
+  geom_boxplot() +
+  xlab("Post 2019")+
+  ylab("Number of Sentences")+
+  theme_minimal()+
+   theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50"),
+    legend.position = "none"
+  )
+
+boxplot_plot
+ggsave("boxplot.png",boxplot_plot,width = 5, height = 4)
+```
+# Instead of comparing raw distributions, compare residuals after removing the trend:
+
+```{r}
+monthly_data <- monthly_data %>%
+  mutate(t = 1:n())
+
+trend_model <- lm(n_sentences ~ t, data = monthly_data)
+
+monthly_data$residuals <- resid(trend_model)
+
+ggplot(monthly_data, aes(x = residuals, fill = factor(post_2019))) +
+  geom_density(alpha = 0.4)+ theme_minimal()
+```
+# and formally test
+
+```{r}
+ks.test(
+  monthly_data$residuals[monthly_data$post_2019 == 0],
+  monthly_data$residuals[monthly_data$post_2019 == 1]
+)
+```
+# Can also be this approach:
+
+```{r}
+extra_model <- lm(n_sentences ~ t + post_2019, data = monthly_data)
+summary(extra_model)
+
+```
+

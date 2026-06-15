@@ -1,0 +1,416 @@
+---
+title: "Sensitivity Analysis"
+author: "Markus Lundsfryd Jensen"
+date: "2026-06-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#load packages
+
+```{r, echo=FALSE, include=FALSE}
+library(pacman)
+
+pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot", "modelsummary")
+
+```
+
+
+```{r}
+#assumption check function
+overdisp_fun <- function(model) {
+  rdf <- df.residual(model)
+  rp <- residuals(model,type="pearson")
+  Pearson.chisq <- sum(rp^2)
+  prat <- Pearson.chisq/rdf
+  pval <- pchisq(Pearson.chisq, df=rdf, lower.tail=FALSE)
+  c(chisq=Pearson.chisq,ratio=prat,rdf=rdf,p=pval)
+}
+
+
+model_check <- function(model_name){
+  hist(resid(model_name))
+  
+  overdisp_fun(model_name)
+  
+  plot(fitted(model_name), resid(model_name)) #residuals vs fitted
+  abline(h=0)
+  
+  sim_res <- simulateResiduals(model_name, n = 1000)
+
+  # QQ plot
+  #plotQQunif(sim_res)   # QQ plot for simulated residuals
+  plot(sim_res) 
+  testUniformity(sim_res)      # Overall distribution
+  testDispersion(sim_res)      # Over/underdispersion
+  testZeroInflation(sim_res)   # Excess zeros
+  testOutliers(sim_res, type = 'bootstrap')        # Outlying observations
+  
+  print(overdisp_fun(model_name))
+  
+}
+```
+
+
+
+#load data
+```{r}
+#inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+inf_data = read_csv("../../data/inference/predicted_inference_data_with_gov.csv")
+
+#Make date column into date object
+inf_data$date = as.Date(inf_data$date)
+
+#Get the month
+inf_data$month <- as.yearmon(inf_data$date)
+# Extract only the year
+inf_data$year <- as.numeric(format(inf_data$month, "%y"))
+
+inf_data$party = as.factor(inf_data$party)
+```
+
+
+
+```{r}
+
+#Omitted parties
+#NA, "UP", "FRI" "CD"  "LH"  "FP"  "IA"  "SIU" "T"   "UFG" "FF" "SP" "NQ"  "JF"   , "-"
+parties_to_keep <- c("S", "DF", "EL", "SF", "V", "RV", "KD", "LA", "DD", "KF", "ALT", "NB", "M" )
+
+#name parties that changed name
+inf_data$party[inf_data$party == 'KRF'] <- 'KD'
+
+#Ny alliance og LA
+inf_data$party[inf_data$party == 'NY'] <- 'LA'
+
+inf_data_filtered <- inf_data %>% 
+  filter(party %in% parties_to_keep) %>% 
+  mutate(party = droplevels(party))
+
+```
+
+# Here create probs column
+
+```{r}
+head(inf_data_filtered)
+```
+
+
+```{r}
+inf_data_filtered <- inf_data_filtered %>%
+  mutate(
+    probs = ifelse(prediction == 0,
+                   1 - confidence,
+                   confidence))
+
+head(inf_data_filtered)
+```
+
+
+#inspect distribution of probs column
+
+```{r}
+ggplot(inf_data_filtered, aes(x = probs)) +
+  geom_density(fill = "skyblue", color = "skyblue") +
+  labs(title = "Density plot of distribution of model's probability of blame")+
+  theme_minimal()
+```
+
+#Proportion of values above 0.5
+```{r}
+mean(inf_data_filtered$probs > 0.5)
+
+# The three tresholds implemented will be: 0.625, 0.75, 0.875
+# This corresponds to so much data being true;
+
+threshold_01 <- mean(inf_data_filtered$probs > 0.625)
+print(threshold_01)
+
+threshold_02 <- mean(inf_data_filtered$probs > 0.75)
+print(threshold_02)
+
+threshold_03 <- mean(inf_data_filtered$probs > 0.875)
+print(threshold_03)
+
+```
+
+
+# Here create columns for different levels of confidence
+
+
+```{r}
+inf_data_filtered <- inf_data_filtered %>% 
+  mutate(prediction_threshold_01 = ifelse(probs > 0.625, 1, 0),
+         prediction_threshold_02 = ifelse(probs > 0.75, 1, 0),
+         prediction_threshold_03 = ifelse(probs > 0.875, 1, 0))
+head(inf_data_filtered)
+```
+
+
+```{r, echo=FALSE}
+#make montly blame count pr party along with number of sentences
+
+monthly_blame <- inf_data_filtered %>% 
+  group_by(month, party) %>% 
+  summarise(in_gov = first(in_gov),
+            total_nr_sentences = n(),
+            total_blame = sum(prediction),
+            year = unique(year),
+            total_blame_th01 = sum(prediction_threshold_01),
+            total_blame_th02 = sum(prediction_threshold_02),
+            total_blame_th03 = sum(prediction_threshold_03)) %>% 
+  ungroup()
+```
+
+
+```{r}
+# Read the extracted pairs
+party_wingness <- read.csv("../python/bloc_and_wingness.csv")
+
+party_wingness <- party_wingness %>% 
+  select(party, bloc, wingness) %>% 
+  mutate(
+    bloc = as.character(bloc),  # avoid factor issues
+    bloc = case_when(
+      bloc == "left_bloc" ~ "right_bloc",
+      bloc == "right_bloc" ~ "left_bloc",
+      TRUE ~ bloc
+    ),
+    bloc = as.factor(bloc)
+  )
+
+table(party_wingness$bloc)
+
+
+print(head(party_wingness))
+
+print(head(monthly_blame))
+
+# Merge/append to your existing R dataframe by party
+monthly_blame <- merge(monthly_blame, party_wingness, by = "party", all.x = TRUE)
+
+print(head(monthly_blame))
+print(str(monthly_blame))
+```
+
+```{r}
+monthly_blame$bloc <- as.factor(monthly_blame$bloc)
+
+monthly_blame$in_gov <- as.factor(monthly_blame$in_gov)
+
+monthly_blame$total_blame <- as.integer(monthly_blame$total_blame)
+
+monthly_blame$wingness <- as.numeric(monthly_blame$wingness)
+
+monthly_blame$year <- as.integer(monthly_blame$year)
+
+monthly_blame$month_index <- with(monthly_blame,
+  12 * (as.integer(format(month, "%Y")) - as.integer(format(min(month), "%Y"))) +
+  (as.integer(format(month, "%m")) - as.integer(format(min(month), "%m")))
+)
+
+monthly_blame$month_index_scaled <- scale(monthly_blame$month_index)
+monthly_blame$month_index_scaled_sqrt <- scale(monthly_blame$month_index^2)
+
+
+```
+
+```{r}
+print(str(monthly_blame))
+```
+
+
+
+
+
+
+#Blame predicted by time (OG-TH3)
+
+
+
+```{r}
+model_blame_time_3_OG <- glmmTMB(total_blame ~ scale(month_index) + I(scale(month_index)^2) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_3_OG)
+
+```
+
+
+
+
+
+```{r}
+model_blame_time_3_TH1 <- glmmTMB(total_blame_th01 ~ scale(month_index) + I(scale(month_index)^2) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_3_TH1)
+```
+
+
+
+```{r}
+model_blame_time_3_TH2 <- glmmTMB(total_blame_th02 ~ scale(month_index) + I(scale(month_index)^2) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_3_TH2)
+```
+
+
+```{r}
+model_blame_time_3_TH3 <- glmmTMB(total_blame_th03 ~ scale(month_index) + I(scale(month_index)^2) + in_gov + (1|party) + offset(log(total_nr_sentences)),
+                           family = nbinom1, 
+                           data = monthly_blame)
+
+summary(model_blame_time_3_TH3)
+```
+
+
+# Now for predictors of blame
+
+#OG
+
+```{r}
+model_bloc_bloc_wing_int_OG <- glmmTMB(total_blame ~ in_gov*bloc + bloc * wingness + scale(month_index) + I(scale(month_index)^2) + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame)
+
+summary(model_bloc_bloc_wing_int_OG)
+```
+
+
+#TH1
+```{r}
+model_bloc_bloc_wing_int_TH1 <- glmmTMB(total_blame_th01 ~ in_gov*bloc + bloc * wingness + scale(month_index) + I(scale(month_index)^2) + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame)
+
+summary(model_bloc_bloc_wing_int_TH1)
+```
+
+#TH2
+```{r}
+model_bloc_bloc_wing_int_TH2 <- glmmTMB(total_blame_th02 ~ in_gov*bloc + bloc * wingness + scale(month_index) + I(scale(month_index)^2) + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame)
+
+summary(model_bloc_bloc_wing_int_TH2)
+```
+
+#TH3
+```{r}
+model_bloc_bloc_wing_int_TH3 <- glmmTMB(total_blame_th03 ~ in_gov*bloc + bloc * wingness + scale(month_index) + I(scale(month_index)^2) + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame)
+
+summary(model_bloc_bloc_wing_int_TH3)
+```
+
+# Now for newer times 
+
+```{r}
+monthly_blame_18 <- monthly_blame %>% 
+  filter(year >=19) %>% 
+  filter(year <=26) %>% 
+  mutate(month_index = month_index-255)
+```
+
+#time
+
+#OG
+```{r}
+model_blame_time_18_OG <- glmmTMB(total_blame ~  in_gov + scale(month_index)  + (1 | party) + offset(log(total_nr_sentences)), 
+                           family = nbinom1, 
+                           data = monthly_blame_18)
+
+summary(model_blame_time_18_OG)
+```
+
+
+#TH1
+
+```{r}
+model_blame_time_18_TH1 <- glmmTMB(total_blame_th01 ~  in_gov + scale(month_index)  + (1 | party) + offset(log(total_nr_sentences)), 
+                           family = nbinom1, 
+                           data = monthly_blame_18)
+
+summary(model_blame_time_18_TH1)
+```
+
+#TH2
+
+```{r}
+model_blame_time_18_TH2 <- glmmTMB(total_blame_th02 ~  in_gov + scale(month_index)  + (1 | party) + offset(log(total_nr_sentences)), 
+                           family = nbinom1, 
+                           data = monthly_blame_18)
+
+summary(model_blame_time_18_TH2)
+```
+
+#TH3
+
+```{r}
+model_blame_time_18_TH3 <- glmmTMB(total_blame_th03 ~  in_gov + scale(month_index)  + (1 | party) + offset(log(total_nr_sentences)), 
+                           family = nbinom1, 
+                           data = monthly_blame_18)
+
+summary(model_blame_time_18_TH3)
+```
+
+# Now for newer predictions of time
+
+#OG
+
+```{r}
+model_bloc_wing_int_18_OG <- glmmTMB(total_blame ~ in_gov + bloc * wingness + month_index + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame_18)
+
+summary(model_bloc_wing_int_18_OG)
+```
+
+#TH1
+
+```{r}
+model_bloc_wing_int_18_TH1 <- glmmTMB(total_blame_th01 ~ in_gov + bloc * wingness + month_index + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame_18)
+
+summary(model_bloc_wing_int_18_TH1)
+```
+
+#TH2
+
+```{r}
+model_bloc_wing_int_18_TH2 <- glmmTMB(total_blame_th02 ~ in_gov + bloc * wingness + month_index + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame_18)
+
+summary(model_bloc_wing_int_18_TH2)
+```
+
+#TH3
+
+```{r}
+model_bloc_wing_int_18_TH3 <- glmmTMB(total_blame_th03 ~ in_gov + bloc * wingness + month_index + (1 | party) +
+                             offset(log(total_nr_sentences)),
+                           family = nbinom1,
+                           data = monthly_blame_18)
+
+summary(model_bloc_wing_int_18_TH3)
+```
+

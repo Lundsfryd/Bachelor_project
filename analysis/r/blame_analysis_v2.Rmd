@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 install.packages("pacman")
 library(pacman)
 
-pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot")
+pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot", "modelsummary")
 
 ```
 
@@ -59,7 +59,8 @@ model_check <- function(model_name){
 
 #load data
 ```{r}
-inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+#inf_data = read_csv("/work/MarkusLundsfrydJensen#1865/Bachelor_project/data/inference/predicted_inference_data_with_gov.csv")
+inf_data = read_csv("../../data/inference/predicted_inference_data_with_gov.csv")
 
 #Make date column into date object
 inf_data$date = as.Date(inf_data$date)
@@ -72,6 +73,9 @@ inf_data$year <- as.numeric(format(inf_data$month, "%y"))
 inf_data$party = as.factor(inf_data$party)
 ```
 
+```{r}
+head(inf_data_filtered)
+```
 
 
 ```{r}
@@ -91,6 +95,11 @@ inf_data_filtered <- inf_data %>%
   mutate(party = droplevels(party))
 
 ```
+
+```{r}
+inf_data_filtered
+```
+
 
 
 #Make personal leaderboard
@@ -258,6 +267,34 @@ print(231/12)
 ```
 
 
+```{r}
+b1 <- fixef(model_blame_time_4)$cond["scale(month_index)"]
+b2 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^2)"]
+b3 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^3)"]
+
+# derivative: b1 + 2*b2*x + 3*b3*x^2 = 0
+# solve with quadratic formula
+discriminant <- (2*b2)^2 - 4*(3*b3)*b1
+
+if (discriminant < 0) {
+  message("No real turning points")
+} else {
+  x1 <- (-2*b2 + sqrt(discriminant)) / (2 * 3*b3)
+  x2 <- (-2*b2 - sqrt(discriminant)) / (2 * 3*b3)
+  
+  # back-transform from scaled to original month index
+  m <- mean(monthly_blame$month_index)
+  s <- sd(monthly_blame$month_index)
+  
+  month_star1 <- x1 * s + m
+  month_star2 <- x2 * s + m
+  
+  print(month_star1)
+  print(month_star2)
+}
+```
+
+
 
 
 #regarding random effects:
@@ -301,21 +338,53 @@ For parliamentary speech data, nbinom1 is often the better fit because blame cou
 
 library(sjPlot)
 
-sjPlot::plot_model(model_blame_time_3, type = "re")
-
 #Due to the offset, in order to do meaningfull interpretation, the total number of sentences must be kept constant. Thus the following plot shows the change in predicted amount of blame pr 1000 sentences uttered as time goes on  
 sjPlot::plot_model(model_blame_time_3, 
                    type = "pred", 
                    terms = "month_index[all]", 
                    condition = c(total_nr_sentences = 100),
-                   axis.title = c("Months after Jan 2000", "Predicted Blame Counts pr 100 Uttered Sentences"),
-                   title = "General Evolution of Blame in the Danish Parliament over time",
-                   #ci.lvl = NA,
-                   #axis.lim = c(3,12)
+                   axis.title = c("Months post October 1997", "Predicted Blame Counts pr 100 Uttered Sentences"),
+                   #title = "General Evolution of Blame in the Danish Parliament over time",
+                   ci.lvl = .95,
+                   #show.data = TRUE,
+                   axis.lim = c(7,14)
                    ) +
   theme_minimal()
 ```
+#try overlapping model with raw data
 
+```{r}
+plot_data <- monthly_blame %>%
+  mutate(blame_rate = (total_blame / total_nr_sentences) * 100)
+
+sjPlot::plot_model(model_blame_time_3,
+                   type = "pred",
+                   terms = "month_index[all]",
+                   condition = c(total_nr_sentences = 100),
+                   ci.lvl = .95) +
+  geom_point(data = plot_data,
+             aes(x = month_index, y = blame_rate),
+             alpha = 0.2, size = 0.8, color = "steelblue") +
+  theme_minimal()
+```
+
+
+```{r}
+monthly_avg <- monthly_blame %>%
+  group_by(month_index) %>%
+  summarise(blame_rate = sum(total_blame) / sum(total_nr_sentences) * 100)
+
+sjPlot::plot_model(model_blame_time_3,
+                   type = "pred",
+                   terms = "month_index[all]",
+                   condition = c(total_nr_sentences = 100),
+                   ci.lvl = .95) +
+  geom_smooth(data = monthly_avg,
+              aes(x = month_index, y = blame_rate),
+              color = "steelblue", se = FALSE,
+              linewidth = 0.7) +
+  theme_minimal()
+```
 
 # Interpretation
 
@@ -415,7 +484,6 @@ summary(model_bloc_bloc_wing_int)
 
 
 
-
 #plot it
 
 ```{r}
@@ -436,7 +504,7 @@ sjPlot::plot_model(model_bloc_bloc_wing_int,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("In government", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Blame Predicted by Government status and ideological bloc",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -448,7 +516,7 @@ sjPlot::plot_model(model_bloc_bloc_wing_int,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Wingness", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Blame Predicted by Government status and ideological bloc",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -459,7 +527,8 @@ sjPlot::plot_model(model_bloc_bloc_wing_int,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Bloc", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Blame Predicted by Government status and ideological bloc",
-                   #ci.lvl = NA,
+                   
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -597,7 +666,7 @@ anova(model_in_gov_18, model_bloc_wing_int_18)
 summary(model_bloc_wing_int_18)
 ```
 ```{r}
-exp(0.8171468)
+exp(-0.5217973)
 ```
 
 #check assumption of best model
@@ -614,7 +683,7 @@ sjPlot::plot_model(model_bloc_wing_int_18,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("In Government", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by In Government and ideological Bloc in period 2019-2022",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -624,7 +693,7 @@ sjPlot::plot_model(model_bloc_wing_int_18,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("In Government", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by In Government and ideological Bloc in period 2019-2022",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -635,7 +704,7 @@ sjPlot::plot_model(model_bloc_wing_int_18,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Bloc", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by In Government and ideological Bloc in period 2019-2022",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -646,7 +715,7 @@ sjPlot::plot_model(model_bloc_wing_int_18,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("Wingness", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by Wing status in period 2019-2022",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
@@ -657,10 +726,14 @@ sjPlot::plot_model(model_bloc_wing_int_18,
                    condition = c(total_nr_sentences = 100),
                    axis.title = c("bloc", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Predicted Blame by Wing status in period 2019-2022",
-                   #ci.lvl = NA,
+                   ci.lvl = .95,
                    #axis.lim = c(3,12)
                    ) +
   theme_minimal()
+```
+
+```{r}
+head(monthly_blame)
 ```
 
 
@@ -715,10 +788,10 @@ sjPlot::plot_model(model_blame_time_18,
                    type = "pred", 
                    terms = c("month_index"), 
                    condition = c(total_nr_sentences = 100),
-                   axis.title = c("Month since Jan 2019", "Predicted Blame Counts pr 100 Uttered Sentences"),
+                   axis.title = c("Months Post Jan 2019", "Predicted Blame Counts pr 100 Uttered Sentences"),
                    title = "Evolution of the Use of Blame in period 2019-2022",
-                   #ci.lvl = NA,
-                    #axis.lim = c(3,14)
+                   ci.lvl = .95,
+                    axis.lim = c(7,14)
                    ) +
   theme_minimal()
 ```
@@ -732,5 +805,491 @@ sum(monthly_blame$total_blame)/sum(monthly_blame$total_nr_sentences)
 table(monthly_blame$bloc, monthly_blame$wingness)
 ```
 
+#get model summary in latex format
+
+```{r}
+summary(model_blame_time_3)
+```
+
+
+
+
+```{r}
+modelsummary(
+  model_blame_time_3,
+  fmt = fmt_significant(3),          # 3 significant digits
+  exponentiate = FALSE,              # set TRUE if you want IRRs
+  statistic = "std.error",           # show SE (or "statistic", "p.value", "conf.int")
+  stars = TRUE,
+  output = "latex",
+  title = "Negative Binomial Model Predicting Total Blame (1997-2026)",
+  notes = "Random effect: party (intercept). Offset: log(total\\_nr\\_sentences)."
+)
+
+# Save directly to file:
+modelsummary(
+  model_blame_time_3,
+  fmt = fmt_significant(3),
+  output = "analysis_model_time_summary.tex"
+)
+```
+
+
+
+
+
+
+
+
+
+```{r}
+
+modelsummary(
+  model_blame_time_3,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_bloc_bloc_wing_int,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_blame_time_18,
+  output = "latex"
+)
+```
+
+#get model summary in latex format:
+```{r}
+
+modelsummary(
+  model_bloc_wing_int_18,
+  output = "latex"
+)
+```
+
+#all latex models
+
+
+```{r}
+pacman::p_load("texreg")
+
+texreg(model_blame_time_3, digits = 10, file = "analysis_model_time_summary.tex")
+texreg(model_bloc_bloc_wing_int, digits = 10, file = "analysis_model_pol_summary.tex")
+texreg(model_blame_time_18, digits = 10, file = "analysis_model_time_19_summary.tex")
+texreg(model_bloc_wing_int_18, digits = 10, file = "analysis_model_pol_19_summary.tex")
+```
+
+```{r}
+pacman::p_load("stringr", "texreg")
+
+# Step 1: capture texreg output with maximum digits
+tex_lines <- capture.output(
+  texreg(model_blame_time_3, digits = 10)
+)
+
+# Step 2: handle coefficient lines with stars: $-2.3806^{***}$
+# → \num{-2.3806}$^{***}$
+tex_lines_fixed <- str_replace_all(
+  tex_lines,
+  pattern     = "\\$(-?\\d+\\.\\d+)(\\^\\{\\*+\\})\\$",
+  replacement = "\\\\num{\\1}$\\2$"
+)
+
+# Step 3: handle plain number in math mode (no stars): $-2.3806$
+# → \num{-2.3806}
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\$(-?\\d+\\.\\d+)\\$",
+  replacement = "\\\\num{\\1}"
+)
+
+# Step 4: handle standard errors in parentheses: $(0.0644)$
+# → (\num{0.0644})
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\$\\((-?\\d+\\.\\d+)\\)\\$",
+  replacement = "(\\\\num{\\1})"
+)
+
+# Step 5: fix footnote line — restore it to original clean format
+# target only the \scriptsize footnote line and rewrite it entirely
+tex_lines_fixed <- str_replace_all(
+  tex_lines_fixed,
+  pattern     = "\\\\scriptsize\\{.*\\}",
+  replacement = "\\\\scriptsize{$^{***}$p$<$0.001; $^{**}$p$<$0.01; $^{*}$p$<$0.05}"
+)
+
+# Step 6: save and inspect
+cat(paste(tex_lines_fixed, collapse = "\n"))
+writeLines(tex_lines_fixed, "test.tex")
+```
+
+
+# COmbining plots:
+
+```{r}
+library(sjPlot)
+library(ggplot2)
+library(patchwork)
+
+p1 <- sjPlot::plot_model(
+  model_blame_time_3,
+  type = "pred",
+  terms = "month_index[all]",
+  condition = c(total_nr_sentences = 100),
+  ci.lvl = .95,
+  axis.lim = c(7, 14)
+) +
+  theme_minimal() +
+  theme(
+    axis.title.y = element_text(size = 10),
+    axis.title.x = element_blank(),
+    #plot.title   = element_blank()
+  ) +
+  labs(title = "Full Period (1997–2026)",
+       y = "Blame Count per 100 Uttered Sentences")
+
+p2 <- sjPlot::plot_model(
+  model_blame_time_18,
+  type = "pred",
+  terms = "month_index[all]",
+  condition = c(total_nr_sentences = 100),
+  ci.lvl = .95,
+  axis.lim = c(7, 14)
+) +
+  theme_minimal() +
+  theme(
+    axis.title.y  = element_blank(),
+    axis.text.y   = element_blank(),
+    axis.ticks.y  = element_blank(),
+    axis.title.x  = element_blank(),
+    #plot.title    = element_blank()
+  ) +
+  labs(title = "Recent Period (2019–2026)")
+
+combined <- p1 + p2 +
+  plot_layout(ncol = 2) +
+  plot_annotation(
+    caption = "Months post October 1997"
+  ) &
+  theme(
+    plot.caption = element_text(hjust = 0.5, size = 10)
+  )
+
+combined
+```
+
+
+```{r}
+library(sjPlot)
+library(ggplot2)
+library(patchwork)
+
+separator <- ggplot() +
+  geom_vline(xintercept = 0.5, linewidth = 0.3, colour = "grey60") +
+  theme_void()
+
+my_theme <- theme_minimal(base_size = 11) +
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50")
+  )
+
+p1 <- sjPlot::plot_model(
+  model_blame_time_3,
+  type      = "pred",
+  terms     = "month_index[all]",
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  axis.lim  = c(7, 14),
+  colors    = "#2C7BB6"
+) +
+  my_theme +
+  theme(
+    axis.title.x = element_blank()
+  ) +
+  labs(y     = "Predicted Blame (%)"
+  )
+
+p2 <- sjPlot::plot_model(
+  model_blame_time_18,
+  type      = "pred",
+  terms     = "month_index[all]",
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  axis.lim  = c(7, 14),
+  colors    = "#2C7BB6"
+) +
+  my_theme +
+  theme(
+    axis.title.y  = element_blank(),
+    axis.text.y   = element_blank(),
+    axis.ticks.y  = element_blank(),
+    axis.title.x  = element_blank()
+  ) 
+
+combined <- (p1 + separator + p2) +
+  plot_layout(guides = "collect",
+    widths = c(1, 0.02, 1)
+  ) +
+  plot_annotation(
+    caption = "Months post October 1997"
+  ) &
+  theme(
+    plot.caption = element_text(hjust = 0.5, size = 14, color = "grey40")
+  )
+
+
+ggsave("time_plots.png", combined, width = 5, height = 4)
+combined
+```
+
+
+# COmbined plot for political characteristics
+
+```{r}
+# # Rename bloc levels before plotting
+# monthly_blame$bloc <- factor(monthly_blame$bloc,
+#                          levels = c("left_bloc", "right_bloc"),
+#                          labels = c("Left bloc", "Right bloc"))
+# # Rename bloc levels before plotting
+# monthly_blame_18$bloc <- factor(monthly_blame_18$bloc,
+#                          levels = c("left_bloc", "right_bloc"),
+#                          labels = c("Left bloc", "Right bloc"))
+```
+
+
+
+
+
+```{r}
+ggsave("time_plots.png", combined, width = 5, height = 4)
+```
+
+```{r}
+library(sjPlot)
+library(ggplot2)
+library(patchwork)
+
+my_theme <- theme_minimal(base_size = 11) +
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 11, color = "grey50"),
+    legend.position    = "bottom",
+    legend.title       = element_text(size = 13, color = "grey40"),
+    legend.text        = element_text(size = 13, color = "grey50")
+  )
+
+separator <- ggplot() +
+  geom_vline(xintercept = 0.5, linewidth = 0.3, colour = "grey60") +
+  theme_void()
+
+wing_colors <- c("left_bloc"  = "#C0392B",
+                 "right_bloc" = "#2C7BB6")
+
+wingness_colors <- c("#9ECAE1",
+                     "#2C7BB6",
+                     "#08306B")
+
+# ── Figure 1: gov * bloc, both periods ────────────────────────────────────────
+
+p1 <- sjPlot::plot_model(
+  model_bloc_bloc_wing_int,
+  type      = "pred",
+  terms     = c("in_gov", "bloc"),
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  colors    = wing_colors,
+  axis.lim  = c(4, 13)
+) +
+  my_theme +
+  theme(axis.title.x = element_blank()) +
+  labs(
+    y     = "Predicted Blame (%)",
+    color = "Wing",
+    fill  = "Wing"
+  ) +
+  scale_color_manual(name   = "Wing Affiliation",
+                     values = wing_colors,
+                     labels = c("Left Wing", "Right Wing")) +
+  scale_fill_manual(name    = "Wing Affiliation",
+                    values  = wing_colors,
+                    labels  = c("Left Wing", "Right Wing")) +
+  scale_x_continuous(breaks = c(0, 1),
+                     labels = c("Opposition", "Government"),
+                     limits = c(-0.5, 1.5),
+                     expand = c(0, 0))
+
+p2 <- sjPlot::plot_model(
+  model_bloc_wing_int_18,
+  type      = "pred",
+  terms     = c("in_gov", "bloc"),
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  colors    = wing_colors,
+  axis.lim  = c(4, 13)
+) +
+  my_theme +
+  theme(
+    axis.title.y = element_blank(),
+    axis.text.y  = element_blank(),
+    axis.ticks.y = element_blank(),
+    axis.title.x = element_blank()
+  ) +
+  labs(
+    color = "Wing",
+    fill  = "Wing"
+  ) +
+  scale_color_manual(name   = "Wing Affiliation",
+                     values = wing_colors,
+                     labels = c("Left Wing", "Right Wing")) +
+  scale_fill_manual(name    = "Wing Affiliation",
+                    values  = wing_colors,
+                    labels  = c("Left Wing", "Right Wing")) +
+  scale_x_continuous(breaks = c(0, 1),
+                     labels = c("Opposition", "Government"),
+                     limits = c(-0.5, 1.5),
+                     expand = c(0, 0))
+
+# figure_1 <- (p1 + p2) +
+#   plot_layout(guides = "collect") +
+#   plot_annotation(caption = "Government Status") &
+#   theme(
+#     plot.caption    = element_text(hjust = 0.5, size = 14, color = "grey40"),
+#     legend.position = "bottom"
+#   )
+p1$layers[[1]]$position <- position_dodge(width = 0.5)
+p1$layers[[2]]$position <- position_dodge(width = 0.5)
+p2$layers[[1]]$position <- position_dodge(width = 0.5)
+p2$layers[[2]]$position <- position_dodge(width = 0.5)
+
+figure_1 <- (p1 + separator + p2) +
+  plot_layout(
+    guides = "collect",
+    widths = c(1, 0.02, 1)
+  ) +
+  plot_annotation(caption = "Government Status") &
+  theme(
+    plot.caption    = element_text(hjust = 0.5, size = 14, color = "grey40"),
+    legend.position = "bottom"
+  )
+
+# ── Figure 2: bloc * wingness, both periods ───────────────────────────────────
+
+p3 <- sjPlot::plot_model(
+  model_bloc_bloc_wing_int,
+  type      = "pred",
+  terms     = c("bloc", "wingness [0.0, 0.75, 1.5]"),
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  colors    = wingness_colors,
+  axis.lim  = c(4, 22)
+) +
+  my_theme +
+  theme(axis.title.x = element_blank()) +
+  labs(
+    y     = "Predicted Blame (%)",
+    color = "Wingness",
+    fill  = "Wingness"
+  ) +
+  scale_color_manual(name   = "Wingness",
+                     values = wingness_colors,
+                     labels = c("Low (0.0)", "Medium (0.75)", "High (1.5)")) +
+  scale_fill_manual(name    = "Wingness",
+                    values  = wingness_colors,
+                    labels  = c("Low (0.0)", "Medium (0.75)", "High (1.5)")) +
+  scale_x_continuous(breaks = c(1, 2),
+                     labels = c("Left Wing", "Right Wing"),
+                     limits = c(0.5, 2.5),
+                     expand = c(0, 0))
+
+p4 <- sjPlot::plot_model(
+  model_bloc_wing_int_18,
+  type      = "pred",
+  terms     = c("bloc", "wingness [0.0, 0.75, 1.5]"),
+  condition = c(total_nr_sentences = 100),
+  ci.lvl    = .95,
+  colors    = wingness_colors,
+  axis.lim  = c(4, 22)
+) +
+  my_theme +
+  theme(
+    axis.title.y = element_blank(),
+    axis.text.y  = element_blank(),
+    axis.ticks.y = element_blank(),
+    axis.title.x = element_blank()
+  ) +
+  labs(
+    color = "Wingness",
+    fill  = "Wingness"
+  ) +
+  scale_color_manual(name   = "Wingness",
+                     values = wingness_colors,
+                     labels = c("Low (0.0)", "Medium (0.75)", "High (1.5)")) +
+  scale_fill_manual(name    = "Wingness",
+                    values  = wingness_colors,
+                    labels  = c("Low (0.0)", "Medium (0.75)", "High (1.5)")) +
+  scale_x_continuous(breaks = c(1, 2),
+                     labels = c("Left Wing", "Right Wing"),
+                     limits = c(0.5, 2.5),
+                     expand = c(0, 0))
+
+# figure_2 <- (p3 + p4) +
+#   plot_layout(guides = "collect") +
+#   plot_annotation(caption = "Wing Affiliation") &
+#   theme(
+#     plot.caption    = element_text(hjust = 0.5, size = 14, color = "grey40"),
+#     legend.position = "bottom"
+#   )
+
+p3$layers[[1]]$position <- position_dodge(width = 0.5)
+p3$layers[[2]]$position <- position_dodge(width = 0.5)
+p4$layers[[1]]$position <- position_dodge(width = 0.5)
+p4$layers[[2]]$position <- position_dodge(width = 0.5)
+
+figure_2 <- (p3 + separator + p4) +
+  plot_layout(
+    guides = "collect",
+    widths = c(1, 0.02, 1)
+  ) +
+  plot_annotation(caption = "Wing Affiliation") &
+  theme(
+    plot.caption    = element_text(hjust = 0.5, size = 14, color = "grey40"),
+    legend.position = "bottom"
+  )
+
+figure_1
+figure_2
+ggsave("gov_wing.png", figure_1, width = 5, height = 5)
+ggsave("wing_wingness.png", figure_2, width = 5, height = 5)
+```
+
+```{r}
+p3$layers[[1]]$position
+```
 
 
