@@ -70,7 +70,7 @@ countplot_1 <- ggplot(ts_data, aes(x = month, y = n_sentences)) +
     axis.text          = element_text(size = 11,  color = "grey50")
   )
 countplot_1
-ggsave("countplot_1.png",countplot_1, width = 5, height = 4)
+ggsave("countplot_1.png",countplot_1, width = 5, height = 4, dpi = 600)
 ```
 
 
@@ -133,7 +133,7 @@ countplot_2 <- ggplot(ts_data, aes(x = month, y = sentences_per_day)) +
     axis.text          = element_text(size = 11,  color = "grey50")
   )
 countplot_2
-ggsave("countplot_2.png",countplot_2, width = 5, height = 4)
+ggsave("countplot_2.png",countplot_2, width = 5, height = 4, dpi = 600)
 ```
 ## This does not seem alarming at all. Of cause some changes are expected, but visually, the change in amount of sentences does not seem abtrupt, which is what we expect, at the data shoudl originate from the same source.
 
@@ -175,7 +175,7 @@ density_plot <- ggplot(monthly_data, aes(x = n_sentences, fill = factor(post_201
   )
 
 density_plot
-ggsave("density_plot.png",density_plot,width = 5, height = 4)
+ggsave("density_plot.png",density_plot,width = 5, height = 4, dpi = 600)
 ```
 
 ```{r}
@@ -198,7 +198,7 @@ boxplot_plot <- ggplot(monthly_data, aes(x = factor(post_2019), y = n_sentences,
   )
 
 boxplot_plot
-ggsave("boxplot.png",boxplot_plot,width = 5, height = 4)
+ggsave("boxplot.png",boxplot_plot,width = 5, height = 4, dpi = 600)
 ```
 # Instead of comparing raw distributions, compare residuals after removing the trend:
 

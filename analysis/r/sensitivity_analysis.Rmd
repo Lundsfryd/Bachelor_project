@@ -114,10 +114,27 @@ head(inf_data_filtered)
 #inspect distribution of probs column
 
 ```{r}
-ggplot(inf_data_filtered, aes(x = probs)) +
+# Density plot of distribution of BlameBERT's probability of blame on inference data
+density_probs <- ggplot(inf_data_filtered, aes(x = probs)) +
   geom_density(fill = "skyblue", color = "skyblue") +
-  labs(title = "Density plot of distribution of model's probability of blame")+
-  theme_minimal()
+  labs(x = "Blame Prob",
+       y = "Density")+
+  theme_minimal()+
+  theme(
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey92", linewidth = 0.4),
+    axis.line.x        = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.x       = element_line(color = "grey80", linewidth = 0.4),
+    axis.ticks.length  = unit(3, "pt"),
+    plot.title         = element_blank(),
+    axis.title         = element_text(size = 15, color = "grey40"),
+    axis.text          = element_text(size = 13,  color = "grey50"),
+    legend.position = "none"
+  )
+
+density_probs
+ggsave("density_probs.png",density_probs,width = 5, height = 4, dpi = 600)
 ```
 
 #Proportion of values above 0.5

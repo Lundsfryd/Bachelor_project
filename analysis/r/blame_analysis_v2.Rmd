@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #load packages
 
 ```{r, echo=FALSE, include=FALSE}
-install.packages("pacman")
+#install.packages("pacman")
 library(pacman)
 
 pacman::p_load("tidyverse", "lubridate", "zoo", "glmmTMB", "DHARMa", "emmeans", "sjPlot", "modelsummary")
@@ -73,9 +73,6 @@ inf_data$year <- as.numeric(format(inf_data$month, "%y"))
 inf_data$party = as.factor(inf_data$party)
 ```
 
-```{r}
-head(inf_data_filtered)
-```
 
 
 ```{r}
@@ -265,35 +262,6 @@ print(month_star)
 
 print(231/12)
 ```
-
-
-```{r}
-b1 <- fixef(model_blame_time_4)$cond["scale(month_index)"]
-b2 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^2)"]
-b3 <- fixef(model_blame_time_4)$cond["I(scale(month_index)^3)"]
-
-# derivative: b1 + 2*b2*x + 3*b3*x^2 = 0
-# solve with quadratic formula
-discriminant <- (2*b2)^2 - 4*(3*b3)*b1
-
-if (discriminant < 0) {
-  message("No real turning points")
-} else {
-  x1 <- (-2*b2 + sqrt(discriminant)) / (2 * 3*b3)
-  x2 <- (-2*b2 - sqrt(discriminant)) / (2 * 3*b3)
-  
-  # back-transform from scaled to original month index
-  m <- mean(monthly_blame$month_index)
-  s <- sd(monthly_blame$month_index)
-  
-  month_star1 <- x1 * s + m
-  month_star2 <- x2 * s + m
-  
-  print(month_star1)
-  print(month_star2)
-}
-```
-
 
 
 
@@ -1057,7 +1025,7 @@ combined <- (p1 + separator + p2) +
   )
 
 
-ggsave("time_plots.png", combined, width = 5, height = 4)
+ggsave("time_plots.png", combined, width = 5, height = 4, dpi = 600)
 combined
 ```
 
@@ -1080,8 +1048,12 @@ combined
 
 
 ```{r}
-ggsave("time_plots.png", combined, width = 5, height = 4)
+#ggsave("time_plots.png", combined, width = 5, height = 4, dpi = 600)
 ```
+```{r}
+summary(model_bloc_wing_int_18)
+```
+
 
 ```{r}
 library(sjPlot)
@@ -1284,8 +1256,8 @@ figure_2 <- (p3 + separator + p4) +
 
 figure_1
 figure_2
-ggsave("gov_wing.png", figure_1, width = 5, height = 5)
-ggsave("wing_wingness.png", figure_2, width = 5, height = 5)
+ggsave("gov_wing.png", figure_1, width = 5, height = 5, dpi = 600)
+ggsave("wing_wingness.png", figure_2, width = 5, height = 5, dpi = 600)
 ```
 
 ```{r}
