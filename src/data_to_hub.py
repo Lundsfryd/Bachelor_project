@@ -35,8 +35,6 @@ def align_dataset_dict(dataset_dict: DatasetDict) -> DatasetDict:
 
     return DatasetDict(aligned)
 
-    return DatasetDict(aligned)
-
 def read_jsonl(file_path):
     """Read a jsonl file and return a list of records."""
     print(f'\n\n#### Reading "{file_path}" ####\n\n')
@@ -50,13 +48,13 @@ def read_jsonl(file_path):
 
 test_data_records = read_jsonl(test_data_path)
 test_data = pd.DataFrame(test_data_records)
-test_data = test_data[["text", "label", "speaker","date","party"]]
+test_data = test_data[["text", "label", "speaker","date","party", "paragraph_nr", "sentence_nr"]]
 test_data.rename(columns={'label': 'labels'}, inplace=True)
 test_dataset = Dataset.from_pandas(test_data)
 
 data_records = read_jsonl(training_data_path)
 data = pd.DataFrame(data_records)
-data = data[["text", "label", "speaker","date","party"]]
+data = data[["text", "label", "speaker","date","party", "paragraph_nr", "sentence_nr"]]
 data.rename(columns={'label': 'labels'}, inplace=True)
 dataset = Dataset.from_pandas(data)
 
@@ -82,5 +80,5 @@ dataset["inference"] = inf_dataset
 dataset = align_dataset_dict(dataset)
 print(dataset)
 
-dataset.push_to_hub("runetrust/blame_folketinget_dk")
+dataset.push_to_hub("runetrust/blame-folketinget-dk")
 print("pushed to hub")
